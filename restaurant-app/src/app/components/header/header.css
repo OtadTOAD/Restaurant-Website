@@ -1,0 +1,19 @@
+:host {
+    min-width: max-content;
+    height: max-content;
+    padding: 2rem;
+    width: 100%;
+
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
