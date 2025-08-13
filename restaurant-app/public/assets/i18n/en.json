@@ -1,4 +1,19 @@
 {
     "TEST": "Test",
-    "INVALID_PAGE": "Could not find that page!"
+    "INVALID_PAGE": "Could not find that page!",
+    "SUSHI": "Sushi",
+    "ROLL": "Roll",
+    "SET": "Set",
+    "WOK": "Wok",
+    "SOUP": "Soup",
+    "OTHER": "Other",
+    "ABOUT_US": "About Us",
+    "TERMS_CONDITIONS": "Terms & Conditions",
+    "CONTACT": "Contact",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SLONGAN_HEADER": "Unique Taste",
+    "SLOGAN_FOOTER": "Japanese Restaurant & Delivery",
+    "CONTACT_US": "Contact Us",
+    "LANGUAGE": "Language"
 }

@@ -1,4 +1,19 @@
 {
     "TEST": "ტესტ",
-    "INVALID_PAGE": "ეს გვერდი ვერ მოიპოვნა!"
+    "INVALID_PAGE": "ეს გვერდი ვერ მოიპოვნა!",
+    "SUSHI": "შუში",
+    "ROLL": "როლლ",
+    "SET": "სეთ",
+    "WOK": "წოკ",
+    "SOUP": "სუპი",
+    "OTHER": "სხვა",
+    "ABOUT_US": "ჩვენ შესახებ",
+    "TERMS_CONDITIONS": "ტერმს & კონდიტიონს არ ვიცი",
+    "CONTACT": "დაგვიკავშირდით",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SLONGAN_HEADER": "უნიკალური გემო",
+    "SLOGAN_FOOTER": "იაპონული რესტორანი & მოტანა",
+    "CONTACT_US": "დაგვიკავშირდით",
+    "LANGUAGE": "ენა"
 }
