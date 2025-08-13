@@ -1,0 +1,29 @@
+:host {
+    min-width: max-content;
+    height: max-content;
+    padding: 2rem;
+    width: 100%;
+
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+.text-wrapper {
+    height: 100%;
+
+    flex-direction: column;
+    display: flex;
+}
+
+.grid-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+}
+
+.grid-item {
+    flex: 1 0 calc(33.333% - 10px);
+    text-align: center;
+    padding: 20px;
+}
