@@ -1,9 +1,15 @@
 <div>
-  <button>Type 1</button>
+  <button>Sushi</button>
   <button>Type 2</button>
   <button>Type 3</button>
 </div>
-<div class="card">
+<div class="card flex justify-content-center">
+  <p-button icon="pi pi-check" />
+  <p-button label="Submit" icon="pi pi-check" />
+  <p-button label="Submit" icon="pi pi-check" iconPos="right" />
+</div>
+<p-selectButton [multiple]="true" optionLabel="name" optionValue="value" />
+<div class="card p-5">
   <p-dataview #dv [value]="products">
     <ng-template #list let-items>
       <div class="grid grid-cols-12 gap-4 grid-nogutter">
@@ -21,10 +27,11 @@
               </div>
               <div class="flex flex-col md:items-end gap-8">
                 <span class="text-xl font-semibold text-surface-900 dark:text-surface-0">{{
-                  '$' + item.price
+                  item.price | currency
                   }}</span>
                 <div class="flex flex-row-reverse md:flex-row gap-2">
-                  <p-button icon="pi pi-search" class="flex-auto md:flex-initial whitespace-nowrap" label="More" />
+                  <p-button icon="pi pi-search" class="flex-auto md:flex-initial whitespace-nowrap" label="In Details"
+                    (click)="handleShowMoreButton(item)" />
                 </div>
               </div>
             </div>
@@ -34,6 +41,7 @@
     </ng-template>
   </p-dataview>
 </div>
+<app-product-more-dialogs #productDialog [(visible)]="showMoreDialogVisible"></app-product-more-dialogs>
 <div>
   <!--  @for (item of (products$ | async) ; track item.name) {
   <div>

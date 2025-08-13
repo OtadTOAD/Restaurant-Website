@@ -6,7 +6,8 @@
         "price": 6,
         "ingredients": [
             "love"
-        ]
+        ],
+        "description":"Dzalian Magari Sushi"
     },
     {
         "img": "/assets/img/sushi-test.jpg",
@@ -15,6 +16,7 @@
         "price": 990009.99,
         "ingredients": [
             "love"
-        ]
+        ],
+        "description":"Dzalian Magari Sushi"
     }
 ]

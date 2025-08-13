@@ -1,23 +1,30 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Product } from '../../models/products';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../../services/product-service';
 import { Observable } from 'rxjs';
-import { AsyncPipe, CommonModule } from '@angular/common';
+import { AsyncPipe, CommonModule, CurrencyPipe } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 import { DataView } from 'primeng/dataview';
 import { Tag } from 'primeng/tag';
 import { SelectModule } from 'primeng/select';
+import { SelectButtonModule } from 'primeng/selectbutton';
 import { Rating } from 'primeng/rating';
+import { ProductMoreDialogs } from '../../dialogs/product-more-dialogs/product-more-dialogs';
 @Component({
   selector: 'app-products',
-  imports: [AsyncPipe, DataView, Tag, ButtonModule, CommonModule, SelectModule],
+  imports: [AsyncPipe, DataView, Tag, ButtonModule, CommonModule, SelectModule, ProductMoreDialogs, CurrencyPipe, SelectButtonModule],
   templateUrl: './products.html',
   styleUrl: './products.css'
 })
 export class Products implements OnInit {
+  @ViewChild("productDialog") productDialog!: ProductMoreDialogs;
+
+
   products!: Product[];
+  showMoreDialogVisible: boolean = false;
+
   constructor(private productService: ProductService, private route: ActivatedRoute) {
 
   }
@@ -32,5 +39,11 @@ export class Products implements OnInit {
         );
       }
     })
+  }
+
+
+  handleShowMoreButton(product: Product) {
+    this.productDialog.product = product;
+    this.showMoreDialogVisible = true;
   }
 }
