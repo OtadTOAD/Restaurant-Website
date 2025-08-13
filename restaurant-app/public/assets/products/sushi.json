@@ -1,0 +1,20 @@
+[
+    {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Ragaca Sushi",
+        "pieceAmount": 1,
+        "price": 6,
+        "ingredients": [
+            "love"
+        ]
+    },
+    {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Ragaca sxva Sushi",
+        "pieceAmount": 1,
+        "price": 999.99,
+        "ingredients": [
+            "love"
+        ]
+    }
+]

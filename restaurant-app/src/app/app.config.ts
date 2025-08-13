@@ -21,7 +21,9 @@ export const appConfig: ApplicationConfig = {
       theme: {
         preset: Aura
       }
-    }), provideHttpClient(), provideTransloco({
+    }),
+    provideHttpClient(),
+    provideTransloco({
       config: {
         availableLangs: ['en', 'ka', 'rus'],
         defaultLang: 'en',
