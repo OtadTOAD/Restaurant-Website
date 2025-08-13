@@ -15,14 +15,15 @@
             <p-card header="Products">
                 <div class="list-wrapper">
                     <div class="list-item-wrapper">
-                        <p-button label="{{ 'SUSHI' | transloco }}" link />
-                        <p-button label="{{ 'ROLL' | transloco }}" link />
-                        <p-button label="{{ 'SET' | transloco }}" link />
+                        <p-button label="{{ 'SUSHI' | transloco }}" routerLink="/products/sushi" link />
+                        <p-button label="{{ 'ROLL' | transloco }}" routerLink="/products/roll" link />
+                        <p-button label="{{ 'SET' | transloco }}" routerLink="/products/set" link />
                     </div>
+
                     <div class="list-item-wrapper">
-                        <p-button label="{{ 'WOK' | transloco }}" link />
-                        <p-button label="{{ 'SOUP' | transloco }}" link />
-                        <p-button label="{{ 'OTHER' | transloco }}" link />
+                        <p-button label="{{ 'WOK' | transloco }}" routerLink="/products/wok" link />
+                        <p-button label="{{ 'SOUP' | transloco }}" routerLink="/products/soup" link />
+                        <p-button label="{{ 'OTHER' | transloco }}" routerLink="/products/other" link />
                     </div>
                 </div>
             </p-card>
