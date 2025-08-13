@@ -5,7 +5,10 @@ import { routes } from './app.routes';
 
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Material from '@primeng/themes/material';
+import Aura from '@primeng/themes/aura';
+import Lara from '@primeng/themes/lara';
+import Nora from '@primeng/themes/nora';
 import { provideHttpClient } from '@angular/common/http';
 import { TranslocoHttpLoader } from './transloco-loader';
 import { provideTransloco } from '@ngneat/transloco';
@@ -19,7 +22,10 @@ export const appConfig: ApplicationConfig = {
     provideAnimationsAsync(),
     providePrimeNG({
       theme: {
-        preset: Aura
+        preset: Nora,
+        options: {
+          darkModeSelector: false || 'none'
+        }
       }
     }),
     provideHttpClient(),

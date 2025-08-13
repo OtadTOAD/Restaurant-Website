@@ -8,14 +8,16 @@ import { AsyncPipe, CommonModule } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 import { DataView } from 'primeng/dataview';
 import { Tag } from 'primeng/tag';
+import { SelectModule } from 'primeng/select';
+import { Rating } from 'primeng/rating';
 @Component({
   selector: 'app-products',
-  imports: [AsyncPipe, DataView, Tag, ButtonModule, CommonModule],
+  imports: [AsyncPipe, DataView, Tag, ButtonModule, CommonModule, SelectModule],
   templateUrl: './products.html',
   styleUrl: './products.css'
 })
 export class Products implements OnInit {
-  products$!: Observable<Product[] | undefined>;
+  products!: Product[];
   constructor(private productService: ProductService, private route: ActivatedRoute) {
 
   }
@@ -24,7 +26,10 @@ export class Products implements OnInit {
     this.route.paramMap.subscribe(params => {
       const productType = params.get('type');
       if (productType) {
-        this.products$ = this.productService.getProducts(productType);
+        this.productService.getProducts(productType).subscribe((data) => {
+          this.products = data;
+        }
+        );
       }
     })
   }
