@@ -4,7 +4,7 @@
     width: 100%;
 
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
 }
 
@@ -13,6 +13,31 @@ footer {
     width: 100%;
 
     justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+.footer-wrapper {
+    max-width: 60rem;
+    width: 100%;
+
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.card-wrapper {
+    height: fit-content;
+    width: fit-content;
+}
+
+.list-wrapper {
+
+    flex-direction: row;
+    display: flex;
+}
+
+.list-item-wrapper {
     flex-direction: column;
     display: flex;
 }
