@@ -1,12 +1,13 @@
 import { TranslocoService } from '@ngneat/transloco';
 import { MenubarModule } from 'primeng/menubar';
+import { RouterLink } from '@angular/router';
 import { Component } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { combineLatest } from 'rxjs';
 
 @Component({
   selector: 'app-header',
-  imports: [MenubarModule],
+  imports: [MenubarModule, RouterLink],
   templateUrl: './header.html',
   styleUrl: './header.css'
 })
