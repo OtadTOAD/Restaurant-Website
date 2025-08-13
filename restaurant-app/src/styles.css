@@ -1,17 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
 html,
 body {
-    flex-direction: column;
-    display: flex;
+  flex-direction: column;
+  display: flex;
 
-    min-height: max-content;
-    height: 100%;
-    width: 100%;
+  min-height: max-content;
+  height: 100%;
+  width: 100%;
 
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
