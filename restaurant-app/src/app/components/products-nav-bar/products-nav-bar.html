@@ -1,0 +1,10 @@
+<nav class="type-nav">
+  <ul class="type-list">
+    <li *ngFor="let type of types">
+      <a class="type-link" [routerLink]="['/products', type.slug]" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+        {{ type.label }}
+      </a>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,16 @@
+<div class="cd-backdrop" [class.open]="visible" (click)="close()">
+  <div class="cd-dialog" role="dialog" aria-modal="true" [attr.aria-hidden]="!visible" (click)="onDialogClick($event)">
+    <header class="cd-header" *ngIf="title || closable">
+      <h3 class="cd-title" *ngIf="title">{{ title }}</h3>
+      <button *ngIf="closable" class="cd-close" (click)="close()" aria-label="Close dialog">&times;</button>
+    </header>
+
+    <div class="cd-body">
+      <ng-content></ng-content>
+    </div>
+
+    <footer class="cd-footer">
+      <button (click)="close()" class="cd-btn">Close</button>
+    </footer>
+  </div>
+</div>

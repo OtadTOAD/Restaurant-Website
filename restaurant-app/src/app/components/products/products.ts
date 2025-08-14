@@ -4,23 +4,28 @@ import { Product } from '../../models/products';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../../services/product-service';
 import { AsyncPipe, CommonModule, CurrencyPipe } from '@angular/common';
-import { ProductMoreDialogs } from '../../dialogs/product-more-dialogs/product-more-dialogs';
+import { CustomDialogComponent } from '../../dialogs/custom-dialog-component/custom-dialog-component';
+import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS } from '../../config/config';
+import { ProductsNavBar, ProductType } from '../products-nav-bar/products-nav-bar';
+
+
+
 @Component({
   selector: 'app-products',
-  imports: [CurrencyPipe],
+  imports: [CurrencyPipe, CommonModule, CustomDialogComponent, ProductsNavBar],
   templateUrl: './products.html',
   styleUrl: './products.css'
 })
 export class Products implements OnInit {
-  @ViewChild("productDialog") productDialog!: ProductMoreDialogs;
-
-
+  showDialog: boolean = false;
+  chosenProduct: Product = PLACEHOLDER_PRODUCT;
+  productTypes: ProductType[] = PRODUCT_TYPE_OPTIONS;
   products!: Product[];
-  showMoreDialogVisible: boolean = false;
 
   constructor(private productService: ProductService, private route: ActivatedRoute) {
 
   }
+
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
@@ -35,8 +40,8 @@ export class Products implements OnInit {
   }
 
 
-  handleShowMoreButton(product: Product) {
-    this.productDialog.product = product;
-    this.showMoreDialogVisible = true;
+  handleShowDialog(product: Product) {
+    this.chosenProduct = product;
+    this.showDialog = true;
   }
 }

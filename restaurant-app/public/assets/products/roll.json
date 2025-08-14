@@ -1,0 +1,13 @@
+[
+
+    {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Roll",
+        "pieceAmount": 1,
+        "price": 990009.99,
+        "ingredients": [
+            "love"
+        ],
+        "description":"Dzalian Magari Sushi"
+    }
+]
