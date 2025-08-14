@@ -21,8 +21,8 @@ export class Header {
       this.translocoService.selectTranslate('LANGUAGE')
     ]).subscribe(([aboutLabel, contactLabel, langLabel]) => {
       this.menuItems = [
-        { label: aboutLabel },
-        { label: contactLabel },
+        { label: aboutLabel, routerLink: '/about_us' },
+        { label: contactLabel, routerLink: '/contact_us' },
         {
           label: langLabel,
           items: [

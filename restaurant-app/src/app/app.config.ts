@@ -21,7 +21,10 @@ export const appConfig: ApplicationConfig = {
       ripple: true,
 
       theme: {
-        preset: Nora
+        preset: Nora,
+        options: {
+          darkModeSelector: false || 'none'
+        }
       }
     }),
     provideHttpClient(),
