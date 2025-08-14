@@ -9,48 +9,53 @@
     <div class="seperator"></div>
 
     <div class="hero-content" pAnimateOnScroll enterClass="fade-in" leaveClass="fade-out">
-        <h1>Sensei Sushi</h1>
-        <p>Japanese Restaurant & Delivery</p>
+        <h1>{{ "TITLE" | transloco }}</h1>
+        <p>{{ "SLOGAN_FOOTER" | transloco }}</p>
     </div>
 </section>
 
 
 <section pAnimateOnScroll enterClass="fade-in" leaveClass="fade-out" class="content-section">
     <div class="text-wrapper fade-in-up">
-        <h2>Fresh • Authentic • Delicious</h2>
-        <h4>Discover our carefully crafted selection of premium sushi, made with the finest ingredients and traditional
-            techniques passed down through generations.</h4>
+        <h2>{{ "DISCOVER_HEADER" | transloco }}</h2>
+        <h4>{{ "DISCOVER_FOOTER" | transloco }}</h4>
     </div>
 
     <div class="menu-grid">
         <div class="menu-item scale-in">
-            <h3>🍣 Sushi</h3>
-            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/sushi" />
+            <h3>🍣 {{ "SUSHI" | transloco }}</h3>
+            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/sushi"
+                icon="pi pi-compass" />
         </div>
 
         <div class="menu-item scale-in">
-            <h3>🍙 Rolls</h3>
-            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/rolls" />
+            <h3>🍙 {{ "ROLLS" | transloco }}</h3>
+            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/rolls"
+                icon="pi pi-compass" />
         </div>
 
         <div class="menu-item scale-in">
-            <h3>🍱 Sets</h3>
-            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/sets" />
+            <h3>🍱 {{ "SETS" | transloco }}</h3>
+            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/sets"
+                icon="pi pi-compass" />
         </div>
 
         <div class="menu-item scale-in">
-            <h3>🥢 Wok</h3>
-            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/wok" />
+            <h3>🥢 {{ "WOK" | transloco }}</h3>
+            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/wok"
+                icon="pi pi-compass" />
         </div>
 
         <div class="menu-item scale-in">
-            <h3>🍜 Soup</h3>
-            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/soup" />
+            <h3>🍜 {{ "SOUP" | transloco }}</h3>
+            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/soup"
+                icon="pi pi-compass" />
         </div>
 
         <div class="menu-item scale-in">
-            <h3>🍵 Other</h3>
-            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/other" />
+            <h3>🍵 {{ "OTHER" | transloco }}</h3>
+            <p-button label="Explore" rounded="true" severity="success" routerLink="/products/other"
+                icon="pi pi-compass" />
         </div>
     </div>
 </section>
