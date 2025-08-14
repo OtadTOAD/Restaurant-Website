@@ -1,42 +1,52 @@
 <footer>
     <div class="footer-wrapper">
         <div class="card-wrapper">
-            <p-card header="Navigation">
+            <div class="menu-item">
+                <h3>{{ "NAVIGATION" | transloco }}</h3>
+
                 <div class="list-item-wrapper">
-                    <p-button label="{{ 'ABOUT_US' | transloco }}" link />
-                    <p-button label="{{ 'TERMS_CONDITIONS' | transloco }}" link />
-                    <p-button label="{{ 'CONTACT' | transloco }}" link />
+                    <p-button label="{{ 'ABOUT_US' | transloco }}" link icon="pi pi-user" />
+                    <p-button label="{{ 'TERMS_CONDITIONS' | transloco }}" link icon="pi pi-graduation-cap" />
+                    <p-button label="{{ 'CONTACT' | transloco }}" link icon="pi pi-envelope" />
                 </div>
-            </p-card>
+            </div>
         </div>
 
 
         <div class="card-wrapper">
-            <p-card header="Products">
+            <div class="menu-item">
+                <h3>{{ "PRODUCTS" | transloco }}</h3>
+
                 <div class="list-wrapper">
                     <div class="list-item-wrapper">
-                        <p-button label="{{ 'SUSHI' | transloco }}" routerLink="/products/sushi" link />
-                        <p-button label="{{ 'ROLL' | transloco }}" routerLink="/products/roll" link />
-                        <p-button label="{{ 'SET' | transloco }}" routerLink="/products/set" link />
+                        <p-button label="{{ 'SUSHI' | transloco }}" routerLink="/products/sushi" link
+                            icon="pi pi-search" />
+                        <p-button label="{{ 'ROLL' | transloco }}" routerLink="/products/roll" link
+                            icon="pi pi-search" />
+                        <p-button label="{{ 'SET' | transloco }}" routerLink="/products/set" link icon="pi pi-search" />
                     </div>
 
                     <div class="list-item-wrapper">
-                        <p-button label="{{ 'WOK' | transloco }}" routerLink="/products/wok" link />
-                        <p-button label="{{ 'SOUP' | transloco }}" routerLink="/products/soup" link />
-                        <p-button label="{{ 'OTHER' | transloco }}" routerLink="/products/other" link />
+                        <p-button label="{{ 'WOK' | transloco }}" routerLink="/products/wok" link icon="pi pi-search" />
+                        <p-button label="{{ 'SOUP' | transloco }}" routerLink="/products/soup" link
+                            icon="pi pi-search" />
+                        <p-button label="{{ 'OTHER' | transloco }}" routerLink="/products/other" link
+                            icon="pi pi-search" />
                     </div>
                 </div>
-            </p-card>
+            </div>
         </div>
 
         <div class="card-wrapper">
-            <p-card header="Contact Info">
+            <div class="menu-item">
+                <h3>{{ "CONTACT_US" | transloco }}</h3>
+
                 <div class="list-item-wrapper">
-                    <p-button label="+995 123 45 67 89" link />
-                    <p-button label="{{ 'FACEBOOK' | transloco }}" link />
-                    <p-button label="{{ 'INSTAGRAM' | transloco}}" link />
+                    <p-button label="+995 123 45 67 89" link icon="pi pi-phone" />
+                    <p-button label="{{ 'FACEBOOK' | transloco }}" link icon="pi pi-facebook" />
+                    <p-button label="{{ 'INSTAGRAM' | transloco}}" link icon="pi pi-instagram" />
                 </div>
-            </p-card>
+            </div>
         </div>
     </div>
 </footer>

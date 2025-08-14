@@ -1,11 +1,11 @@
 <header>
-    <img src="favicon.ico" alt="ICON" routerLink="">
 
-    <p>
-        sensei-sushi.ge
-    </p>
+    <h1 routerLink="">
+        <img src="favicon.ico" alt="ICON">
+        {{ "TITLE" | transloco }}
+    </h1>
 
-    <div class="">
-        <p-menubar [model]="menuItems" />
+    <div class="menubar-wrapper">
+        <p-menubar [model]=" menuItems" />
     </div>
 </header>
