@@ -1,35 +1,35 @@
 :root {
   --primary-bg: #f1f2f6;
-  --primary-bg-hover: #e8e9ed; 
-  
+  --primary-bg-hover: #e8e9ed;
+
   /* Accent Colors */
-  --accent-primary: #00b894;      
-  --accent-primary-hover: #00a085; 
-  --accent-primary-light: #33c9a8; 
-  
-  --accent-secondary: #74b9ff;
-  --accent-secondary-hover: #5a9dff;
-  --accent-secondary-light: #92c7ff;
-  
+  --accent-primary: #111e11;
+  --accent-primary-hover: gray;
+  --accent-primary-light: #33c9a8;
+
+  --accent-secondary: #353736;
+  --accent-secondary-hover: gray;
+  --accent-secondary-light: #ffffff;
+
   /* Text Colors */
-  --text-primary: #494d69; 
+  --text-primary: #000000;
   --text-secondary: #636e72;
-  --text-light: #b2bec3;
+  --text-light: #000000;
   --text-white: #ffffff;
-  --text-money: #35ec7c;
-  
+  --text-money: #ffffff;
+
   /* Background Variations */
   --bg-white: #ffffff;
   --bg-light: #f8f9fa;
   --bg-dark: #2d3436;
   --bg-darker: #1e1e1e;
-  
+
   /* Border & Shadow Colors */
   --border-light: #ddd;
   --border-medium: #b2bec3;
   --shadow-light: rgba(0, 0, 0, 0.1);
   --shadow-medium: rgba(0, 0, 0, 0.15);
-  
+
   /* Success, Warning, Error */
   --success: #00b894;
   --warning: #fdcb6e;
@@ -48,7 +48,7 @@ body {
   padding: 0px;
   margin: 0px;
 
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 
@@ -131,19 +131,19 @@ body {
 }
 
 .menu-btn {
-    background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
-    border: none;
-    padding: 12px 24px;
-    border-radius: 25px;
-    color: var(--text-white);
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  color: var(--text-white);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .menu-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-secondary-hover), transparent 60%);
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-secondary-hover), transparent 60%);
 }

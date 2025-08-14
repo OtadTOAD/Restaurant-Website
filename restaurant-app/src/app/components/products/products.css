@@ -4,7 +4,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  justify-content: start; 
+  justify-content: start;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -52,6 +52,7 @@
   padding: 14px 16px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 6px;
   flex: 1 1 auto;
 }
@@ -72,10 +73,15 @@
 }
 
 .product-card .pieces {
-  margin: 0;
   font-size: 0.9rem;
   font-weight: 1000;
-  color: var(--text-primary);
+  color: white;
+  padding: 4px;
+  opacity: 0.7;
+  background: linear-gradient(0.2turn, var(--accent-secondary), var(--accent-primary));
+  border-radius: 5rem;
+  max-width: 5rem;
+  margin: auto;
 }
 
 .product-card .price {
@@ -92,8 +98,12 @@
   padding: 10px 16px;
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--text-money);
+  color: var(--accent-primary);
   border-top: 2px solid var(--shadow-medium);
+}
+
+.product-card .price-box::first-letter {
+  color: var(--accent-secondary);
 }
 
 @media (max-width: 600px) {
