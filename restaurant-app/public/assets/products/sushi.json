@@ -18,5 +18,36 @@
             "love"
         ],
         "description":"Dzalian Magari Sushi"
+    },
+  {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Ragaca Sushi",
+        "pieceAmount": 1,
+        "price": 6,
+        "ingredients": [
+            "love"
+        ],
+        "description":"Dzalian Magari Sushi"
+    },
+    {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Ragaca Sushi",
+        "pieceAmount": 1,
+        "price": 6,
+        "ingredients": [
+            "love"
+        ],
+        "description":"Dzalian Magari Sushi"
+    },
+    {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Ragaca Sushi",
+        "pieceAmount": 1,
+        "price": 6,
+        "ingredients": [
+            "love"
+        ],
+        "description":"Dzalian Magari Sushi"
     }
+
 ]

@@ -1,1 +1,88 @@
+/* grid container: auto-fit makes it responsive */
+.product-grid {
+  margin: auto;
+  max-width: 700px;
+  display: grid;
+  gap: 16px;
+  /* each column is at least 220px, otherwise shrinks to 1fr */
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  padding: 12px;
+  align-items: start;
+  box-sizing: border-box;
+}
 
+/* card */
+.product-card {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform .14s ease, box-shadow .14s ease;
+}
+
+/* hover lift */
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.09);
+}
+
+/* image area keeps consistent aspect ratio */
+.product-card .media {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  /* modern browsers */
+  background: #f3f3f3;
+  overflow: hidden;
+}
+
+/* fallback for browsers without aspect-ratio */
+.product-card .media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* keeps image cropped nicely */
+  display: block;
+}
+
+/* content */
+.product-card .info {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 auto;
+}
+
+.product-card .name {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.2;
+  color: #222;
+}
+
+.product-card .price {
+  margin: 0;
+  color: #0f5132;
+  font-weight: 600;
+  margin-top: auto;
+  /* push price to bottom if extra space */
+}
+
+/* small-screen tweaks */
+@media (max-width: 420px) {
+  .product-grid {
+    gap: 10px;
+    padding: 8px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .product-card .info {
+    padding: 10px;
+  }
+}

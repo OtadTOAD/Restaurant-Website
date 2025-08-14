@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProductMoreDialogs } from './product-more-dialogs';
+import { CustomDialogComponent } from './custom-dialog-component';
 
-describe('ProductMoreDialogs', () => {
-  let component: ProductMoreDialogs;
-  let fixture: ComponentFixture<ProductMoreDialogs>;
+describe('CustomDialogComponent', () => {
+  let component: CustomDialogComponent;
+  let fixture: ComponentFixture<CustomDialogComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProductMoreDialogs]
+      imports: [CustomDialogComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProductMoreDialogs);
+    fixture = TestBed.createComponent(CustomDialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
