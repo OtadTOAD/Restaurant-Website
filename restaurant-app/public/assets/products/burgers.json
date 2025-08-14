@@ -1,0 +1,245 @@
+[
+  {
+    "img": "",
+    "name": "BURGER_SALMON",
+    "pieceAmount": 1,
+    "price": 26.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "SALMON",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი ორაგულით"
+  },
+  {
+    "img": "",
+    "name": "BURGER_EEL",
+    "pieceAmount": 1,
+    "price": 27.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "EEL",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი გველთევზით"
+  },
+  {
+    "img": "",
+    "name": "BURGER_SHRIMP",
+    "pieceAmount": 1,
+    "price": 26.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "SHRIMP",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "GREEN_ONION",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი კრევეტით"
+  },
+  {
+    "img": "",
+    "name": "BURGER_TUNA",
+    "pieceAmount": 1,
+    "price": 26.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "TUNA",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "GREEN_ONION",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი თინუსით"
+  },
+  {
+    "img": "",
+    "name": "BURGER_SENSEI",
+    "pieceAmount": 1,
+    "price": 29.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "HIYASHI",
+      "TUNA",
+      "SALMON",
+      "CUCUMBER",
+      "TEMPURA_FRIED",
+      "SPICE_SAUCE_UNAGI_SAUCE_PEANUT"
+    ],
+    "description": "სენსეი ბურგერი"
+  },
+  {
+    "img": "",
+    "name": "BURGER_CHICKEN",
+    "pieceAmount": 1,
+    "price": 24.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "TUNA",
+      "CHICKEN",
+      "CUCUMBER",
+      "TEMPURA_FRIED",
+      "SPICE_SAUCE_UNAGI_SAUCE"
+    ],
+    "description": "ქათმის ბურგერი"
+  },
+  {
+    "img": "",
+    "name": "BURGER_SALMON_CAVIAR",
+    "pieceAmount": 1,
+    "price": 32.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CAVIAR",
+      "SALMON",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი ორაგულით + ხიზილალა"
+  },
+  {
+    "img": "",
+    "name": "BURGER_EEL_CAVIAR",
+    "pieceAmount": 1,
+    "price": 33.90,
+    "ingredients": [
+      "NORI",
+      "CAVIAR",
+      "RICE",
+      "EEL",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი გველთევზით + ხიზილალა"
+  },
+  {
+    "img": "",
+    "name": "BURGER_SHRIMP_CAVIAR",
+    "pieceAmount": 1,
+    "price": 32.90,
+    "ingredients": [
+      "NORI",
+      "CAVIAR",
+      "RICE",
+      "SHRIMP",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "GREEN_ONION",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი კრევეტით + ხიზილალა"
+  },
+  {
+    "img": "",
+    "name": "BURGER_TUNA_CAVIAR",
+    "pieceAmount": 1,
+    "price": 32.90,
+    "ingredients": [
+      "NORI",
+      "CAVIAR",
+      "RICE",
+      "TUNA",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "GREEN_ONION",
+      "TEMPURA_FRIED",
+      "SPICE_UNAGI_SAUCE_SWEET_CHILI",
+      "TOBIKO"
+    ],
+    "description": "ბურგერი თინუსით + ხიზილალა"
+  },
+  {
+    "img": "",
+    "name": "BURRITO_SHRIMP",
+    "pieceAmount": 1,
+    "price": 26.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "RED TOBIKO",
+      "COOKED SHRIMP",
+      "SPICE_SAUCE_UNAGI_SAUCE_CHILI_SAUCE",
+      "TEMPURA_FRIED"
+    ],
+    "description": "ბურიტო კრევეტით"
+  },
+  {
+    "img": "",
+    "name": "BURRITO_CRAB",
+    "pieceAmount": 1,
+    "price": 26.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "RED TOBIKO",
+      "CRAB",
+      "SPICE_SAUCE_UNAGI_SAUCE_CHILI_SAUCE",
+      "TEMPURA_FRIED"
+    ],
+    "description": "ბურიტო კრაბი"
+  },
+  {
+    "img": "",
+    "name": "BURRITO_EEL",
+    "pieceAmount": 1,
+    "price": 27.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "RED TOBIKO",
+      "EEL",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
+      "TEMPURA_FRIED"
+    ],
+    "description": "ბურიტო გველთევზა"
+  },
+  {
+    "img": "",
+    "name": "BURRITO_SALMON",
+    "pieceAmount": 1,
+    "price": 26.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "RED TOBIKO",
+      "SALMON",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
+      "TEMPURA_FRIED"
+    ],
+    "description": "ბურიტო ორაგული"
+  }
+]

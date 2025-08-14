@@ -1,12 +1,162 @@
 [
-{
-        "img": "/assets/img/sushi-test.jpg",
-        "name": "Wok",
-        "pieceAmount": 1,
-        "price": 990009.99,
-        "ingredients": [
-            "love"
-        ],
-        "description":"Dzalian Magari Sushi"
-    }
+  {
+    "img": "",
+    "name": "WOK_NOODLES_CHICKEN",
+    "pieceAmount": 1,
+    "price": 23.90,
+    "ingredients": [
+      "CHICKEN",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "UDON",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "ლაფშა ქათმით"
+  },
+  {
+    "img": "",
+    "name": "WOK_NOODLES_BEEF",
+    "pieceAmount": 1,
+    "price": 27.90,
+    "ingredients": [
+      "BEEF",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "UDON",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "ლაფშა საქონლით"
+  },
+  {
+    "img": "",
+    "name": "WOK_NOODLES_SHRIMPS",
+    "pieceAmount": 1,
+    "price": 25.90,
+    "ingredients": [
+      "SHRIMP",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "UDON",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "ლაფშა კრევეტებით"
+  },
+  {
+    "img": "",
+    "name": "WOK_NOODLES_SEAFOOD_MIX",
+    "pieceAmount": 1,
+    "price": 25.90,
+    "ingredients": [
+      "SEAFOOD_MIX",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "UDON",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "ლაფშა ზღვის პროდუქტების მიქსით"
+  },
+  {
+    "img": "",
+    "name": "WOK_NOODLES_CRISPY_CHICKEN",
+    "pieceAmount": 1,
+    "price": 25.90,
+    "ingredients": [
+      "CRISPY_CHICKEN",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "UDON",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "ლაფშა ხრაშუნა ქათმით"
+  },
+  {
+    "img": "",
+    "name": "WOK_BUCKWHEAT_NOODLES_CHICKEN",
+    "pieceAmount": 1,
+    "price": 23.90,
+    "ingredients": [
+      "CHICKEN",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "BUCKWHEAT_UDON",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "წიწიბურას ლაფშა ქათმით"
+  },
+  {
+    "img": "",
+    "name": "WOK_BUCKWHEAT_NOODLES_BEEF",
+    "pieceAmount": 1,
+    "price": 27.90,
+    "ingredients": [
+      "BEEF",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "BUCKWHEAT_NOODLES",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "წიწიბურას ლაფშა საქონლით"
+  },
+  {
+    "img": "",
+    "name": "WOK_BUCKWHEAT_NOODLES_SHRIMP",
+    "pieceAmount": 1,
+    "price": 25.90,
+    "ingredients": [
+      "SHRIMP",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "BUCKWHEAT_NOODLES",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "წიწიბურას ლაფშა კრევეტებით"
+  },
+  {
+    "img": "",
+    "name": "WOK_BUCKWHEAT_NOODLES_SEAFOOD_MIX",
+    "pieceAmount": 1,
+    "price": 25.90,
+    "ingredients": [
+      "SEAFOOD_MIX",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "BUCKWHEAT_NOODLES",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "წიწიბურას ლაფშა ზღვის პროდუქტების მიქსით"
+  },
+  {
+    "img": "",
+    "name": "WOK_BUCKWHEAT_NOODLES_CRISPY_CHICKEN",
+    "pieceAmount": 1,
+    "price": 25.90,
+    "ingredients": [
+      "CRISPY_CHICKEN",
+      "RED_BELL_PEPPER",
+      "CARROT",
+      "ONION",
+      "BUCKWHEAT_NOODLES",
+      "SESAME_PEANUT",
+      "GREEN_ONION"
+    ],
+    "description": "წიწიბურას ლაფშა ხრაშუნა ქათმით"
+  }
 ]

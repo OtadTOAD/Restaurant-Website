@@ -1,0 +1,58 @@
+[
+  {
+    "img": "",
+    "name": "SIDE_FRIES",
+    "pieceAmount": 1,
+    "price": 6.90,
+    "ingredients": [
+      "POTATOES",
+      "SWEET_CHILI_SAUCE"
+    ],
+    "description": "ფრი"
+  },
+  {
+    "img": "",
+    "name": "SIDE_SHRIMP_IN_TEMPURA",
+    "pieceAmount": 5,
+    "price": 13.90,
+    "ingredients": [
+      "SHRIMP",
+      "TEMPURA_FRIED",
+      "SWEET_CHILI_SAUCE"
+    ],
+    "description": "კრევეტი ტემპურაში"
+  },
+  {
+    "img": "",
+    "name": "SIDE_CHICKEN_NUGGETS",
+    "pieceAmount": 5,
+    "price": 9.90,
+    "ingredients": [
+      "CHICKEN",
+      "SPICE_SAUCE"
+    ],
+    "description": "ქათმის ნაგეთსი"
+  },
+  {
+    "img": "",
+    "name": "SIDE_RICE_BALLS",
+    "pieceAmount": 3,
+    "price": 2.90,
+    "ingredients": [
+      "RICE",
+      "SESAME"
+    ],
+    "description": "ბრინჯის ბურთულები"
+  },
+  {
+    "img": "",
+    "name": "SIDE_ONION_RINGS",
+    "pieceAmount": 1,
+    "price": 6.90,
+    "ingredients": [
+      "ONION",
+      "SWEET_CHILI_SAUCE"
+    ],
+    "description": "ხახვის რგოლები"
+  }
+]

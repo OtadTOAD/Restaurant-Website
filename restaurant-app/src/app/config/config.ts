@@ -16,9 +16,12 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'SUSHI', icon: "🍣", slug: "sushi" },
   { label: 'ROLL', icon: "🍙", slug: "roll"},
   { label: 'SET', icon: "🍱", slug: "set" },
-  { label: 'WOK', icon: "🥢", slug: "wok" },
-  { label: 'SOUP', icon: "🍜", slug: "soup" },
-  { label: 'OTHER', icon: "🍵", slug: "" },
+  { label: 'WOK', icon: "🍜", slug: "wok" },
+  { label: 'SOUP', icon: "🍵", slug: "soup" },
+  { label: 'OTHER', icon: "🍟", slug: "side_dishes" },
+  { label: 'BURGERS', icon: "🍔", slug: "burgers" },
+  { label: 'SALADS', icon: "🥗", slug: "salads" },
+  {label: 'MAKI', icon: '🥢', slug: "maki"}
 ]
 
 

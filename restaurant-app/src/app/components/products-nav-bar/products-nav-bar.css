@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   border-radius: 5rem;
-  max-width: 700px;
+  max-width: 1100px;
   overflow-x: auto;
   overflow-y: auto;
 }

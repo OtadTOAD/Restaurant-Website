@@ -1,0 +1,53 @@
+[
+  {
+    "img": "",
+    "name": "MAKI_SALMON",
+    "pieceAmount": 8,
+    "price": 12.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "SALMON"
+    ],
+    "description": "ორაგულის მაკი (8 ნაჭრიანი)"
+  },
+  {
+    "img": "",
+    "name": "MAKI_CUCUMBER",
+    "pieceAmount": 8,
+    "price": 12.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "SESAME"
+    ],
+    "description": "კიტრის მაკი (8 ნაჭრიანი)"
+  },
+  {
+    "img": "",
+    "name": "MAKI_CUCUMBER_SALMON",
+    "pieceAmount": 8,
+    "price": 13.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "SALMON"
+    ],
+    "description": "კიტრის და ორაგულის მაკი ( 8 ნაჭრიანი)"
+  },
+  {
+    "img": "",
+    "name": "MAKI_EEL",
+    "pieceAmount": 8,
+    "price": 14.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "EEL",
+      "SESAME_UNAGI_SAUCE"
+    ],
+    "description": "გველთევზას მაკი (8 ნაჭრიანი)"
+  }
+]

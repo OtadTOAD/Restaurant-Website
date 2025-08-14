@@ -1,53 +1,99 @@
 [
-    {
-        "img": "/assets/img/sushi-test.jpg",
-        "name": "Ragaca Sushi",
-        "pieceAmount": 1,
-        "price": 6,
-        "ingredients": [
-            "love", "hate"
-        ],
-        "description":"Dzalian Magari Sushi"
-    },
-    {
-        "img": "/assets/img/sushi-test.jpg",
-        "name": "Ragaca sxva Sushi",
-        "pieceAmount": 1,
-        "price": 990009.99,
-        "ingredients": [
-            "love"
-        ],
-        "description":"Dzalian Magari Sushi"
-    },
   {
-        "img": "/assets/img/sushi-test.jpg",
-        "name": "Ragaca Sushi",
-        "pieceAmount": 1,
-        "price": 6,
-        "ingredients": [
-            "love"
-        ],
-        "description":"Dzalian Magari Sushi"
-    },
-    {
-        "img": "/assets/img/sushi-test.jpg",
-        "name": "Ragaca Sushi",
-        "pieceAmount": 1,
-        "price": 6,
-        "ingredients": [
-            "love"
-        ],
-        "description":"Dzalian Magari Sushi"
-    },
-    {
-        "img": "/assets/img/sushi-test.jpg",
-        "name": "Ragaca Sushi",
-        "pieceAmount": 1,
-        "price": 6,
-        "ingredients": [
-            "love"
-        ],
-        "description":"Dzalian Magari Sushi"
-    }
-
+    "img": "",
+    "name": "SUSHI_SALMON_NIGIRI",
+    "pieceAmount": 1,
+    "price": 4.90,
+    "ingredients": [
+      "RICE",
+      "SALMON"
+    ],
+    "description": "ორაგულის ნიგირი"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_EEL_NIGIRI",
+    "pieceAmount": 1,
+    "price": 4.90,
+    "ingredients": [
+      "RICE",
+      "EEL",
+      "SESAME_UNAGI_SAUCE"
+    ],
+    "description": "გველთევზას ნიგირი"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_TUNA_NIGIRI",
+    "pieceAmount": 1,
+    "price": 4.90,
+    "ingredients": [
+      "RICE",
+      "TUNA"
+    ],
+    "description": "თინუსის ნიგირი"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_SHRIMP_NIGIRI",
+    "pieceAmount": 1,
+    "price": 4.90,
+    "ingredients": [
+      "RICE",
+      "SHRIMP"
+    ],
+    "description": "კრევეტი"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_GUNKAN_SALMON",
+    "pieceAmount": 1,
+    "price": 5.90,
+    "ingredients": [
+      "RICE",
+      "NORI",
+      "SALMON",
+      "SWEET_CHILI_SAUCE"
+    ],
+    "description": "გუნკანი ორაგულით"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_GUNKAN_EEL",
+    "pieceAmount": 1,
+    "price": 5.90,
+    "ingredients": [
+      "RICE",
+      "NORI",
+      "EEL",
+      "SESAME_UNAGI_SAUCE"
+    ],
+    "description": "გუნკანი გველთევზათი"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_GUNKAN_TUNA",
+    "pieceAmount": 1,
+    "price": 5.90,
+    "ingredients": [
+      "RICE",
+      "NORI",
+      "TUNA",
+      "KIMCHI_SAUCE"
+    ],
+    "description": "გუნკანი თინუსით"
+  },
+  {
+    "img": "",
+    "name": "SUSHI_GUNKAN_SHRIMP",
+    "pieceAmount": 1,
+    "price": 5.90,
+    "ingredients": [
+      "RICE",
+      "NORI",
+      "SHRIMP",
+      "SWEET_CHILI_SAUCE"
+    ],
+    "description": "გუნკანი კრევეტით"
+  }
 ]

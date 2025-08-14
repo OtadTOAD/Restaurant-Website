@@ -30,7 +30,7 @@
   --shadow-light: rgba(0, 0, 0, 0.1);
   --shadow-medium: rgba(0, 0, 0, 0.15);
   
-  /* Success, Warning, Error (Optional) */
+  /* Success, Warning, Error */
   --success: #00b894;
   --warning: #fdcb6e;
   --error: #e17055;
