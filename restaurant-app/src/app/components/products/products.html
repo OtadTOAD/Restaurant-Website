@@ -1,16 +1,3 @@
 <div>
-    <button>Type 1</button>
-    <button>Type 2</button>
-    <button>Type 3</button>
-</div>
 
-<div>
-    @for (item of currProducts; track item.name) {
-    <div>
-        <img [src]="item.img" alt="PRODUCT IMAGE">
-        <strong>{{ item.name }}</strong>
-        <strong>( {{ item.pieceAmount }} Piece )</strong>
-        <strong>₾{{ item.price }}</strong>
-    </div>
-    }
 </div>

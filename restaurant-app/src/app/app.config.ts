@@ -4,8 +4,6 @@ import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { providePrimeNG } from 'primeng/config';
-import Nora from '@primeuix/themes/nora';
 import { provideHttpClient } from '@angular/common/http';
 import { TranslocoHttpLoader } from './transloco-loader';
 import { provideTransloco } from '@ngneat/transloco';
@@ -17,16 +15,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
 
     provideAnimationsAsync(),
-    providePrimeNG({
-      ripple: true,
-
-      theme: {
-        preset: Nora,
-        options: {
-          darkModeSelector: false || 'none'
-        }
-      }
-    }),
     provideHttpClient(),
     provideTransloco({
       config: {
