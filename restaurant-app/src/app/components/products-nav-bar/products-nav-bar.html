@@ -1,10 +1,14 @@
 <nav class="type-nav">
-  <ul class="type-list">
-    <li *ngFor="let type of types">
-      <a class="type-link" [routerLink]="['/products', type.slug]" routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: true }">
-        {{ type.label }}
-      </a>
-    </li>
-  </ul>
+  <div class="menu-item" style="padding: 0px; width: 100%; justify-content: space-evenly; display: flex;">
+    <ul class="type-list">
+      @for (type of types; track type.label) {
+      <li>
+        <button style="margin: 0.25rem;" class="menu-btn" [routerLink]="['/products', type.slug]"
+          routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+          {{ type.icon }} {{ type.label | transloco }}
+        </button>
+      </li>
+      }
+    </ul>
+  </div>
 </nav>

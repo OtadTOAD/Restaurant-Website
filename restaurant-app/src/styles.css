@@ -16,11 +16,13 @@
   --text-secondary: #636e72;
   --text-light: #b2bec3;
   --text-white: #ffffff;
+  --text-money: #35ec7c;
   
   /* Background Variations */
   --bg-white: #ffffff;
   --bg-light: #f8f9fa;
   --bg-dark: #2d3436;
+  --bg-darker: #1e1e1e;
   
   /* Border & Shadow Colors */
   --border-light: #ddd;

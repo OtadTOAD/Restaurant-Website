@@ -1,18 +1,18 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/products';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../../services/product-service';
-import { AsyncPipe, CommonModule, CurrencyPipe } from '@angular/common';
-import { CustomDialogComponent } from '../../dialogs/custom-dialog-component/custom-dialog-component';
+import { CommonModule, CurrencyPipe } from '@angular/common';
 import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS } from '../../config/config';
 import { ProductsNavBar, ProductType } from '../products-nav-bar/products-nav-bar';
+import { CustomDialogComponent } from '../custom-dialog-component/custom-dialog-component';
+import { TranslocoPipe } from '@ngneat/transloco';
 
 
 
 @Component({
   selector: 'app-products',
-  imports: [CurrencyPipe, CommonModule, CustomDialogComponent, ProductsNavBar],
+  imports: [CurrencyPipe, CommonModule, CustomDialogComponent, ProductsNavBar, TranslocoPipe],
   templateUrl: './products.html',
   styleUrl: './products.css'
 })

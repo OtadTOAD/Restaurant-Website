@@ -6,7 +6,7 @@ import { combineLatest } from 'rxjs';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink, NgStyle],
+  imports: [RouterLink, NgStyle, TranslocoPipe],
   templateUrl: './header.html',
   styleUrl: './header.css'
 })

@@ -13,11 +13,12 @@ export const PLACEHOLDER_PRODUCT: Product = {
 
 
 export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
-  { label: 'Sushi', slug: "sushi" },
-  { label: 'Wok', slug: "wok" },
-  { label: 'Soup', slug: "soup" },
-  { label: 'Set', slug: "set" },
-  { label: 'Other', slug: "" },
+  { label: 'SUSHI', icon: "🍣", slug: "sushi" },
+  { label: 'ROLL', icon: "🍙", slug: "roll"},
+  { label: 'SET', icon: "🍱", slug: "set" },
+  { label: 'WOK', icon: "🥢", slug: "wok" },
+  { label: 'SOUP', icon: "🍜", slug: "soup" },
+  { label: 'OTHER', icon: "🍵", slug: "" },
 ]
 
 

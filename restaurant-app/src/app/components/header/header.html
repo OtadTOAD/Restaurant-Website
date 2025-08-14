@@ -1,15 +1,17 @@
 <header>
     <div class="icon-wrapper" routerLink="">
         <img src="favicon.ico" alt="ICON" height="60px" width="60px">
-        <h1 class="header-text"> Sushi Sensei </h1>
+        <h1 class="header-text"> {{ "TITLE" | transloco }} </h1>
     </div>
 
     <div class="menu-item" style="padding: 1rem;">
-        <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">About Us</button>
-        <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/contact_us">Contact Us</button>
+        <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
+            }}</button>
+        <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/contact_us">{{ "CONTACT_US" | transloco
+            }}</button>
 
         <!-- Button reference -->
-        <button #langBtn class="menu-btn" (click)="toggleDropdown()">Language ▾</button>
+        <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
     </div>
 </header>
 

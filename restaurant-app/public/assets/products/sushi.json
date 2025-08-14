@@ -5,7 +5,7 @@
         "pieceAmount": 1,
         "price": 6,
         "ingredients": [
-            "love"
+            "love", "hate"
         ],
         "description":"Dzalian Magari Sushi"
     },

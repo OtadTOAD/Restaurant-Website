@@ -4,8 +4,6 @@
   justify-content: center;
   border-radius: 5rem;
   max-width: 700px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  background: #fff;
   overflow-x: auto;
   overflow-y: auto;
 }

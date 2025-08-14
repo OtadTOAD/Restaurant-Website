@@ -1,6 +1,6 @@
 import { TranslocoPipe } from '@ngneat/transloco';
 import { RouterLink } from '@angular/router';
-import { AfterViewInit, Component, ElementRef, OnDestroy } from '@angular/core';
+import { AfterViewInit, Component, ElementRef } from '@angular/core';
 
 
 @Component({

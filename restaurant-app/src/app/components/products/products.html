@@ -3,20 +3,42 @@
 
 
   <div class="product-grid">
-    <div class="product-card" *ngFor="let product of products" (click)="handleShowDialog(product)">
-      <div class="media">
-        <img [src]="product.img" [alt]="product.name" />
-      </div>
+    @for (product of products; track product.name) {
+    <div class="product-card" (click)="handleShowDialog(product)">
+      <div class="menu-item" style="margin-bottom: 1rem;">
+        <div class="media">
+          <img [src]="product.img" [alt]="product.name" />
+        </div>
 
-      <div class="info">
-        <h3 class="name">{{ product.name }}</h3>
-        <p class="price">{{ product.price | currency }}</p>
+        <div class="info">
+          <h3 class="name">{{ product.name | transloco }}</h3>
+          <p class="pieces">( {{ product.pieceAmount }} {{ "PIECE" | transloco }} )</p>
+        </div>
+
+        <div class="price-box">
+          {{ product.price | currency:'GEL':'₾' }}
+        </div>
       </div>
     </div>
+    }
   </div>
 
   <app-custom-dialog [(visible)]="showDialog" title="{{chosenProduct.name}}">
+    <div class="media">
+      <img [src]="chosenProduct.img" [alt]="chosenProduct.name" />
+    </div>
+
     <p>{{chosenProduct.description}}</p>
+    <p>
+      @for (ingredient of chosenProduct.ingredients; track ingredient) {
+      @if (!$last) {
+      {{ ingredient | transloco }},
+      }
+      @if ($last && $count > 1) {
+      and {{ ingredient | transloco }}
+      }
+      }
+    </p>
   </app-custom-dialog>
 
 </div>
