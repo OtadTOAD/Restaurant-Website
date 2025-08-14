@@ -1,0 +1,19 @@
+:host {
+    min-width: max-content;
+    padding: 2rem;
+    width: 100%;
+
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+section {
+    max-width: 50rem;
+    width: fit-content;
+}
+
+.text-wrapper {
+    flex-direction: row;
+    display: flex;
+}

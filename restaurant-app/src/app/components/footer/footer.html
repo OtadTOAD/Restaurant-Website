@@ -1,2 +1,48 @@
 <footer>
+    <div class="footer-wrapper">
+        <div class="card-wrapper">
+            <div class="menu-item">
+                <h3>{{ "NAVIGATION" | transloco }}</h3>
+
+                <div class="list-item-wrapper">
+                    <button class="link_button"> {{ 'ABOUT_US' | transloco }} </button>
+                    <button class="link_button"> {{ 'TERMS_CONDITIONS' | transloco }} </button>
+                    <button class="link_button"> {{ 'CONTACT' | transloco }} </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-wrapper">
+            <div class="menu-item">
+                <h3>{{ "PRODUCTS" | transloco }}</h3>
+
+                <div class="list-wrapper">
+                    <div class="list-item-wrapper">
+                        <button class="link_button" routerLink="/products/sushi"> {{ 'SUSHI' | transloco }} </button>
+                        <button class="link_button" routerLink="/products/roll"> {{ 'ROLL' | transloco }} </button>
+                        <button class="link_button" routerLink="/products/set"> {{ 'SET' | transloco }} </button>
+                    </div>
+
+                    <div class="list-item-wrapper">
+                        <button class="link_button" routerLink="/products/wok"> {{ 'WOK' | transloco }} </button>
+                        <button class="link_button" routerLink="/products/soup"> {{ 'SOUP' | transloco }} </button>
+                        <button class="link_button" routerLink="/products/other"> {{ 'OTHER' | transloco }} </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="menu-item">
+                <h3>{{ "CONTACT_US" | transloco }}</h3>
+
+                <div class="list-item-wrapper">
+                    <button class="link_button" routerLink="/products/sushi"> +995 123 45 67 89 </button>
+                    <button class="link_button" routerLink="/products/sushi"> {{ 'FACEBOOK' | transloco }} </button>
+                    <button class="link_button" routerLink="/products/sushi"> {{ 'INSTAGRAM' | transloco}} </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
