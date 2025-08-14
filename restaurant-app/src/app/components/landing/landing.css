@@ -1,7 +1,6 @@
 :host {
     min-width: max-content;
     height: max-content;
-    padding: 2rem;
     width: 100%;
 
     justify-content: space-around;
@@ -12,14 +11,11 @@
     user-select: none;
 }
 
-.seperator {
-    height: 50rem;
-    position: relative;
-}
-
 /* SCROLL INDICATOR */
 
 .scroll-indicator {
+    margin-top: 2rem;
+
     animation: bounce 2s infinite;
     flex-direction: column;
     align-items: center;
@@ -37,14 +33,15 @@
 .scroll-arrow {
     width: 50px;
     height: 50px;
+    font-weight: 1000;
     border-radius: 50%;
-    background: linear-gradient(45deg, var(--p-red-400), var(--p-amber-400));
+    background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 1.2rem;
-    box-shadow: 0 4px 15px color-mix(in srgb, var(--p-orange-900), transparent 60%);
+    box-shadow: 0 4px 15px color-mix(in srgb, var(--success), transparent 60%);
 }
 
 @keyframes bounce {
@@ -80,13 +77,6 @@
 
 .hero h1 {
     font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    background: linear-gradient(45deg, var(--p-red-400), var(--p-yellow-400), var(--p-emerald-400));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 4px 8px color-mix(in srgb, var(--p-gray-950), transparent 60%);
 }
 
 .hero p {
@@ -115,7 +105,7 @@
 .text-wrapper h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    background: linear-gradient(45deg, var(--p-red-400), var(--p-yellow-400));
+    background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,4 +136,80 @@
     opacity: 0;
     transition: 0.5s;
     transform: translateY(-2px);
+}
+
+/* Animation Classes */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.fade-in-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s ease;
+}
+
+.fade-in-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s ease;
+}
+
+.fade-in-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scale-in {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.8s ease;
+}
+
+.scale-in.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Stagger animations */
+.menu-item:nth-child(1) { transition-delay: 0.1s; }
+.menu-item:nth-child(2) { transition-delay: 0.2s; }
+.menu-item:nth-child(3) { transition-delay: 0.3s; }
+.menu-item:nth-child(4) { transition-delay: 0.4s; }
+.menu-item:nth-child(5) { transition-delay: 0.5s; }
+.menu-item:nth-child(6) { transition-delay: 0.6s; }
+
+@media (max-width: 970px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+    }
+    
+    .text-wrapper h2 {
+        font-size: 2rem;
+    }
+    
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .content-section {
+        padding: 2rem 1rem;
+    }
 }

@@ -1,3 +1,39 @@
+:root {
+  --primary-bg: #f1f2f6;
+  --primary-bg-hover: #e8e9ed; 
+  
+  /* Accent Colors */
+  --accent-primary: #00b894;      
+  --accent-primary-hover: #00a085; 
+  --accent-primary-light: #33c9a8; 
+  
+  --accent-secondary: #74b9ff;
+  --accent-secondary-hover: #5a9dff;
+  --accent-secondary-light: #92c7ff;
+  
+  /* Text Colors */
+  --text-primary: #494d69; 
+  --text-secondary: #636e72;
+  --text-light: #b2bec3;
+  --text-white: #ffffff;
+  
+  /* Background Variations */
+  --bg-white: #ffffff;
+  --bg-light: #f8f9fa;
+  --bg-dark: #2d3436;
+  
+  /* Border & Shadow Colors */
+  --border-light: #ddd;
+  --border-medium: #b2bec3;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.15);
+  
+  /* Success, Warning, Error (Optional) */
+  --success: #00b894;
+  --warning: #fdcb6e;
+  --error: #e17055;
+}
+
 html,
 body {
   flex-direction: column;
@@ -13,15 +49,17 @@ body {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-style: normal;
+
+  color: var(--text-primary);
 }
 
 .menu-item {
-  background: color-mix(in srgb, var(--p-gray-100), transparent 90%);
+  background: color-mix(in srgb, var(--bg-dark), transparent 70%);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 2rem;
   text-align: center;
-  border: 1px solid color-mix(in srgb, var(--p-gray-100), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--bg-dark), transparent 90%);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -34,7 +72,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--p-gray-100), transparent 90%), transparent);
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--primary-bg), transparent 90%), transparent);
   transition: left 0.5s;
 }
 
@@ -43,16 +81,15 @@ body {
 }
 
 .menu-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px color-mix(in srgb, var(--p-orange-500), transparent 90%);
-  border-color: color-mix(in srgb, var(--p-red-500), transparent 50%);
+  box-shadow: 0 20px 40px color-mix(in srgb, var(--accent-secondary), transparent 90%);
+  border-color: color-mix(in srgb, var(--accent-secondary-hover), transparent 50%);
 }
 
 .menu-item h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   margin-top: 0.2rem;
-  color: var(--p-yellow-400);
+  color: var(--accent-secondary-light);
 }
 
 .menu-item p {
@@ -62,7 +99,7 @@ body {
 }
 
 .link_button {
-  color: var(--p-emerald-400);
+  color: var(--text-primary);
 
   margin-bottom: .5rem;
   background: none;
@@ -83,9 +120,28 @@ body {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, var(--p-red-400), var(--p-yellow-400), var(--p-emerald-400));
+  background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary), var(--success));
   background-clip: text;
+  width: fit-content;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 4px 8px color-mix(in srgb, var(--p-gray-950), transparent 60%);
+  text-shadow: 0 4px 8px color-mix(in srgb, var(--shadow-light), transparent 60%);
+}
+
+.menu-btn {
+    background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    color: var(--text-white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-secondary-hover), transparent 60%);
 }

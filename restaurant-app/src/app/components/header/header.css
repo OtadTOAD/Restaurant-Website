@@ -1,8 +1,10 @@
 :host {
     min-width: max-content;
     height: max-content;
-    padding: 2rem;
     width: 100%;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
     justify-content: space-around;
     flex-direction: row;
@@ -18,17 +20,62 @@ header {
     display: flex;
 }
 
-header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    background: linear-gradient(45deg, var(--p-red-400), var(--p-yellow-400), var(--p-emerald-400));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 4px 8px color-mix(in srgb, var(--p-gray-950), transparent 60%);
+.icon-wrapper {
+    height: max-content;
+    user-select: none;
+
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+
+    cursor: pointer;
+}
+
+.icon-wrapper img {
+    padding-right: 12px;
 }
 
 .menubar-wrapper {
     margin-top: auto;
+}
+
+.dropdown-portal {
+    position: absolute;
+    border-radius: 8px;
+    z-index: 9999;
+    padding: 0.5rem 0;
+    min-width: 140px;
+}
+
+.dropdown-portal a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--text-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-portal a:hover {
+    background: var(--accent-primary);
+    color: var(--text-white);
+    transition: 0.25s;
+}
+
+@media (max-width: 770px) {
+    header {
+        flex-direction: column;
+    }
+
+    .icon-wrapper h1 {
+        display: none;
+    }
+
+    .icon-wrapper {
+        margin-bottom: 1rem;
+    }
+
+    .menu-item {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
