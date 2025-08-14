@@ -1,0 +1,12 @@
+[
+  {
+        "img": "/assets/img/sushi-test.jpg",
+        "name": "Soup",
+        "pieceAmount": 1,
+        "price": 990009.99,
+        "ingredients": [
+            "love"
+        ],
+        "description":"Dzalian Magari Sushi"
+    }
+]

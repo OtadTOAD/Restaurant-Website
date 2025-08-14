@@ -1,0 +1,41 @@
+.type-nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 5rem;
+  max-width: 700px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.type-list {
+  list-style: none;
+  margin: auto;
+  padding: 0 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+}
+
+.type-link {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #333;
+  background: #f4f4f4;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.type-link:hover {
+  background: #eaeaea;
+}
+
+.type-link.active {
+  background: #007bff;
+  color: #fff;
+}
