@@ -1,4 +1,26 @@
 {
     "TEST": "Тест",
-    "INVALID_PAGE": "Не удалось найти эту страницу!"
+    "INVALID_PAGE": "Не удалось найти эту страницу!",
+    "SUSHI": "Суши",
+    "ROLL": "Ролл",
+    "SET": "Сет",
+    "WOK": "Вок",
+    "SOUP": "Суп",
+    "OTHER": "Другое",
+    "ABOUT_US": "О нас",
+    "TERMS_CONDITIONS": "Условия и положения",
+    "CONTACT": "Контакты",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SLONGAN_HEADER": "Уникальный вкус",
+    "SLOGAN_FOOTER": "Японский ресторан и доставка",
+    "CONTACT_US": "Свяжитесь с нами",
+    "LANGUAGE": "Язык",
+    "TITLE": "Суши Сэнсэй",
+    "DISCOVER_HEADER": "Откройте наши продукты",
+    "DISCOVER_FOOTER": "Выберите тип еды, который хотите найти.",
+    "PRODUCTS": "Продукты",
+    "EXPLORE": "Исследовать",
+    "NAVIGATION": "Навигация",
+    "SCROLL_DOWN": "Прокрутите вниз"
 }

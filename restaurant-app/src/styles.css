@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
 /*
 html,
@@ -12,6 +14,7 @@ body {
   padding: 0px;
   margin: 0px;
 
+<<<<<<< HEAD
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -19,3 +22,49 @@ body {
 /*
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }*/
+
+.menu-item {
+  background: color-mix(in srgb, var(--p-gray-100), transparent 90%);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid color-mix(in srgb, var(--p-gray-100), transparent 90%);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--p-gray-100), transparent 90%), transparent);
+  transition: left 0.5s;
+}
+
+.menu-item:hover::before {
+  left: 100%;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px color-mix(in srgb, var(--p-orange-500), transparent 90%);
+  border-color: color-mix(in srgb, var(--p-red-500), transparent 50%);
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+  color: var(--p-yellow-400);
+}
+
+.menu-item p {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}

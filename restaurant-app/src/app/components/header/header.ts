@@ -1,4 +1,4 @@
-import { TranslocoService } from '@ngneat/transloco';
+import { TranslocoService, TranslocoPipe } from '@ngneat/transloco';
 import { RouterLink } from '@angular/router';
 import { Component } from '@angular/core';
 import { combineLatest } from 'rxjs';
