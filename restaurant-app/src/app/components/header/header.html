@@ -1,24 +1,33 @@
 <header>
-    <div class="icon-wrapper" routerLink="">
-        <img src="favicon.ico" alt="ICON" height="60px" width="60px">
-        <h1 class="header-text"> {{ "TITLE" | transloco }} </h1>
-    </div>
+  <div class="icon-wrapper" routerLink="">
+    <img src="favicon.ico" alt="ICON" height="60px" width="60px">
+    <h1 class="header-text"> {{ "TITLE" | transloco }} </h1>
+  </div>
 
-    <div class="menu-item" style="padding: 1rem;">
-        <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
-            }}</button>
-        <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/contact_us">{{ "CONTACT_US" | transloco
-            }}</button>
+  <div class="menu-item menu-bar" style="padding: 1rem;">
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
+      }}</button>
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/contact_us">{{ "CONTACT_US" | transloco
+      }}</button>
 
-        <!-- Button reference -->
-        <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
-    </div>
+    <!-- Button reference -->
+    <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
+  </div>
+
+  <button #hamburger class="hamburger" aria-label="Open menu" aria-controls="main-menu" aria-expanded="false"
+    (click)="handleHamburgerClick()" [ngClass]="hamburgerOpen?'open-hamburger':''">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+      <path class="line line1" d="M3 6h18"></path>
+      <path class="line line2" d="M3 12h18"></path>
+      <path class="line line3" d="M3 18h18"></path>
+    </svg>
+  </button>
 </header>
-
 @if (dropdownOpen) {
-<div class="menu-item dropdown-portal" [ngStyle]="{ top: dropdownPos.top + 'px', left: dropdownPos.left + 'px' }">
-    <a (click)="setLang('en')">English</a>
-    <a (click)="setLang('ka')">ქართული</a>
-    <a (click)="setLang('rus')">Русский</a>
+<div class="menu-item dropdown-portal"
+  [ngStyle]="{ top: dropdownPos.top + 'px', left: dropdownPos.left + 'px', width:dropdownPos.width + 'px' }">
+  <a (click)="setLang('en')">English</a>
+  <a (click)="setLang('ka')">ქართული</a>
+  <a (click)="setLang('rus')">Русский</a>
 </div>
 }
