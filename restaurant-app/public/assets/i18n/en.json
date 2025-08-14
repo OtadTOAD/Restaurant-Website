@@ -18,5 +18,9 @@
     "LANGUAGE": "Language",
     "TITLE": "Sushi Sensei",
     "DISCOVER_HEADER": "Discover Our Products",
-    "DISCOVER_FOOTER": "Choose type of food you want to search for."
+    "DISCOVER_FOOTER": "Choose type of food you want to search for.",
+    "PRODUCTS": "Products",
+    "EXPLORE": "Explore",
+    "NAVIGATION": "Navigation",
+    "SCROLL_DOWN": "Scroll Down"
 }

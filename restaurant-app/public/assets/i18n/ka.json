@@ -10,13 +10,17 @@
     "ABOUT_US": "ჩვენ შესახებ",
     "TERMS_CONDITIONS": "ტერმს & კონდიტიონს არ ვიცი",
     "CONTACT": "დაგვიკავშირდით",
-    "FACEBOOK": "Facebook",
-    "INSTAGRAM": "Instagram",
+    "FACEBOOK": "ფაცებუკი",
+    "INSTAGRAM": "ინსტაგრამი",
     "SLONGAN_HEADER": "უნიკალური გემო",
     "SLOGAN_FOOTER": "იაპონული რესტორანი & მოტანა",
     "CONTACT_US": "დაგვიკავშირდით",
     "LANGUAGE": "ენა",
     "TITLE": "სუში სენსეი",
     "DISCOVER_HEADER": "მოძებნეთ ჩვენი პროდუქტები",
-    "DISCOVER_FOOTER": "აირჩიეთ როგორი საჩმელი გინდათ რომ მოძებნოთ."
+    "DISCOVER_FOOTER": "აირჩიეთ როგორი საჩმელი გინდათ რომ მოძებნოთ.",
+    "PRODUCTS": "პროდუქტები",
+    "EXPLORE": "გამოიკვლიეთ",
+    "NAVIGATION": "ნავიგაცია",
+    "SCROLL_DOWN": "ქვემოთ ჩამოწიეთ"
 }
