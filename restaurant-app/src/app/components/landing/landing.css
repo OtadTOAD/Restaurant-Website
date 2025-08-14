@@ -183,7 +183,6 @@
     transform: scale(1);
 }
 
-/* Stagger animations */
 .menu-item:nth-child(1) { transition-delay: 0.1s; }
 .menu-item:nth-child(2) { transition-delay: 0.2s; }
 .menu-item:nth-child(3) { transition-delay: 0.3s; }
