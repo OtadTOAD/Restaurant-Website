@@ -29,7 +29,8 @@ export class Landing implements AfterViewInit {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate');
         } else {
-          entry.target.classList.remove('animate');
+          // Add this back in if you want animations to fade out when you stop looking at it during landing
+          // entry.target.classList.remove('animate');
         }
       });
     }, observerOptions);
