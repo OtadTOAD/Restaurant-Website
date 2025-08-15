@@ -64,6 +64,7 @@ footer {
 @media (max-width: 600px) {
     .footer-wrapper {
         flex-direction: column; 
+        justify-content: center;
         align-items: center;
     }
 
@@ -71,5 +72,23 @@ footer {
         width: 90%;
         max-width: none;
         min-width: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .link_button {
+        font-size: 0.75rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .list-item-wrapper{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .menu-item {
+        padding: 1rem;
     }
 }
