@@ -189,5 +189,23 @@
     "COLD_DRINK_ICED_TEA": "Холодный чай",
     "COLD_DRINK_SCHWEPPES": "Швепс",
     "COLD_DRINK_NATURAL_JUICE": "Натуральный сок",
-    "COLD_DRINK_WATER": "Вода"
+    "COLD_DRINK_WATER": "Вода",
+
+    "COFFEE_ICED_WITH_ICE_CREAM": "Холодный кофе с мороженым",
+    "COFFEE_AMERICANO": "Американо",
+    "COFFEE_CAPPUCCINO": "Капучино",
+    "COFFEE_LATTE": "Латте",
+    "COFFEE_TURKISH": "Кофе по-турецки",
+
+    "WINE_RKATSITELI_BOTTLE": "Ркацители (Бутылка)",
+    "WINE_RKATSITELI_GLASS": "Ркацители (Бокал 250мл)",
+    "WINE_QISI_BOTTLE": "Киси (Бутылка)",
+    "WINE_QISI_GLASS": "Киси (Бокал 250мл)",
+    "WINE_KHIKHVI_BOTTLE": "Хихви (Бутылка)",
+    "WINE_KHIKHVI_GLASS": "Хихви (Бокал 250мл)",
+    "WINE_SAPERAVI_BOTTLE": "Саперави (Бутылка)",
+    "WINE_SAPERAVI_GLASS": "Саперави (Бокал 250мл)",
+    "BEER_CORONA": "Корона (Бутылка 0.355л)",
+    "BEER_HEINEKEN": "Хайнекен (Бутылка 0.330л)",
+    "BEER_BAVARIA": "Бавария (Бутылка 0.500л)"
 }

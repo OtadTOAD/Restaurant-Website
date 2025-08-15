@@ -189,5 +189,23 @@
     "COLD_DRINK_ICED_TEA": "Iced Tea",
     "COLD_DRINK_SCHWEPPES": "Schweppes",
     "COLD_DRINK_NATURAL_JUICE": "Natural Juice",
-    "COLD_DRINK_WATER": "Water"
+    "COLD_DRINK_WATER": "Water",
+
+    "COFFEE_ICED_WITH_ICE_CREAM": "Iced Coffee with Ice Cream",
+    "COFFEE_AMERICANO": "Americano",
+    "COFFEE_CAPPUCCINO": "Cappuccino",
+    "COFFEE_LATTE": "Latte",
+    "COFFEE_TURKISH": "Turkish Coffee",
+
+    "WINE_RKATSITELI_BOTTLE": "Rkatsiteli (Bottle)",
+    "WINE_RKATSITELI_GLASS": "Rkatsiteli (250ml Glass)",
+    "WINE_QISI_BOTTLE": "Qisi (Bottle)",
+    "WINE_QISI_GLASS": "Qisi (250ml Glass)",
+    "WINE_KHIKHVI_BOTTLE": "Khikhvi (Bottle)",
+    "WINE_KHIKHVI_GLASS": "Khikhvi (250ml Glass)",
+    "WINE_SAPERAVI_BOTTLE": "Saperavi (Bottle)",
+    "WINE_SAPERAVI_GLASS": "Saperavi (250ml Glass)",
+    "BEER_CORONA": "Corona (Bottle 0.355L)",
+    "BEER_HEINEKEN": "Heineken (Bottle 0.330L)",
+    "BEER_BAVARIA": "Bavaria (Bottle 0.500L)"
 }

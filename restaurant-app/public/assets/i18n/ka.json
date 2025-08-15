@@ -189,5 +189,23 @@
     "COLD_DRINK_ICED_TEA": "ცივი ჩაი",
     "COLD_DRINK_SCHWEPPES": "შვეპსი",
     "COLD_DRINK_NATURAL_JUICE": "ნატურალური წვენი",
-    "COLD_DRINK_WATER": "წყალი"
+    "COLD_DRINK_WATER": "წყალი",
+
+    "COFFEE_ICED_WITH_ICE_CREAM": "ცივი ყავა ნაყინით",
+    "COFFEE_AMERICANO": "ამერიკანო",
+    "COFFEE_CAPPUCCINO": "კაპუჩინო",
+    "COFFEE_LATTE": "ლატე",
+    "COFFEE_TURKISH": "თურქული",
+
+    "WINE_RKATSITELI_BOTTLE": "რქაწითელი (1 ბოთლი)",
+    "WINE_RKATSITELI_GLASS": "რქაწითელი (250 მლ)",
+    "WINE_QISI_BOTTLE": "ქისი (1 ბოთლი)",
+    "WINE_QISI_GLASS": "ქისი (250 მლ)",
+    "WINE_KHIKHVI_BOTTLE": "ხიხვი (1 ბოთლი)",
+    "WINE_KHIKHVI_GLASS": "ხიხვი (250 მლ)",
+    "WINE_SAPERAVI_BOTTLE": "საფერავი (1 ბოთლი)",
+    "WINE_SAPERAVI_GLASS": "საფერავი (250 მლ)",
+    "BEER_CORONA": "კორონა (შუშის 0.355)",
+    "BEER_HEINEKEN": "ჰეინეკენი (შუშის 0.330)",
+    "BEER_BAVARIA": "ბავარია (შუშის 0.500)"
 }
