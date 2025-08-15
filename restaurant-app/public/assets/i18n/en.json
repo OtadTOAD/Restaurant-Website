@@ -108,7 +108,9 @@
     "SIDE_RICE_BALLS": "Rice Balls",
     "SIDE_ONION_RINGS": "Onion Rings",
 
-    "SOUP_TOM_YUM": "Tom Yum Soup",
+    "SOUP_TOM_YUM_CHICKEN": "Tom Yum Soup with Chicken",
+    "SOUP_TOM_YUM_SHRIMP": "Tom Yum Soup with Shrimp",
+    "SOUP_TOM_YUM_SEAFOOD_MIX": "Tom Yum Soup with Seafood Mix",
 
     "SUSHI_SALMON_NIGIRI": "Salmon Nigiri",
     "SUSHI_EEL_NIGIRI": "Eel Nigiri",

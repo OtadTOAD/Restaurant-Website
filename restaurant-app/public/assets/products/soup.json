@@ -1,7 +1,7 @@
 [
   {
     "img": "",
-    "name": "SOUP_TOM_YUM",
+    "name": "SOUP_TOM_YUM_CHICKEN",
     "pieceAmount": 1,
     "price": 0,
     "ingredients": [
@@ -13,10 +13,44 @@
       "SESAME_SEEDS",
       "LEMON_LIME",
 
-      "CHICKEN",
-      "SHRIMP",
-      "SEAFOOD_MIX"
+      "CHICKEN"
     ],
     "description": "ტომი იამი ქათმით"
+  },
+  {
+    "img": "",
+    "name": "SOUP_TOM_YUM_SHRIMP",
+    "pieceAmount": 1,
+    "price": 0,
+    "ingredients": [
+      "TOM_YUM_PASTE",
+      "COCONUT_MILK",
+      "SHIITAKE_MUSHROOMS",
+      "CHERRY_TOMATOES",
+      "GREEN_ONION",
+      "SESAME_SEEDS",
+      "LEMON_LIME",
+
+      "SHRIMP"
+    ],
+    "description": "ტომი იამი კრევეტებით"
+  },
+  {
+    "img": "",
+    "name": "SOUP_TOM_YUM_SEAFOOD_MIX",
+    "pieceAmount": 1,
+    "price": 0,
+    "ingredients": [
+      "TOM_YUM_PASTE",
+      "COCONUT_MILK",
+      "SHIITAKE_MUSHROOMS",
+      "CHERRY_TOMATOES",
+      "GREEN_ONION",
+      "SESAME_SEEDS",
+      "LEMON_LIME",
+
+      "SEAFOOD_MIX"
+    ],
+    "description": "ტომი იამი ზღვის პროდუქტების მიქსით"
   }
 ]
