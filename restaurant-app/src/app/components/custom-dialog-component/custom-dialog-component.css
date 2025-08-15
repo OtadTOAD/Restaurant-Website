@@ -15,9 +15,9 @@
 
 .cd-backdrop.open {
   background:
-    radial-gradient(circle at 20% 80%, color-mix(in srgb, var(--accent-secondary-hover), transparent 60%) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, color-mix(in srgb, var(--accent-primary-hover), transparent 60%) 0%, transparent 50%),
-    linear-gradient(135deg, color-mix(in srgb, var(--primary-bg), transparent 60%) 0%, color-mix(in srgb, var(--border-medium), transparent 60%) 100%);
+    radial-gradient(circle at 20% 80%, var(--accent-secondary-hover-60) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, var(--accent-primary-hover-60) 0%, transparent 50%),
+    linear-gradient(135deg, var(--primary-bg-60) 0%, var(--border-medium-60) 100%);
 
   pointer-events: auto;
   opacity: 1;

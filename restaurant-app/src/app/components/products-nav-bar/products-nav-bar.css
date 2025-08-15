@@ -68,7 +68,7 @@
 .menu-btn.active {
   background: var(--accent-primary);
   color: var(--text-white);
-  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent-secondary), transparent 20%);
+  box-shadow: 0 2px 8px var(--accent-secondary-20);
 }
 
 .menu-btn.active:hover {
