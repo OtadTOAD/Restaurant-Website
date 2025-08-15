@@ -21,7 +21,10 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'OTHER', icon: "🍟", slug: "side_dishes" },
   { label: 'BURGERS', icon: "🍔", slug: "burgers" },
   { label: 'SALADS', icon: "🥗", slug: "salads" },
-  {label: 'MAKI', icon: '🥢', slug: "maki"}
+  { label: 'MAKI', icon: '🥢', slug: "maki" },
+  { label: 'COFFEE', icon: '☕', slug: "coffee" },
+  { label: 'COLD_DRINKS', icon: '🥤', slug: "cold_drinks" },
+  { label: 'ALCOHOL', icon: '🍺', slug: "alcohol" }
 ]
 
 

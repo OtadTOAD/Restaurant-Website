@@ -10,8 +10,8 @@
   {
     "img": "",
     "name": "WINE_RKATSITELI_GLASS",
-    "pieceAmount": 1,
     "price": 12.90,
+    "pieceMl": 250,
     "ingredients": [],
     "description": "რქაწითელი 250მლ"
   },
@@ -26,8 +26,8 @@
   {
     "img": "",
     "name": "WINE_QISI_GLASS",
-    "pieceAmount": 1,
     "price": 12.90,
+    "pieceMl": 250,
     "ingredients": [],
     "description": "ქისი 250 მლ"
   },
@@ -42,8 +42,8 @@
   {
     "img": "",
     "name": "WINE_KHIKHVI_GLASS",
-    "pieceAmount": 1,
     "price": 12.90,
+    "pieceMl": 250,
     "ingredients": [],
     "description": "ხიხვი 250 მლ"
   },
@@ -58,8 +58,8 @@
   {
     "img": "",
     "name": "WINE_SAPERAVI_GLASS",
-    "pieceAmount": 1,
     "price": 12.90,
+    "pieceMl": 250,
     "ingredients": [],
     "description": "საფერავი 250 მლ"
   },

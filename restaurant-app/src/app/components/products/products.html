@@ -12,7 +12,13 @@
 
         <div class="info">
           <h3 class="name">{{ product.name | transloco }}</h3>
-          <div class="pieces"> {{ product.pieceAmount }} {{ "PIECE" | transloco }} </div>
+          <div class="pieces">
+            @if (product.pieceAmount) {
+            {{ product.pieceAmount }} {{ "PIECE" | transloco }}
+            } @else if (product.pieceMl) {
+            {{ product.pieceMl }}{{ "UNIT_ML" | transloco }}
+            }
+          </div>
         </div>
 
         <div class="price-box">

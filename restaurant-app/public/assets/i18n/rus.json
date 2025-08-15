@@ -10,6 +10,9 @@
     "SALADS": "Салаты",
     "BURGERS": "Бургеры",
     "MAKI": "Маки",
+    "COFFEE": "Кофе",
+    "COLD_DRINKS": "Холодные напитки",
+    "ALCOHOL": "Алкоголь",
     "ABOUT_US": "О нас",
     "TERMS_CONDITIONS": "Условия и положения",
     "CONTACT": "Контакты",
@@ -28,6 +31,7 @@
     "SCROLL_DOWN": "Прокрутите вниз",
     "PIECE": "шт",
     "AND": "и",
+    "UNIT_ML": "мл",
 
     "NORI": "Нори",
     "RICE": "Рис",

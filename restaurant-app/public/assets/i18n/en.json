@@ -10,6 +10,9 @@
     "SALADS": "Salads",
     "BURGERS": "Burgers",
     "MAKI": "Maki",
+    "COFFEE": "Coffee",
+    "COLD_DRINKS": "Cold Drinks",
+    "ALCOHOL": "Alcohol",
     "ABOUT_US": "About Us",
     "TERMS_CONDITIONS": "Terms & Conditions",
     "CONTACT": "Contact",
@@ -28,6 +31,7 @@
     "SCROLL_DOWN": "Scroll Down",
     "PIECE": "Piece",
     "AND": "And",
+    "UNIT_ML": "ml",
 
     "NORI": "Nori",
     "RICE": "Rice",
