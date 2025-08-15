@@ -35,7 +35,7 @@
       {{ ingredient | transloco }},
       }
       @if ($last && $count > 1) {
-      and {{ ingredient | transloco }}
+      {{ "AND" | transloco }} {{ ingredient | transloco }}
       }
       }
     </p>
