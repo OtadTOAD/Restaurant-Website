@@ -23,12 +23,11 @@
     }
   </div>
 
-  <app-custom-dialog [(visible)]="showDialog" title="{{chosenProduct.name}}">
+  <app-custom-dialog [(visible)]="showDialog" title="{{chosenProduct.name | transloco}}">
     <div class="media">
       <img [src]="chosenProduct.img" [alt]="chosenProduct.name" />
     </div>
 
-    <p>{{chosenProduct.description}}</p>
     <p>
       @for (ingredient of chosenProduct.ingredients; track ingredient) {
       @if (!$last) {
