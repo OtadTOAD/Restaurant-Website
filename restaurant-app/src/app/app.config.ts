@@ -17,7 +17,7 @@ export const appConfig: ApplicationConfig = {
     provideTransloco({
       config: {
         availableLangs: ['en', 'ka', 'rus'],
-        defaultLang: 'en',
+        defaultLang: 'ka',
         // Remove this option if your application doesn't support changing language in runtime.
         reRenderOnLangChange: true,
         prodMode: !isDevMode(),

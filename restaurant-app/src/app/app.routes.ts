@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { ExtraOptions, Routes } from '@angular/router';
 import { Landing } from './components/landing/landing';
 import { Error } from './components/error/error';
 import { Products } from './components/products/products';

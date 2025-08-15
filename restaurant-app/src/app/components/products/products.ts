@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/products';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { ProductService } from '../../services/product-service';
 import { CommonModule, CurrencyPipe } from '@angular/common';
 import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS } from '../../config/config';
@@ -22,9 +22,7 @@ export class Products implements OnInit {
   productTypes: ProductType[] = PRODUCT_TYPE_OPTIONS;
   products!: Product[];
 
-  constructor(private productService: ProductService, private route: ActivatedRoute) {
-
-  }
+  constructor(private productService: ProductService, private route: ActivatedRoute, private router: Router) {}
 
 
   ngOnInit(): void {

@@ -18,14 +18,15 @@
     <nav #hamburgerNav id="menu" class="hamburger-nav" role="menu" [class.open-hamburger-nav]="hamburgerOpen">
       <ul class="hamburger-list">
         <li>
-          <button class="menu-btn" routerLink="/contact_us">{{ "LANDING" | transloco }}</button>
+          <button class="menu-btn" routerLink=""><i class="fa-solid fa-house"></i> {{ "LANDING" | transloco }}</button>
         </li>
         <li>
-          <button class="menu-btn" routerLink="/about_us">{{ "ABOUT_US" | transloco }}</button>
+          <button class="menu-btn" routerLink="/about_us"><i class="fa-solid fa-info-circle"></i> {{ "ABOUT_US" |
+            transloco }}</button>
         </li>
         <li>
           <button #langBtn class="menu-btn" (click)="toggleDropdown()">
-            {{ "LANGUAGE" | transloco }} ▾
+            <i class="fa-solid fa-language"></i> {{ "LANGUAGE" | transloco }} ▾
           </button>
         </li>
         <li class="divider" aria-hidden="true"></li>
@@ -34,12 +35,15 @@
   </div>
   }@else {
   <div class="menu-item menu-bar" style="padding: 1rem;">
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="">{{ "LANDING" | transloco
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink=""><i class="fa-solid fa-house"></i> {{ "LANDING"
+      | transloco
       }}</button>
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us"><i
+        class="fa-solid fa-info-circle"></i> {{ "ABOUT_US" | transloco
       }}</button>
 
-    <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
+    <button #langBtn class="menu-btn" (click)="toggleDropdown()"><i class="fa-solid fa-language"></i> {{ "LANGUAGE" |
+      transloco }} ▾</button>
   </div>
   }
 
