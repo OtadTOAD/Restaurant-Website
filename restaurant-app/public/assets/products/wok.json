@@ -12,8 +12,7 @@
       "UDON",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "ლაფშა ქათმით"
+    ]
   },
   {
     "img": "",
@@ -28,8 +27,7 @@
       "UDON",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "ლაფშა საქონლით"
+    ]
   },
   {
     "img": "",
@@ -44,8 +42,7 @@
       "UDON",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "ლაფშა კრევეტებით"
+    ]
   },
   {
     "img": "",
@@ -60,8 +57,7 @@
       "UDON",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "ლაფშა ზღვის პროდუქტების მიქსით"
+    ]
   },
   {
     "img": "",
@@ -76,8 +72,7 @@
       "UDON",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "ლაფშა ხრაშუნა ქათმით"
+    ]
   },
   {
     "img": "",
@@ -92,8 +87,7 @@
       "BUCKWHEAT_UDON",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "წიწიბურას ლაფშა ქათმით"
+    ]
   },
   {
     "img": "",
@@ -108,8 +102,7 @@
       "BUCKWHEAT_NOODLES",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "წიწიბურას ლაფშა საქონლით"
+    ]
   },
   {
     "img": "",
@@ -124,8 +117,7 @@
       "BUCKWHEAT_NOODLES",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "წიწიბურას ლაფშა კრევეტებით"
+    ]
   },
   {
     "img": "",
@@ -140,8 +132,7 @@
       "BUCKWHEAT_NOODLES",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "წიწიბურას ლაფშა ზღვის პროდუქტების მიქსით"
+    ]
   },
   {
     "img": "",
@@ -156,7 +147,6 @@
       "BUCKWHEAT_NOODLES",
       "SESAME_PEANUT",
       "GREEN_ONION"
-    ],
-    "description": "წიწიბურას ლაფშა ხრაშუნა ქათმით"
+    ]
   }
 ]

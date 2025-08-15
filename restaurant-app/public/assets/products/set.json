@@ -3,192 +3,179 @@
     "img": "",
     "name": "SET_PREMIUM",
     "pieceAmount": 32,
-    "price": 105.9,
+    "price": 105.90,
     "ingredients": [
-      "ROLL_PHILADELPHIA",
-      "Shrimp Roll - 8 pieces",
-      "ROLL_TUNA_ROLL",
-      "ROLL_EEL_ROLL"
-    ],
-    "description": "პრემიუმ სეტი"
+      "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
+      "SET_INGREDIENT_SHRIMP_ROLL_8_PIECES",
+      "SET_INGREDIENT_TUNA_ROLL_8_PIECES",
+      "SET_INGREDIENT_UNAGI_ROLL_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_SAKE",
     "pieceAmount": 24,
-    "price": 78.9,
+    "price": 78.90,
     "ingredients": [
-      "ROLL_PHILADELPHIA",
-      "ROLL_HOT_SALMON",
-      "Tataki Salmon - 8 pieces"
-    ],
-    "description": "საკე სეტი"
+      "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
+      "SET_INGREDIENT_HOT_SALMON_8_PIECES",
+      "SET_INGREDIENT_TATAKI_SALMON_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_SMILE",
     "pieceAmount": 16,
-    "price": 47.9,
+    "price": 47.90,
     "ingredients": [
-      "California with Crab - 8 pieces",
-      "ROLL_SALMON_SESAME"
-    ],
-    "description": "სმაილ სეტი"
+      "SET_INGREDIENT_CALIFORNIA_WITH_CRAB_8_PIECES",
+      "SET_INGREDIENT_SALMON_WITH_SESAME_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_SALMON",
     "pieceAmount": 32,
-    "price": 85.9,
+    "price": 85.90,
     "ingredients": [
-      "ROLL_PHILADELPHIA",
-      "ROLL_SALMON_SESAME",
-      "Philadelphia Takuan - 8 pieces",
-      "MAKI_SALMON"
-    ],
-    "description": "ორაგულის სეტი"
+      "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
+      "SET_INGREDIENT_SALMON_IN_SESAME_8_PIECES",
+      "SET_INGREDIENT_PHILADELPHIA_TAKUAN_8_PIECES",
+      "SET_INGREDIENT_SALMON_MAKI_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_MAKI",
     "pieceAmount": 40,
-    "price": 44.9,
+    "price": 44.90,
     "ingredients": [
-      "MAKI_CUCUMBER",
-      "MAKI_SALMON",
-      "Tuna and Cucumber Maki - 8 pieces",
-      "Shrimp and Takuan - 8 pieces",
-      "MAKI_EEL"
-    ],
-    "description": "მაკი სეტი"
+      "SET_INGREDIENT_CUCUMBER_MAKI_8_PIECES",
+      "SET_INGREDIENT_SALMON_MAKI_8_PIECES",
+      "SET_INGREDIENT_TUNA_AND_CUCUMBER_MAKI_8_PIECES",
+      "SET_INGREDIENT_SHRIMP_AND_TAKUAN_8_PIECES",
+      "SET_INGREDIENT_UNAGI_MAKI_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_FAMILY",
     "pieceAmount": 40,
-    "price": 129.9,
+    "price": 129.90,
     "ingredients": [
-      "ROLL_EEL_ROLL",
-      "ROLL_PHILADELPHIA",
-      "Cheddar Roll - 8 pieces",
-      "ROLL_SALMON_SESAME",
-      "Tuna Paper Roll - 8 pieces"
-    ],
-    "description": "ფემილი სეტი"
+      "SET_INGREDIENT_UNAGI_ROLL_8_PIECES",
+      "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
+      "SET_INGREDIENT_CHEDDAR_ROLL_8_PIECES",
+      "SET_INGREDIENT_SALMON_WITH_SESAME_8_PIECES",
+      "SET_INGREDIENT_TUNA_PAPER_ROLL_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_SENSEI",
     "pieceAmount": 28,
-    "price": 83.9,
+    "price": 83.90,
     "ingredients": [
-      "ROLL_PHILADELPHIA",
-      "ROLL_TUNA_ROLL",
-      "Shrimp Roll - 4 pieces",
-      "ROLL_EEL_ROLL",
-      "Gunkan with spicy salmon and cream cheese - 2 pieces",
-      "Gunkan with salmon and cream cheese - 2 pieces"
-    ],
-    "description": "სენსეი სეტი"
+      "SET_INGREDIENT_PHILADELPHIA_4_PIECES",
+      "SET_INGREDIENT_TUNA_ROLL_4_PIECES",
+      "SET_INGREDIENT_SHRIMP_ROLL_4_PIECES",
+      "SET_INGREDIENT_UNAGI_ROLL_4_PIECES",
+      "SET_INGREDIENT_GUNKAN_SPICY_SALMON_CHEESE_2_PIECES",
+      "SET_INGREDIENT_GUNKAN_SALMON_CHEESE_2_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_YOUR",
     "pieceAmount": 30,
-    "price": 89.9,
+    "price": 89.90,
     "ingredients": [
-      "ROLL_GREEN_DRAGON",
-      "Salmon and Cheese Roll - 8 pieces",
-      "SUSHI_EEL_NIGIRI",
-      "Fried Chicken Gunkan - 2 pieces"
-    ],
-    "description": "თქვენი სეტი"
+      "SET_INGREDIENT_GREEN_DRAGON_UNAGI_8_PIECES",
+      "SET_INGREDIENT_SALMON_CHEESE_ROLL_8_PIECES",
+      "SET_INGREDIENT_UNAGI_NIGIRI_2_PIECES",
+      "SET_INGREDIENT_FRIED_CHICKEN_GUNKAN_2_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_FRIEND",
     "pieceAmount": 42,
-    "price": 115.9,
+    "price": 115.90,
     "ingredients": [
-      "California with Crab - 8 pieces",
-      "Chicken Roll with Sesame - 8 pieces",
-      "Shrimp Roll - 8 pieces",
-      "ROLL_SALMON_SESAME",
-      "Shrimp and Takuan Maki - 8 pieces",
-      "SUSHI_SHRIMP_NIGIRI"
-    ],
-    "description": "ფრენდ სეტი"
+      "SET_INGREDIENT_CALIFORNIA_WITH_CRAB_8_PIECES",
+      "SET_INGREDIENT_CHICKEN_ROLL_SESAME_8_PIECES",
+      "SET_INGREDIENT_SHRIMP_ROLL_8_PIECES",
+      "SET_INGREDIENT_SALMON_ROLL_IN_SESAME_8_PIECES",
+      "SET_INGREDIENT_SHRIMP_TAKUAN_MAKI_8_PIECES",
+      "SET_INGREDIENT_NIGIRI_WITH_SHRIMP_2_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_VEGGIE",
     "pieceAmount": 32,
-    "price": 49.9,
+    "price": 49.90,
     "ingredients": [
-      "Cheddar Roll - 8 pieces",
-      "ROLL_GREEN_DRAGON",
-      "Vegetable Roll - 8 pieces",
-      "MAKI_CUCUMBER"
-    ],
-    "description": "ვეჯი სეტი"
+      "SET_INGREDIENT_CHEDDAR_ROLL_8_PIECES",
+      "SET_INGREDIENT_GREEN_DRAGON_8_PIECES",
+      "SET_INGREDIENT_VEGETABLE_ROLL_8_PIECES",
+      "SET_INGREDIENT_CUCUMBER_MAKI_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_PHILADELPHIA",
     "pieceAmount": 48,
-    "price": 119.9,
+    "price": 119.90,
     "ingredients": [
-      "ROLL_PHILADELPHIA",
-      "Tataki Philadelphia - 8 pieces",
-      "ROLL_SALMON_SESAME",
-      "MAKI_SALMON",
-      "MAKI_CUCUMBER_SALMON:"
-    ],
-    "description": "ფილადელფია სეტი"
+      "SET_INGREDIENT_PHILADELPHIA_16_PIECES",
+      "SET_INGREDIENT_TATAKI_PHILADELPHIA_8_PIECES",
+      "SET_INGREDIENT_SALMON_IN_SESAME_8_PIECES",
+      "SET_INGREDIENT_SALMON_MAKI_8_PIECES",
+      "SET_INGREDIENT_CUCUMBER_AND_SALMON_MAKI_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_SAKURA",
     "pieceAmount": 24,
-    "price": 50.9,
+    "price": 50.90,
     "ingredients": [
-      "California with Crab - 8 pieces",
-      "Cheese Roll with Salmon - 8 pieces",
-      "Mak Roll with Salmon - 8 pieces"
-    ],
-    "description": "საკურას სეტი"
+      "SET_INGREDIENT_CALIFORNIA_WITH_CRAB_8_PIECES",
+      "SET_INGREDIENT_CHEESE_ROLL_WITH_SALMON_8_PIECES",
+      "SET_INGREDIENT_MAK_ROLL_WITH_SALMON_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_ROLL_BOX",
     "pieceAmount": 24,
-    "price": 79.9,
+    "price": 79.90,
     "ingredients": [
-      "California - 8 pieces",
-      "ROLL_SWEET_CHILI_SALMON",
-      "ROLL_PHILADELPHIA",
-      "Cheddar Roll - 4 pieces"
-    ],
-    "description": "როლი ბოქსი"
+      "SET_INGREDIENT_CALIFORNIA_8_PIECES",
+      "SET_INGREDIENT_SWEET_SPICY_SALMON_ROLL_8_PIECES",
+      "SET_INGREDIENT_PHILADELPHIA_4_PIECES",
+      "SET_INGREDIENT_CHEDDAR_ROLL_4_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_HOT",
     "pieceAmount": 24,
-    "price": 72.9,
+    "price": 72.90,
     "ingredients": [
-      "ROLL_HOT_SHRIMP",
-      "ROLL_HOT_CRAB",
-      "ROLL_HOT_SALMON"
-    ],
-    "description": "ცხელი სეტი"
+      "SET_INGREDIENT_HOT_ROLL_SHRIMP_8_PIECES",
+      "SET_INGREDIENT_HOT_ROLL_CRAB_8_PIECES",
+      "SET_INGREDIENT_HOT_ROLL_SALMON_8_PIECES"
+    ]
   },
   {
     "img": "",
     "name": "SET_SECRET",
     "pieceAmount": 0,
-    "price": 99.9,
-    "ingredients": [],
-    "description": "If you order the Secret Set, our chef will choose the right set for you."
+    "price": 99.90,
+    "ingredients": [
+      "SET_SECRET_DESCR"
+    ]
   }
 ]

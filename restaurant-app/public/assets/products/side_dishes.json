@@ -7,8 +7,7 @@
     "ingredients": [
       "POTATOES",
       "SWEET_CHILI_SAUCE"
-    ],
-    "description": "ფრი"
+    ]
   },
   {
     "img": "",
@@ -19,8 +18,7 @@
       "SHRIMP",
       "TEMPURA_FRIED",
       "SWEET_CHILI_SAUCE"
-    ],
-    "description": "კრევეტი ტემპურაში"
+    ]
   },
   {
     "img": "",
@@ -30,8 +28,7 @@
     "ingredients": [
       "CHICKEN",
       "SPICE_SAUCE"
-    ],
-    "description": "ქათმის ნაგეთსი"
+    ]
   },
   {
     "img": "",
@@ -41,8 +38,7 @@
     "ingredients": [
       "RICE",
       "SESAME"
-    ],
-    "description": "ბრინჯის ბურთულები"
+    ]
   },
   {
     "img": "",
@@ -52,7 +48,6 @@
     "ingredients": [
       "ONION",
       "SWEET_CHILI_SAUCE"
-    ],
-    "description": "ხახვის რგოლები"
+    ]
   }
 ]
