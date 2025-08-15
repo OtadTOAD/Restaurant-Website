@@ -1,6 +1,6 @@
 import { TranslocoService, TranslocoPipe } from '@ngneat/transloco';
 import { RouterLink } from '@angular/router';
-import { Component, ElementRef, ViewChild, HostListener, AfterViewChecked } from '@angular/core';
+import { Component, ElementRef, ViewChild, HostListener, AfterViewChecked, OnInit } from '@angular/core';
 import { CommonModule, NgStyle } from '@angular/common';
 import { combineLatest } from 'rxjs';
 
@@ -10,7 +10,7 @@ import { combineLatest } from 'rxjs';
   templateUrl: './header.html',
   styleUrl: './header.css'
 })
-export class Header {
+export class Header implements OnInit {
   hamburgerOpen = false;
   hamburgerEnabled = false;
   @ViewChild('langBtn', { read: ElementRef }) langBtn!: ElementRef<HTMLButtonElement>;
@@ -18,10 +18,7 @@ export class Header {
   dropdownPos = { top: 0, left: 0, width: 0 };
   dropdownOpen = false;
 
-
   constructor(private translocoService: TranslocoService) {}
-
-
 
   toggleDropdown() {
     this.dropdownOpen = !this.dropdownOpen;
@@ -29,10 +26,21 @@ export class Header {
       this.updateDropdownPosition();
     }
   }
+  
+  private checkWindowSize() {
+    if (this.dropdownOpen) {
+      this.updateDropdownPosition();
+    }
+    this.hamburgerEnabled = window.innerWidth <= 770;
+  }
+
+  ngOnInit(): void {
+    this.checkWindowSize()
+  }
 
   updateDropdownPosition() {
-    const rect = this.langBtn.nativeElement.getBoundingClientRect();
-    console.log("HERE", rect);
+    let rect = this.langBtn.nativeElement.getBoundingClientRect();
+
     this.dropdownPos = {
       top: rect.bottom + window.scrollY,
       left: rect.left + window.scrollX,
@@ -52,14 +60,9 @@ export class Header {
       this.dropdownOpen = false;
     }
   }
-  @HostListener('window:resize', ['$event'])
-  onResize(event: Event) {
-    if (this.dropdownOpen) {
-      this.updateDropdownPosition();
-    }
-    this.hamburgerOpen = window.innerWidth > 770;
-    if (this.hamburgerOpen) {
-    }
+  @HostListener('window:resize')
+  onResize() {
+    this.checkWindowSize()
   }
 
   setLang(lang: string) {

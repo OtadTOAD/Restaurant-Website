@@ -4,14 +4,7 @@
     <h1 class="header-text"> {{ "TITLE" | transloco }} </h1>
   </div>
 
-  <div class="menu-item menu-bar" style="padding: 1rem;">
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="">{{ "LANDING" | transloco
-      }}</button>
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
-      }}</button>
-
-    <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
-  </div>
+  @if (hamburgerEnabled) {
   <div #hamburgerMenu class="hamburger-menu">
     <button #hamburger class="hamburger" aria-label="Open menu" aria-controls="main-menu" aria-expanded="false"
       (click)="handleHamburgerClick()" [ngClass]="hamburgerOpen?'open-hamburger':''">
@@ -31,7 +24,7 @@
           <button class="menu-btn" routerLink="/contact_us">{{ "CONTACT_US" | transloco }}</button>
         </li>
         <li>
-          <button class="menu-btn" (click)="toggleDropdown()">
+          <button #langBtn class="menu-btn" (click)="toggleDropdown()">
             {{ "LANGUAGE" | transloco }} ▾
           </button>
         </li>
@@ -39,6 +32,17 @@
       </ul>
     </nav>
   </div>
+  }@else {
+  <div class="menu-item menu-bar" style="padding: 1rem;">
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="">{{ "LANDING" | transloco
+      }}</button>
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
+      }}</button>
+
+    <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
+  </div>
+  }
+
 </header>
 @if (dropdownOpen) {
 <div class="menu-item dropdown-portal"
