@@ -1,11 +1,12 @@
 <nav class="type-nav">
-  <div class="menu-item" style="padding: 0px; width: 100%; justify-content: space-evenly; display: flex;">
+  <div class="menu-item">
     <ul class="type-list">
       @for (type of types; track type.label) {
-      <li>
-        <button style="margin: 0.25rem;" class="menu-btn" [routerLink]="['/products', type.slug]"
-          routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-          {{ type.icon }} {{ type.label | transloco }}
+      <li class="type-item">
+        <button class="menu-btn" [routerLink]="['/products', type.slug]" routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }" [title]="type.label | transloco">
+          <span class="btn-icon">{{ type.icon }}</span>
+          <span class="btn-text">{{ type.label | transloco }}</span>
         </button>
       </li>
       }
