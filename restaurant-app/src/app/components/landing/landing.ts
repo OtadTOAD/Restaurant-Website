@@ -24,20 +24,27 @@ export class Landing implements AfterViewInit {
       rootMargin: '0px 0px -50px 0px'
     };
 
-    const observer = new IntersectionObserver((entries) => {
+    const elementObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate');
-        } else {
-          // Add this back in if you want animations to fade out when you stop looking at it during landing
-          // entry.target.classList.remove('animate');
         }
       });
     }, observerOptions);
 
-    const animatedElements = document.querySelectorAll(
+    const gridObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const items = entry.target.querySelectorAll('.menu-item');
+          items.forEach(item => item.classList.add('animate'));
+          gridObserver.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll(
       '.fade-in-up, .fade-in-left, .fade-in-right, .scale-in'
-    );
-    animatedElements.forEach(el => observer.observe(el));
+    ).forEach(el => elementObserver.observe(el));
+    document.querySelectorAll('.menu-grid').forEach(grid => gridObserver.observe(grid));
   }
 }
