@@ -3,7 +3,7 @@
     "img": "",
     "name": "SOUP_TOM_YUM_CHICKEN",
     "pieceAmount": 1,
-    "price": 0,
+    "price": 24.00,
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
@@ -14,14 +14,13 @@
       "LEMON_LIME",
 
       "CHICKEN"
-    ],
-    "description": "ტომი იამი ქათმით"
+    ]
   },
   {
     "img": "",
     "name": "SOUP_TOM_YUM_SHRIMP",
     "pieceAmount": 1,
-    "price": 0,
+    "price": 27.00,
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
@@ -32,14 +31,13 @@
       "LEMON_LIME",
 
       "SHRIMP"
-    ],
-    "description": "ტომი იამი კრევეტებით"
+    ]
   },
   {
     "img": "",
     "name": "SOUP_TOM_YUM_SEAFOOD_MIX",
     "pieceAmount": 1,
-    "price": 0,
+    "price": 27.00,
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
@@ -50,7 +48,6 @@
       "LEMON_LIME",
 
       "SEAFOOD_MIX"
-    ],
-    "description": "ტომი იამი ზღვის პროდუქტების მიქსით"
+    ]
   }
 ]

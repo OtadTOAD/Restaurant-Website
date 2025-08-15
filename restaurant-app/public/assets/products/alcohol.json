@@ -4,87 +4,76 @@
     "name": "WINE_RKATSITELI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
-    "ingredients": [],
-    "description": "რქაწითელი 1 ბოთლი"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_RKATSITELI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
-    "ingredients": [],
-    "description": "რქაწითელი 250მლ"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_QISI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
-    "ingredients": [],
-    "description": "ქისი 1 ბოთლი"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_QISI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
-    "ingredients": [],
-    "description": "ქისი 250 მლ"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_KHIKHVI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
-    "ingredients": [],
-    "description": "ხიხვი 1 ბოთლი"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_KHIKHVI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
-    "ingredients": [],
-    "description": "ხიხვი 250 მლ"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_SAPERAVI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
-    "ingredients": [],
-    "description": "საფერავი 1 ბოთლი"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "WINE_SAPERAVI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
-    "ingredients": [],
-    "description": "საფერავი 250 მლ"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "BEER_CORONA",
     "pieceAmount": 1,
     "price": 7.00,
-    "ingredients": [],
-    "description": "კორონა შუშის 0.355"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "BEER_HEINEKEN",
     "pieceAmount": 1,
     "price": 7.00,
-    "ingredients": [],
-    "description": "ჰეინეკენი შუშის 0.330"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "BEER_BAVARIA",
     "pieceAmount": 1,
     "price": 7.90,
-    "ingredients": [],
-    "description": "ბავარია შუშის 0.500"
+    "ingredients": []
   }
 ]

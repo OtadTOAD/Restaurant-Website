@@ -7,8 +7,7 @@
     "ingredients": [
       "RICE",
       "SALMON"
-    ],
-    "description": "ორაგულის ნიგირი"
+    ]
   },
   {
     "img": "",
@@ -19,8 +18,7 @@
       "RICE",
       "EEL",
       "SESAME_UNAGI_SAUCE"
-    ],
-    "description": "გველთევზას ნიგირი"
+    ]
   },
   {
     "img": "",
@@ -30,8 +28,7 @@
     "ingredients": [
       "RICE",
       "TUNA"
-    ],
-    "description": "თინუსის ნიგირი"
+    ]
   },
   {
     "img": "",
@@ -41,8 +38,7 @@
     "ingredients": [
       "RICE",
       "SHRIMP"
-    ],
-    "description": "კრევეტი"
+    ]
   },
   {
     "img": "",
@@ -54,8 +50,7 @@
       "NORI",
       "SALMON",
       "SWEET_CHILI_SAUCE"
-    ],
-    "description": "გუნკანი ორაგულით"
+    ]
   },
   {
     "img": "",
@@ -67,8 +62,7 @@
       "NORI",
       "EEL",
       "SESAME_UNAGI_SAUCE"
-    ],
-    "description": "გუნკანი გველთევზათი"
+    ]
   },
   {
     "img": "",
@@ -80,8 +74,7 @@
       "NORI",
       "TUNA",
       "KIMCHI_SAUCE"
-    ],
-    "description": "გუნკანი თინუსით"
+    ]
   },
   {
     "img": "",
@@ -93,7 +86,6 @@
       "NORI",
       "SHRIMP",
       "SWEET_CHILI_SAUCE"
-    ],
-    "description": "გუნკანი კრევეტით"
+    ]
   }
 ]

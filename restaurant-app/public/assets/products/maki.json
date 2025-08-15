@@ -8,8 +8,7 @@
       "NORI",
       "RICE",
       "SALMON"
-    ],
-    "description": "ორაგულის მაკი (8 ნაჭრიანი)"
+    ]
   },
   {
     "img": "",
@@ -21,8 +20,7 @@
       "RICE",
       "CUCUMBER",
       "SESAME"
-    ],
-    "description": "კიტრის მაკი (8 ნაჭრიანი)"
+    ]
   },
   {
     "img": "",
@@ -34,8 +32,7 @@
       "RICE",
       "CUCUMBER",
       "SALMON"
-    ],
-    "description": "კიტრის და ორაგულის მაკი ( 8 ნაჭრიანი)"
+    ]
   },
   {
     "img": "",
@@ -47,7 +44,6 @@
       "RICE",
       "EEL",
       "SESAME_UNAGI_SAUCE"
-    ],
-    "description": "გველთევზას მაკი (8 ნაჭრიანი)"
+    ]
   }
 ]

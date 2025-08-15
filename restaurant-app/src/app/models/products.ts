@@ -5,5 +5,4 @@ export interface Product {
   pieceMl?: number;
   price: number;
   ingredients: string[];
-  description: string
 }

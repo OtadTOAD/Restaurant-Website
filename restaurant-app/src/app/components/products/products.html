@@ -17,6 +17,8 @@
             {{ product.pieceAmount }} {{ "PIECE" | transloco }}
             } @else if (product.pieceMl) {
             {{ product.pieceMl }}{{ "UNIT_ML" | transloco }}
+            } @else {
+            ???
             }
           </div>
         </div>
@@ -36,12 +38,15 @@
 
     <p>
       @for (ingredient of chosenProduct.ingredients; track ingredient) {
+
       @if (!$last) {
       {{ ingredient | transloco }},
-      }
-      @if ($last && $count > 1) {
+      } @else if ($last && $count > 1) {
       {{ "AND" | transloco }} {{ ingredient | transloco }}
+      } @else {
+      {{ ingredient | transloco }}
       }
+
       }
     </p>
   </app-custom-dialog>

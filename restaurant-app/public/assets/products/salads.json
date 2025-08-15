@@ -4,15 +4,13 @@
     "name": "SALAD_HIYASHI",
     "pieceAmount": 1,
     "price": 14.90,
-    "ingredients": ["HIYASHI", "SPICE", "CUCUMBER", "SESAME"],
-    "description": "ჰიაშის სალათი"
+    "ingredients": ["HIYASHI", "SPICE", "CUCUMBER", "SESAME"]
   }, 
   {
     "img": "",
     "name": "SALAD_GRILLED_VEGETABLES",
     "pieceAmount": 1,
     "price": 13.00,
-    "ingredients": ["CARROT", "ZUCCHINI", "BROCCOLI", "MUSHROOM", "BELL PEPPER", "CHERRY_TOMATOES"],
-    "description": "ბოსტნეული გრილზე"
+    "ingredients": ["CARROT", "ZUCCHINI", "BROCCOLI", "MUSHROOM", "BELL PEPPER", "CHERRY_TOMATOES"]
   }
 ]

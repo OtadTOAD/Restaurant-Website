@@ -13,8 +13,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი ორაგულით"
+    ]
   },
   {
     "img": "",
@@ -30,8 +29,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი გველთევზით"
+    ]
   },
   {
     "img": "",
@@ -48,8 +46,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი კრევეტით"
+    ]
   },
   {
     "img": "",
@@ -66,8 +63,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი თინუსით"
+    ]
   },
   {
     "img": "",
@@ -84,8 +80,7 @@
       "CUCUMBER",
       "TEMPURA_FRIED",
       "SPICE_SAUCE_UNAGI_SAUCE_PEANUT"
-    ],
-    "description": "სენსეი ბურგერი"
+    ]
   },
   {
     "img": "",
@@ -101,8 +96,7 @@
       "CUCUMBER",
       "TEMPURA_FRIED",
       "SPICE_SAUCE_UNAGI_SAUCE"
-    ],
-    "description": "ქათმის ბურგერი"
+    ]
   },
   {
     "img": "",
@@ -119,8 +113,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი ორაგულით + ხიზილალა"
+    ]
   },
   {
     "img": "",
@@ -137,8 +130,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი გველთევზით + ხიზილალა"
+    ]
   },
   {
     "img": "",
@@ -156,8 +148,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი კრევეტით + ხიზილალა"
+    ]
   },
   {
     "img": "",
@@ -175,8 +166,7 @@
       "TEMPURA_FRIED",
       "SPICE_UNAGI_SAUCE_SWEET_CHILI",
       "TOBIKO"
-    ],
-    "description": "ბურგერი თინუსით + ხიზილალა"
+    ]
   },
   {
     "img": "",
@@ -191,8 +181,7 @@
       "COOKED SHRIMP",
       "SPICE_SAUCE_UNAGI_SAUCE_CHILI_SAUCE",
       "TEMPURA_FRIED"
-    ],
-    "description": "ბურიტო კრევეტით"
+    ]
   },
   {
     "img": "",
@@ -207,8 +196,7 @@
       "CRAB",
       "SPICE_SAUCE_UNAGI_SAUCE_CHILI_SAUCE",
       "TEMPURA_FRIED"
-    ],
-    "description": "ბურიტო კრაბი"
+    ]
   },
   {
     "img": "",
@@ -223,8 +211,7 @@
       "EEL",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
       "TEMPURA_FRIED"
-    ],
-    "description": "ბურიტო გველთევზა"
+    ]
   },
   {
     "img": "",
@@ -239,7 +226,6 @@
       "SALMON",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
       "TEMPURA_FRIED"
-    ],
-    "description": "ბურიტო ორაგული"
+    ]
   }
 ]

@@ -11,8 +11,7 @@
       "CUCUMBER",
       "SALMON",
       "AVOCADO"
-    ],
-    "description": "ფილადელფია"
+    ]
   },
   {
     "img": "",
@@ -27,8 +26,7 @@
       "EEL",
       "UNAGI_SAUCE",
       "SESAME_SEEDS"
-    ],
-    "description": "გველთევზას როლი"
+    ]
   },
   {
     "img": "",
@@ -44,8 +42,7 @@
       "AVOCADO_TOP",
       "UNAGI_SAUCE",
       "SESAME"
-    ],
-    "description": "მწვანე დრაკონი"
+    ]
   },
   {
     "img": "",
@@ -60,8 +57,7 @@
       "TUNA",
       "SRIRACHA_SAUCE",
       "SESAME"
-    ],
-    "description": "თინუსის როლი"
+    ]
   },
   {
     "img": "",
@@ -75,8 +71,7 @@
       "SALMON",
       "AVOCADO",
       "EEL_TOP"
-    ],
-    "description": "შავი დრაკონი"
+    ]
   },
   {
     "img": "",
@@ -90,8 +85,7 @@
       "SALMON",
       "CREAM_CHEESE",
       "BLACK_SESAME_TOP"
-    ],
-    "description": "ორაგული სეზამში"
+    ]
   },
   {
     "img": "",
@@ -108,8 +102,7 @@
       "TUNA",
       "EEL",
       "SALMON"
-    ],
-    "description": "შერეული როლი"
+    ]
   },
   {
     "img": "",
@@ -124,8 +117,7 @@
       "SHRIMP",
       "SALMON_TOP",
       "SWEET_CHILI_SAUCE_PEANUT"
-    ],
-    "description": "ფილადელფია კრევეტით"
+    ]
   },
   {
     "img": "",
@@ -139,8 +131,7 @@
       "SALMON",
       "CUCUMBER",
       "RED_TOBICO_THREE_SIDES"
-    ],
-    "description": "კალიფორინია ორაგულით"
+    ]
   },
   {
     "img": "",
@@ -154,8 +145,7 @@
       "CUCUMBER",
       "CRAB_SIGNATURE_SAUCE",
       "UNAGI_SAUCE"
-    ],
-    "description": "კრაბის მაკ - როლი"
+    ]
   },
   {
     "img": "",
@@ -169,8 +159,7 @@
       "CUCUMBER",
       "SALMON_TOP_SPICY_SAUCE",
       "HIYASHI_BLACK_SESAME"
-    ],
-    "description": "ცხარე ორაგული"
+    ]
   },
   {
     "img": "",
@@ -183,8 +172,7 @@
       "CREAM_CHEESE",
       "CUCUMBER",
       "SALMON_TOP_SWEET_CHILI_SAUCE"
-    ],
-    "description": "ტკბილ-ცხარე ორაგული"
+    ]
   },
   {
     "img": "",
@@ -200,8 +188,7 @@
       "RED_TOBICO",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
       "PANKO_FRIED"
-    ],
-    "description": "ცხელი როლი ორაგულით"
+    ]
   },
   {
     "img": "",
@@ -217,8 +204,7 @@
       "RED_TOBICO",
       "PANKO_FRIED",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ],
-    "description": "ცხელი როლი გველთევზათი"
+    ]
   },
   {
     "img": "",
@@ -234,8 +220,7 @@
       "RED_TOBICO",
       "PANKO_FRIED",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ],
-    "description": "ცხელი როლი თინუსით"
+    ]
   },
   {
     "img": "",
@@ -251,8 +236,7 @@
       "RED_TOBICO",
       "PANKO_FRIED",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ],
-    "description": "ცხელი როლი კრაბით"
+    ]
   },
   {
     "img": "",
@@ -268,7 +252,6 @@
       "RED_TOBICO",
       "PANKO_FRIED",
       "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ],
-    "description": "ცხელი როლი კრევეტით"
+    ]
   }
 ]

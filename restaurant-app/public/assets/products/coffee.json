@@ -4,39 +4,34 @@
     "name": "COFFEE_ICED_WITH_ICE_CREAM",
     "pieceAmount": 1,
     "price": 12.90,
-    "ingredients": [],
-    "description": "ცივი ყავა ნაყინით"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "COFFEE_AMERICANO",
     "pieceAmount": 1,
     "price": 4.90,
-    "ingredients": [],
-    "description": "ამერიკანო"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "COFFEE_CAPPUCCINO",
     "pieceAmount": 1,
     "price": 5.90,
-    "ingredients": [],
-    "description": "კაპუჩინო"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "COFFEE_LATTE",
     "pieceAmount": 1,
     "price": 7.90,
-    "ingredients": [],
-    "description": "ლატე"
+    "ingredients": []
   },
   {
     "img": "",
     "name": "COFFEE_TURKISH",
     "pieceAmount": 1,
     "price": 3.90,
-    "ingredients": [],
-    "description": "თურქული"
+    "ingredients": []
   }
 ]

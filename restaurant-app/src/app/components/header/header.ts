@@ -17,14 +17,10 @@ export class Header {
 
   dropdownPos = { top: 0, left: 0, width: 0 };
   dropdownOpen = false;
-  constructor(private translocoService: TranslocoService) {
-    combineLatest([
-      this.translocoService.selectTranslate('ABOUT_US'),
-      this.translocoService.selectTranslate('CONTACT_US'),
-      this.translocoService.selectTranslate('LANGUAGE')
-    ]).subscribe(([aboutLabel, contactLabel, langLabel]) => {
-    });
-  }
+
+
+  constructor(private translocoService: TranslocoService) {}
+
 
 
   toggleDropdown() {

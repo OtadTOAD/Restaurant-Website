@@ -75,6 +75,8 @@
 .product-card .pieces {
   font-size: 0.9rem;
   font-weight: 1000;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
   color: white;
   padding: 4px;
   opacity: 0.7;
