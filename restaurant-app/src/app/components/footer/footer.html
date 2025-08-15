@@ -5,9 +5,13 @@
                 <h3>{{ "NAVIGATION" | transloco }}</h3>
 
                 <div class="list-item-wrapper">
-                    <button class="link_button"> {{ 'ABOUT_US' | transloco }} </button>
-                    <button class="link_button"> {{ 'TERMS_CONDITIONS' | transloco }} </button>
-                    <button class="link_button"> {{ 'CONTACT' | transloco }} </button>
+                    <button class="link_button" routerLink="/about_us"> <i class="fas fa-info-circle"></i> {{ 'ABOUT_US'
+                        | transloco }}
+                    </button>
+                    <button class="link_button"> <i class="fas fa-file-contract"></i> {{ 'TERMS_CONDITIONS' | transloco
+                        }} </button>
+                    <button class="link_button" routerLink="/contact_us"> <i class="fas fa-envelope"></i> {{ 'CONTACT' |
+                        transloco }} </button>
                 </div>
             </div>
         </div>
@@ -50,9 +54,14 @@
                 <h3>{{ "CONTACT_US" | transloco }}</h3>
 
                 <div class="list-item-wrapper">
-                    <button class="link_button" routerLink="/products/sushi"> +995 123 45 67 89 </button>
-                    <button class="link_button" routerLink="/products/sushi"> {{ 'FACEBOOK' | transloco }} </button>
-                    <button class="link_button" routerLink="/products/sushi"> {{ 'INSTAGRAM' | transloco}} </button>
+                    <button class="link_button" routerLink="/products/sushi">
+                        <i class="fas fa-phone"></i>
+                        +995 123 45 67 89
+                    </button>
+                    <button class="link_button" routerLink="/products/sushi"> <i class="fab fa-facebook"></i> {{
+                        'FACEBOOK' | transloco }} </button>
+                    <button class="link_button" routerLink="/products/sushi"> <i class="fab fa-instagram"></i> {{
+                        'INSTAGRAM' | transloco}} </button>
                 </div>
             </div>
         </div>
