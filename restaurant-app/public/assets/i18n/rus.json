@@ -180,5 +180,14 @@
     "SET_SAKURA": "Сет Сакура",
     "SET_ROLL_BOX": "Ролл Бокс",
     "SET_HOT": "Горячий сет",
-    "SET_SECRET": "Секретный сет"
+    "SET_SECRET": "Секретный сет",
+
+    "COLD_DRINK_COCA_COLA_ZERO": "Кока-Кола Зеро",
+    "COLD_DRINK_COCA_COLA_CLASSIC": "Кока-Кола Классик",
+    "COLD_DRINK_FANTA": "Фанта",
+    "COLD_DRINK_SPRITE": "Спрайт",
+    "COLD_DRINK_ICED_TEA": "Холодный чай",
+    "COLD_DRINK_SCHWEPPES": "Швепс",
+    "COLD_DRINK_NATURAL_JUICE": "Натуральный сок",
+    "COLD_DRINK_WATER": "Вода"
 }

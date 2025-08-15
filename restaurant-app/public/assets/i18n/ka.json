@@ -180,5 +180,14 @@
     "SET_SAKURA": "საკურას სეტი",
     "SET_ROLL_BOX": "როლი ბოქსი",
     "SET_HOT": "ცხელი სეტი",
-    "SET_SECRET": "საიდუმლო სეტი"
+    "SET_SECRET": "საიდუმლო სეტი",
+
+    "COLD_DRINK_COCA_COLA_ZERO": "კოკა-კოლა ზერო",
+    "COLD_DRINK_COCA_COLA_CLASSIC": "კოკა-კოლა კლასიკი",
+    "COLD_DRINK_FANTA": "ფანტა",
+    "COLD_DRINK_SPRITE": "სპრაიტი",
+    "COLD_DRINK_ICED_TEA": "ცივი ჩაი",
+    "COLD_DRINK_SCHWEPPES": "შვეპსი",
+    "COLD_DRINK_NATURAL_JUICE": "ნატურალური წვენი",
+    "COLD_DRINK_WATER": "წყალი"
 }

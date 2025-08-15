@@ -180,5 +180,14 @@
     "SET_SAKURA": "Sakura Set",
     "SET_ROLL_BOX": "Roll Box",
     "SET_HOT": "Hot Set",
-    "SET_SECRET": "Secret Set"
+    "SET_SECRET": "Secret Set",
+
+    "COLD_DRINK_COCA_COLA_ZERO": "Coca-Cola Zero",
+    "COLD_DRINK_COCA_COLA_CLASSIC": "Coca-Cola Classic",
+    "COLD_DRINK_FANTA": "Fanta",
+    "COLD_DRINK_SPRITE": "Sprite",
+    "COLD_DRINK_ICED_TEA": "Iced Tea",
+    "COLD_DRINK_SCHWEPPES": "Schweppes",
+    "COLD_DRINK_NATURAL_JUICE": "Natural Juice",
+    "COLD_DRINK_WATER": "Water"
 }
