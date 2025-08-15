@@ -50,7 +50,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 12rem;
+  max-width: 14rem;
   min-height: 2.5rem;
   box-sizing: border-box;
 }
