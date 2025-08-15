@@ -1,7 +1,7 @@
 [
   {
     "img": "",
-    "name": "Philadelphia",
+    "name": "ROLL_PHILADELPHIA",
     "pieceAmount": 8,
     "price": 27.90,
     "ingredients": [
@@ -16,7 +16,7 @@
   },
   {
     "img": "",
-    "name": "Unagi Roll",
+    "name": "ROLL_EEL_ROLL",
     "pieceAmount": 8,
     "price": 28.90,
     "ingredients": [
@@ -24,15 +24,15 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "unagi",
-      "unagi sauce",
+      "EEL",
+      "UNAGI_SAUCE",
       "SESAME_SEEDS"
     ],
     "description": "გველთევზას როლი"
   },
   {
     "img": "",
-    "name": "Green Dragon",
+    "name": "ROLL_GREEN_DRAGON",
     "pieceAmount": 8,
     "price": 28.90,
     "ingredients": [
@@ -40,16 +40,16 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "unagi",
-      "avocado on top",
-      "unagi sauce",
+      "EEL",
+      "AVOCADO_TOP",
+      "UNAGI_SAUCE",
       "SESAME"
     ],
     "description": "მწვანე დრაკონი"
   },
   {
     "img": "",
-    "name": "Tuna Roll",
+    "name": "ROLL_TUNA_ROLL",
     "pieceAmount": 8,
     "price": 28.90,
     "ingredients": [
@@ -58,14 +58,14 @@
       "CREAM_CHEESE",
       "CUCUMBER",
       "TUNA",
-      "sriracha sauce",
+      "SRIRACHA_SAUCE",
       "SESAME"
     ],
     "description": "თინუსის როლი"
   },
   {
     "img": "",
-    "name": "Black Dragon",
+    "name": "ROLL_BLACK_DRAGON",
     "pieceAmount": 8,
     "price": 31.90,
     "ingredients": [
@@ -74,13 +74,13 @@
       "CREAM_CHEESE",
       "SALMON",
       "AVOCADO",
-      "unagi on top"
+      "EEL_TOP"
     ],
     "description": "შავი დრაკონი"
   },
   {
     "img": "",
-    "name": "Salmon in Sesame",
+    "name": "ROLL_SALMON_SESAME",
     "pieceAmount": 8,
     "price": 26.90,
     "ingredients": [
@@ -89,13 +89,13 @@
       "CUCUMBER",
       "SALMON",
       "CREAM_CHEESE",
-      "black sesame on top"
+      "BLACK_SESAME_TOP"
     ],
     "description": "ორაგული სეზამში"
   },
   {
     "img": "",
-    "name": "Mixed Roll",
+    "name": "ROLL_MIXED",
     "pieceAmount": 8,
     "price": 31.90,
     "ingredients": [
@@ -106,14 +106,14 @@
       "AVOCADO",
       "SHRIMP",
       "TUNA",
-      "unagi",
+      "EEL",
       "SALMON"
     ],
     "description": "შერეული როლი"
   },
   {
     "img": "",
-    "name": "Philadelphia with Shrimp",
+    "name": "ROLL_PHILADELPHIA_SHRIMP",
     "pieceAmount": 8,
     "price": 30.90,
     "ingredients": [
@@ -122,14 +122,14 @@
       "CREAM_CHEESE",
       "AVOCADO",
       "SHRIMP",
-      "salmon on top",
-      "sweet chili sauce and peanut"
+      "SALMON_TOP",
+      "SWEET_CHILI_SAUCE_PEANUT"
     ],
     "description": "ფილადელფია კრევეტით"
   },
   {
     "img": "",
-    "name": "California with Salmon",
+    "name": "ROLL_CALIFORNIA_SALMON",
     "pieceAmount": 8,
     "price": 26.90,
     "ingredients": [
@@ -138,13 +138,13 @@
       "CREAM_CHEESE",
       "SALMON",
       "CUCUMBER",
-      "red tobico on three sides"
+      "RED_TOBICO_THREE_SIDES"
     ],
     "description": "კალიფორინია ორაგულით"
   },
   {
     "img": "",
-    "name": "Crab Mak-Roll",
+    "name": "ROLL_CRAB_MAK",
     "pieceAmount": 8,
     "price": 25.90,
     "ingredients": [
@@ -152,14 +152,14 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "crab with signature sauce",
-      "unagi sauce"
+      "CRAB_SIGNATURE_SAUCE",
+      "UNAGI_SAUCE"
     ],
     "description": "კრაბის მაკ - როლი"
   },
   {
     "img": "",
-    "name": "Spicy Salmon",
+    "name": "ROLL_SPICY_SALMON",
     "pieceAmount": 8,
     "price": 29.90,
     "ingredients": [
@@ -167,14 +167,14 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "salmon in spicy sauce on top",
-      "hiyashi and black sesame"
+      "SALMON_TOP_SPICY_SAUCE",
+      "HIYASHI_BLACK_SESAME"
     ],
     "description": "ცხარე ორაგული"
   },
   {
     "img": "",
-    "name": "Sweet Chili Salmon",
+    "name": "ROLL_SWEET_CHILI_SALMON",
     "pieceAmount": 8,
     "price": 29.90,
     "ingredients": [
@@ -182,13 +182,13 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "salmon in sweet chili sauce on top"
+      "SALMON_TOP_SWEET_CHILI_SAUCE"
     ],
     "description": "ტკბილ-ცხარე ორაგული"
   },
   {
     "img": "",
-    "name": "Hot Salmon Roll",
+    "name": "ROLL_HOT_SALMON",
     "pieceAmount": 8,
     "price": 27.90,
     "ingredients": [
@@ -197,15 +197,15 @@
       "CREAM_CHEESE",
       "CUCUMBER",
       "SALMON",
-      "red tobico",
-      "unagi sauce, spice sauce and sweet chili sauce",
-      "fried in panko"
+      "RED_TOBICO",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
+      "PANKO_FRIED"
     ],
     "description": "ცხელი როლი ორაგულით"
   },
   {
     "img": "",
-    "name": "Hot Unagi Roll",
+    "name": "ROLL_HOT_EEL",
     "pieceAmount": 8,
     "price": 27.90,
     "ingredients": [
@@ -213,16 +213,16 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "unagi",
-      "red tobico",
-      "fried in panko",
-      "unagi sauce, spice sauce and sweet chili sauce"
+      "EEL",
+      "RED_TOBICO",
+      "PANKO_FRIED",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
     ],
     "description": "ცხელი როლი გველთევზათი"
   },
   {
     "img": "",
-    "name": "Hot Tuna Roll",
+    "name": "ROLL_HOT_TUNA",
     "pieceAmount": 8,
     "price": 27.90,
     "ingredients": [
@@ -231,15 +231,15 @@
       "CREAM_CHEESE",
       "CUCUMBER",
       "TUNA",
-      "red tobico",
-      "fried in panko",
-      "unagi sauce, spice sauce and sweet chili sauce"
+      "RED_TOBICO",
+      "PANKO_FRIED",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
     ],
     "description": "ცხელი როლი თინუსით"
   },
   {
     "img": "",
-    "name": "Hot Crab Roll",
+    "name": "ROLL_HOT_CRAB",
     "pieceAmount": 8,
     "price": 27.90,
     "ingredients": [
@@ -247,16 +247,16 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "crab",
-      "red tobico",
-      "fried in panko",
-      "unagi sauce, spice sauce and sweet chili sauce"
+      "CRAB",
+      "RED_TOBICO",
+      "PANKO_FRIED",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
     ],
     "description": "ცხელი როლი კრაბით"
   },
   {
     "img": "",
-    "name": "Hot Shrimp Roll",
+    "name": "ROLL_HOT_SHRIMP",
     "pieceAmount": 8,
     "price": 27.90,
     "ingredients": [
@@ -264,112 +264,11 @@
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
-      "3 pieces of shrimp fried in panko",
-      "red tobico",
-      "fried in panko",
-      "unagi sauce, spice sauce and sweet chili sauce"
+      "SHRIMP_PANKO_FRIED",
+      "RED_TOBICO",
+      "PANKO_FRIED",
+      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
     ],
     "description": "ცხელი როლი კრევეტით"
-  },
-  {
-    "img": "",
-    "name": "Salmon Maki",
-    "pieceAmount": 8,
-    "price": 12.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "SALMON"
-    ],
-    "description": "ორაგულის მაკი (8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Cucumber Maki",
-    "pieceAmount": 8,
-    "price": 12.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CUCUMBER",
-      "SESAME"
-    ],
-    "description": "კიტრის მაკი (8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Cucumber and Salmon Maki",
-    "pieceAmount": 8,
-    "price": 13.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CUCUMBER",
-      "SALMON"
-    ],
-    "description": "კიტრის და ორაგულის მაკი ( 8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Unagi Maki",
-    "pieceAmount": 8,
-    "price": 14.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "unagi",
-      "sesame and unagi sauce"
-    ],
-    "description": "გველთევზას მაკი (8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Tuna Maki",
-    "pieceAmount": 8,
-    "price": 11.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "TUNA",
-      "sriracha drops"
-    ],
-    "description": "თინუსის მაკი ( 8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Shrimp Maki",
-    "pieceAmount": 8,
-    "price": 11.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "4 pieces of cooked shrimp",
-      "sriracha drops"
-    ],
-    "description": "კრევეტის მაკი (8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Crab Maki",
-    "pieceAmount": 8,
-    "price": 9.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "crab in chef sauce"
-    ],
-    "description": "კრაბის მაკი (8 ნაჭრიანი)"
-  },
-  {
-    "img": "",
-    "name": "Avocado Maki",
-    "pieceAmount": 8,
-    "price": 10.90,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "AVOCADO"
-    ],
-    "description": "ავოკადოს მაკი"
   }
 ]
