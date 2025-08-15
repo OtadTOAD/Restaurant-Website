@@ -3,7 +3,6 @@ import { ProductType } from '../components/products-nav-bar/products-nav-bar';
 import { Product } from '../models/products';
 
 export const PLACEHOLDER_PRODUCT: Product = {
-  description: "Product Not Found",
   img: "Not Found", //placeholder
   name: "Not Found",
   pieceAmount: 0,
