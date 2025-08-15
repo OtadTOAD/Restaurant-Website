@@ -92,6 +92,50 @@ button .hamburger {
   transform-origin: center;
 }
 
+
+.hamburger-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.hamburger-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburger-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-list li {
+  padding: 2px;
+}
+
+
+.hamburger-nav {
+  opacity: 0;
+  transform: translateY(-8px);
+  visibility: hidden;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.open-hamburger-nav {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
 .open-hamburger {
   .line1 {
 
@@ -110,7 +154,8 @@ button .hamburger {
 
 @media (max-width: 770px) {
   .hamburger {
-    display: grid;
+    display: flex;
+    margin: auto;
   }
 
   .menu-bar {
@@ -125,12 +170,24 @@ button .hamburger {
     display: none;
   }
 
+  .icon-wrapper img {
+    padding-right: 0;
+  }
+
   .icon-wrapper {
+    display: flex;
+    justify-content: center;
     margin-bottom: 1rem;
   }
 
   .menu-item {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+}
+
+@media (min-width: 771px) {
+  .hamburger-menu {
+    display: none;
   }
 }

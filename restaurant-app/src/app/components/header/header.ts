@@ -1,6 +1,6 @@
 import { TranslocoService, TranslocoPipe } from '@ngneat/transloco';
 import { RouterLink } from '@angular/router';
-import { Component, ElementRef, ViewChild, HostListener } from '@angular/core';
+import { Component, ElementRef, ViewChild, HostListener, AfterViewChecked } from '@angular/core';
 import { CommonModule, NgStyle } from '@angular/common';
 import { combineLatest } from 'rxjs';
 
@@ -12,11 +12,16 @@ import { combineLatest } from 'rxjs';
 })
 export class Header {
   hamburgerOpen = false;
+  hamburgerEnabled = false;
   @ViewChild('langBtn', { read: ElementRef }) langBtn!: ElementRef<HTMLButtonElement>;
+
   dropdownPos = { top: 0, left: 0, width: 0 };
   dropdownOpen = false;
 
+
   constructor(private translocoService: TranslocoService) {}
+
+
 
   toggleDropdown() {
     this.dropdownOpen = !this.dropdownOpen;
@@ -27,6 +32,7 @@ export class Header {
 
   updateDropdownPosition() {
     const rect = this.langBtn.nativeElement.getBoundingClientRect();
+    console.log("HERE", rect);
     this.dropdownPos = {
       top: rect.bottom + window.scrollY,
       left: rect.left + window.scrollX,
@@ -46,10 +52,13 @@ export class Header {
       this.dropdownOpen = false;
     }
   }
-  @HostListener('window:resize')
-  onResize() {
+  @HostListener('window:resize', ['$event'])
+  onResize(event: Event) {
     if (this.dropdownOpen) {
       this.updateDropdownPosition();
+    }
+    this.hamburgerOpen = window.innerWidth > 770;
+    if (this.hamburgerOpen) {
     }
   }
 
