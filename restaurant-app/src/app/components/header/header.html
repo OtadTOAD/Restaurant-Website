@@ -13,15 +13,33 @@
     <!-- Button reference -->
     <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
   </div>
+  <div #hamburgerMenu class="hamburger-menu">
+    <button #hamburger class="hamburger" aria-label="Open menu" aria-controls="main-menu" aria-expanded="false"
+      (click)="handleHamburgerClick()" [ngClass]="hamburgerOpen?'open-hamburger':''">
+      <svg viewBox="0 0 24 24" width="70" height="70" aria-hidden="true">
+        <path class="line line1" d="M3 6h18"></path>
+        <path class="line line2" d="M3 12h18"></path>
+        <path class="line line3" d="M3 18h18"></path>
+      </svg>
 
-  <button #hamburger class="hamburger" aria-label="Open menu" aria-controls="main-menu" aria-expanded="false"
-    (click)="handleHamburgerClick()" [ngClass]="hamburgerOpen?'open-hamburger':''">
-    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
-      <path class="line line1" d="M3 6h18"></path>
-      <path class="line line2" d="M3 12h18"></path>
-      <path class="line line3" d="M3 18h18"></path>
-    </svg>
-  </button>
+    </button>
+    <nav #hamburgerNav id="menu" class="hamburger-nav" role="menu" [class.open-hamburger-nav]="hamburgerOpen">
+      <ul class="hamburger-list">
+        <li>
+          <button class="menu-btn" routerLink="/about_us">{{ "ABOUT_US" | transloco }}</button>
+        </li>
+        <li>
+          <button class="menu-btn" routerLink="/contact_us">{{ "CONTACT_US" | transloco }}</button>
+        </li>
+        <li>
+          <button class="menu-btn" (click)="toggleDropdown()">
+            {{ "LANGUAGE" | transloco }} ▾
+          </button>
+        </li>
+        <li class="divider" aria-hidden="true"></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 @if (dropdownOpen) {
 <div class="menu-item dropdown-portal"
