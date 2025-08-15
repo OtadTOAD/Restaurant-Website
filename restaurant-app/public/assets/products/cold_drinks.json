@@ -1,0 +1,66 @@
+[
+  {
+    "img": "",
+    "name": "COLD_DRINK_COCA_COLA_ZERO",
+    "pieceAmount": 1,
+    "price": 3.00,
+    "ingredients": [],
+    "description": "კოკა-კოლა ზერო"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_COCA_COLA_CLASSIC",
+    "pieceAmount": 1,
+    "price": 3.00,
+    "ingredients": [],
+    "description": "კოკა-კოლა კლასიკი"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_FANTA",
+    "pieceAmount": 1,
+    "price": 3.00,
+    "ingredients": [],
+    "description": "ფანტა"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_SPRITE",
+    "pieceAmount": 1,
+    "price": 3.00,
+    "ingredients": [],
+    "description": "სპრაიტი"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_ICED_TEA",
+    "pieceAmount": 1,
+    "price": 3.20,
+    "ingredients": [],
+    "description": "ცივი ჩაი"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_SCHWEPPES",
+    "pieceAmount": 1,
+    "price": 3.50,
+    "ingredients": [],
+    "description": "შვეპსი"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_NATURAL_JUICE",
+    "pieceAmount": 1,
+    "price": 5.90,
+    "ingredients": [],
+    "description": "ნატურალური წვენი 400გრ"
+  },
+  {
+    "img": "",
+    "name": "COLD_DRINK_WATER",
+    "pieceAmount": 1,
+    "price": 1.50,
+    "ingredients": [],
+    "description": "წყალი"
+  }
+]

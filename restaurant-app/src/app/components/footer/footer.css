@@ -16,19 +16,19 @@ footer {
 
 .footer-wrapper {
     display: flex;
-    flex-wrap: wrap; /* allow wrapping only if needed */
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
-    max-width: 60rem;
+    max-width: 70rem;
     width: 100%;
 }
 
 .card-wrapper {
     display: flex;
     flex-direction: column;
-    flex: 1 1 15rem; /* allow shrinking, grow, and base width */
-    min-width: 12rem; /* prevents cards from being too small */
-    max-width: 18rem;
+    flex: 1 1 15rem;
+    min-width: 12rem;
+    max-width: 20rem;
     box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@ footer {
 .list-wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* items wrap only if necessary */
+    flex-wrap: wrap;
     gap: 0.5rem;
 }
 
@@ -61,10 +61,10 @@ footer {
     font-size: 0.95rem;
 }
 
-/* Responsive adjustments */
 @media (max-width: 600px) {
     .footer-wrapper {
         flex-direction: column; 
+        justify-content: center;
         align-items: center;
     }
 
@@ -72,5 +72,23 @@ footer {
         width: 90%;
         max-width: none;
         min-width: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .link_button {
+        font-size: 0.75rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .list-item-wrapper{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .menu-item {
+        padding: 1rem;
     }
 }
