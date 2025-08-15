@@ -48,6 +48,8 @@
   --border-medium-60: rgba(178, 190, 195, 0.4);
   --success-60: rgba(0, 184, 148, 0.4);
   --accent-secondary-20: rgba(53, 55, 54, 0.8);
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
