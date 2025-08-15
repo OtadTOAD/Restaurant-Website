@@ -18,10 +18,10 @@
     <nav #hamburgerNav id="menu" class="hamburger-nav" role="menu" [class.open-hamburger-nav]="hamburgerOpen">
       <ul class="hamburger-list">
         <li>
-          <button class="menu-btn" routerLink="/about_us">{{ "ABOUT_US" | transloco }}</button>
+          <button class="menu-btn" routerLink="/contact_us">{{ "LANDING" | transloco }}</button>
         </li>
         <li>
-          <button class="menu-btn" routerLink="/contact_us">{{ "CONTACT_US" | transloco }}</button>
+          <button class="menu-btn" routerLink="/about_us">{{ "ABOUT_US" | transloco }}</button>
         </li>
         <li>
           <button #langBtn class="menu-btn" (click)="toggleDropdown()">

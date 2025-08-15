@@ -42,8 +42,8 @@ export class Header implements OnInit {
     let rect = this.langBtn.nativeElement.getBoundingClientRect();
 
     this.dropdownPos = {
-      top: rect.bottom + window.scrollY,
-      left: rect.left + window.scrollX,
+      top: rect.bottom,
+      left: rect.left,
       width: rect.width,
     };
   }
