@@ -5,12 +5,11 @@
   </div>
 
   <div class="menu-item menu-bar" style="padding: 1rem;">
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="">{{ "LANDING" | transloco
+      }}</button>
     <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us">{{ "ABOUT_US" | transloco
       }}</button>
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/contact_us">{{ "CONTACT_US" | transloco
-      }}</button>
 
-    <!-- Button reference -->
     <button #langBtn class="menu-btn" (click)="toggleDropdown()">{{ "LANGUAGE" | transloco }} ▾</button>
   </div>
 
