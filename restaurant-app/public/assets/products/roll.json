@@ -1,6 +1,6 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/Piladelpia.jpg",
     "name": "ROLL_PHILADELPHIA",
     "pieceAmount": 8,
     "price": 27.90,
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/შერეული როლი.jpg",
     "name": "ROLL_MIXED",
     "pieceAmount": 8,
     "price": 31.90,
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ფილადელფია კრევეტით.jpg",
     "name": "ROLL_PHILADELPHIA_SHRIMP",
     "pieceAmount": 8,
     "price": 30.90,
