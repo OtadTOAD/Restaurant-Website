@@ -1,21 +1,50 @@
 :host {
-    min-width: max-content;
-    padding: 2rem;
-    width: 100%;
+  min-width: 0;
+  /* important for flex children to shrink */
+  padding: 2rem;
 
-    justify-content: space-around;
-    flex-direction: row;
-    display: flex;
-
-    color: var(--text-white);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+  color: var(--text-white);
+  flex-wrap: wrap;
+  /* make items wrap on small screens */
 }
 
-section {
-    max-width: 50rem;
-    width: fit-content;
+div {
+  align-items: center;
+  /* allow shrinking and wrapping */
+  margin: auto;
+  max-width: 50rem;
+  box-sizing: border-box;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .text-wrapper {
-    flex-direction: row;
-    display: flex;
+  flex-direction: row;
+  display: flex;
+}
+
+@media (max-width: 50rem) {
+  .main-div {
+    max-width: 25rem;
+  }
 }

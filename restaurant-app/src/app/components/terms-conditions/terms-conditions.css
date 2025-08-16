@@ -1,21 +1,22 @@
 :host {
-    min-width: max-content;
-    padding: 2rem;
-    width: 100%;
+  min-width: 0;
+  padding: 2rem;
 
-    justify-content: space-around;
-    flex-direction: row;
-    display: flex;
-
-    color: var(--text-white);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+  color: var(--text-white);
+  flex-wrap: wrap;
 }
 
 section {
-    max-width: 50rem;
-    width: fit-content;
+  max-width: 50rem;
+  width: fit-content;
 }
 
 .text-wrapper {
-    flex-direction: row;
-    display: flex;
+  flex-direction: row;
+  display: flex;
 }
