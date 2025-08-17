@@ -11,11 +11,10 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes,
-      withInMemoryScrolling({
-        scrollPositionRestoration: 'top',
-        anchorScrolling: 'enabled',
-      })
+    provideRouter(routes, withInMemoryScrolling({
+      scrollPositionRestoration: 'disabled',
+      anchorScrolling: 'disabled'
+    })
     ),
 
     provideHttpClient(),

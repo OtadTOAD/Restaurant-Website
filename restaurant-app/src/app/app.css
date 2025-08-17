@@ -7,9 +7,7 @@
 }*/
 :host {
   flex-direction: column;
-  min-height: max-content;
   display: flex;
-  height: 100%;
   width: 100%;
 
   background:
@@ -18,7 +16,6 @@
     linear-gradient(135deg, var(--primary-bg-60) 0%, var(--border-medium-60) 100%);
 
   color: var(--text-primary);
-  overflow-x: hidden;
 }
 
 div {

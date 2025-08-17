@@ -57,8 +57,6 @@ body {
   flex-direction: column;
   display: flex;
 
-  min-height: max-content;
-  height: 100%;
   width: 100%;
 
   padding: 0px;
