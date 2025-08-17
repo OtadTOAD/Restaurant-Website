@@ -1,4 +1,5 @@
 {
+    "CLOSE":"Close",
     "TEST": "Test",
     "INVALID_PAGE": "Could not find that page!",
     "SUSHI": "Sushi",
@@ -261,4 +262,5 @@
     "BEER_CORONA": "Corona (Bottle 0.355L)",
     "BEER_HEINEKEN": "Heineken (Bottle 0.330L)",
     "BEER_BAVARIA": "Bavaria (Bottle 0.500L)"
+
 }

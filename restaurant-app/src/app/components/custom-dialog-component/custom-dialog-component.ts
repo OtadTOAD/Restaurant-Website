@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, HostListener, Input, Output } from '@angular/core';
+import { TranslocoPipe } from '@ngneat/transloco';
 
 @Component({
   selector: 'app-custom-dialog',
-  imports: [CommonModule],
+  imports: [CommonModule, TranslocoPipe],
   templateUrl: './custom-dialog-component.html',
   styleUrls: ['./custom-dialog-component.css']
 })
