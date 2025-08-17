@@ -14,15 +14,6 @@ import { ViewportScroller } from '@angular/common';
 export class App {
   protected readonly title = signal('restaurant-app');
 
-  constructor(private router: Router, private viewportScroller: ViewportScroller, private zone: NgZone) {
-    if ('scrollRestoration' in history) {
-      history.scrollRestoration = 'manual';
-    }
-    this.router.events.pipe(filter(event => event instanceof NavigationEnd),
-      switchMap(() => this.zone.onStable.pipe(take(1), delay(50)))).subscribe(() => {
-        console.log("Scroll");
-        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-      }
-      );
+  constructor(private router: Router, private viewScroller: ViewportScroller, private zone: NgZone) {
   }
 }

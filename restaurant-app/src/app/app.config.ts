@@ -12,8 +12,8 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes, withInMemoryScrolling({
-      scrollPositionRestoration: 'disabled',
-      anchorScrolling: 'disabled'
+      scrollPositionRestoration: 'top',
+      anchorScrolling: 'enabled'
     })
     ),
 
