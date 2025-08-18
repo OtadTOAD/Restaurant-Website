@@ -1,55 +1,55 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/coca_cola_zero.jpg",
     "name": "COLD_DRINK_COCA_COLA_ZERO",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/coca_cola_classic.jpg",
     "name": "COLD_DRINK_COCA_COLA_CLASSIC",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/fanta.jpg",
     "name": "COLD_DRINK_FANTA",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/sprite.jpg",
     "name": "COLD_DRINK_SPRITE",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/iced_tea_generic.jpg",
     "name": "COLD_DRINK_ICED_TEA",
     "pieceAmount": 1,
     "price": 3.20,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/schweppes.jpg",
     "name": "COLD_DRINK_SCHWEPPES",
     "pieceAmount": 1,
     "price": 3.50,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/natural_juice_generic.jpg",
     "name": "COLD_DRINK_NATURAL_JUICE",
     "pieceAmount": 1,
     "price": 5.90,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/water_bottle.jpg",
     "name": "COLD_DRINK_WATER",
     "pieceAmount": 1,
     "price": 1.50,
