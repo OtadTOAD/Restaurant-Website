@@ -3,7 +3,7 @@
     "img": "/assets/img/Piladelpia.jpg",
     "name": "ROLL_PHILADELPHIA",
     "pieceAmount": 8,
-    "price": 27.90,
+    "price": 27.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -14,10 +14,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/გველთევზას როლი.jpg",
     "name": "ROLL_EEL_ROLL",
     "pieceAmount": 8,
-    "price": 28.90,
+    "price": 28.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -29,10 +29,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/მწვანე დრაკონი.jpg",
     "name": "ROLL_GREEN_DRAGON",
     "pieceAmount": 8,
-    "price": 28.90,
+    "price": 28.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -45,10 +45,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/თინისის როლი.jpg",
     "name": "ROLL_TUNA_ROLL",
     "pieceAmount": 8,
-    "price": 28.90,
+    "price": 28.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -60,10 +60,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/შავი დრაკონი.jpg",
     "name": "ROLL_BLACK_DRAGON",
     "pieceAmount": 8,
-    "price": 31.90,
+    "price": 31.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -74,10 +74,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ორაგული სეზამში.jpg",
     "name": "ROLL_SALMON_SESAME",
     "pieceAmount": 8,
-    "price": 26.90,
+    "price": 26.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -91,7 +91,7 @@
     "img": "/assets/img/შერეული როლი.jpg",
     "name": "ROLL_MIXED",
     "pieceAmount": 8,
-    "price": 31.90,
+    "price": 31.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -108,7 +108,7 @@
     "img": "/assets/img/ფილადელფია კრევეტით.jpg",
     "name": "ROLL_PHILADELPHIA_SHRIMP",
     "pieceAmount": 8,
-    "price": 30.90,
+    "price": 30.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -120,10 +120,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/კალიპორნია.jpg",
     "name": "ROLL_CALIFORNIA_SALMON",
     "pieceAmount": 8,
-    "price": 26.90,
+    "price": 26.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -134,10 +134,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/კრაბის მაკ როლი.jpg",
     "name": "ROLL_CRAB_MAK",
     "pieceAmount": 8,
-    "price": 25.90,
+    "price": 25.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -148,10 +148,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხარე ორაგული.jpg",
     "name": "ROLL_SPICY_SALMON",
     "pieceAmount": 8,
-    "price": 29.90,
+    "price": 29.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -162,10 +162,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ტკბილ ცხარე ორაგული.jpg",
     "name": "ROLL_SWEET_CHILI_SALMON",
     "pieceAmount": 8,
-    "price": 29.90,
+    "price": 29.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -178,7 +178,7 @@
     "img": "",
     "name": "ROLL_HOT_SALMON",
     "pieceAmount": 8,
-    "price": 27.90,
+    "price": 27.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -194,7 +194,7 @@
     "img": "",
     "name": "ROLL_HOT_EEL",
     "pieceAmount": 8,
-    "price": 27.90,
+    "price": 27.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -210,7 +210,7 @@
     "img": "",
     "name": "ROLL_HOT_TUNA",
     "pieceAmount": 8,
-    "price": 27.90,
+    "price": 27.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -226,7 +226,7 @@
     "img": "",
     "name": "ROLL_HOT_CRAB",
     "pieceAmount": 8,
-    "price": 27.90,
+    "price": 27.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -242,7 +242,7 @@
     "img": "",
     "name": "ROLL_HOT_SHRIMP",
     "pieceAmount": 8,
-    "price": 27.90,
+    "price": 27.9,
     "ingredients": [
       "NORI",
       "RICE",

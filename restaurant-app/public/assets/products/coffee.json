@@ -1,37 +1,49 @@
 [
   {
-    "img": "",
-    "name": "COFFEE_ICED_WITH_ICE_CREAM",
-    "pieceAmount": 1,
-    "price": 12.90,
-    "ingredients": []
+    "img": "/assets/img/ორაგულის მაკი.jpg",
+    "name": "MAKI_SALMON",
+    "pieceAmount": 8,
+    "price": 12.9,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "SALMON"
+    ]
+  },
+  {
+    "img": "/assets/img/კიტრის მაკი.jpg",
+    "name": "MAKI_CUCUMBER",
+    "pieceAmount": 8,
+    "price": 12.9,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "SESAME"
+    ]
+  },
+  {
+    "img": "/assets/img/კიტრის და ორაგული მაკი.jpg",
+    "name": "MAKI_CUCUMBER_SALMON",
+    "pieceAmount": 8,
+    "price": 13.9,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "SALMON"
+    ]
   },
   {
     "img": "",
-    "name": "COFFEE_AMERICANO",
-    "pieceAmount": 1,
-    "price": 4.90,
-    "ingredients": []
-  },
-  {
-    "img": "",
-    "name": "COFFEE_CAPPUCCINO",
-    "pieceAmount": 1,
-    "price": 5.90,
-    "ingredients": []
-  },
-  {
-    "img": "",
-    "name": "COFFEE_LATTE",
-    "pieceAmount": 1,
-    "price": 7.90,
-    "ingredients": []
-  },
-  {
-    "img": "",
-    "name": "COFFEE_TURKISH",
-    "pieceAmount": 1,
-    "price": 3.90,
-    "ingredients": []
+    "name": "MAKI_EEL",
+    "pieceAmount": 8,
+    "price": 14.9,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "EEL",
+      "SESAME_UNAGI_SAUCE"
+    ]
   }
 ]

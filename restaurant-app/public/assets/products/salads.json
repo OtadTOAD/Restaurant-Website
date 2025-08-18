@@ -1,16 +1,28 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/ჰიაშის სალათი.jpg",
     "name": "SALAD_HIYASHI",
     "pieceAmount": 1,
-    "price": 14.90,
-    "ingredients": ["HIYASHI", "SPICE", "CUCUMBER", "SESAME"]
-  }, 
+    "price": 14.9,
+    "ingredients": [
+      "HIYASHI",
+      "SPICE",
+      "CUCUMBER",
+      "SESAME"
+    ]
+  },
   {
     "img": "",
     "name": "SALAD_GRILLED_VEGETABLES",
     "pieceAmount": 1,
-    "price": 13.00,
-    "ingredients": ["CARROT", "ZUCCHINI", "BROCCOLI", "MUSHROOM", "BELL PEPPER", "CHERRY_TOMATOES"]
+    "price": 13,
+    "ingredients": [
+      "CARROT",
+      "ZUCCHINI",
+      "BROCCOLI",
+      "MUSHROOM",
+      "BELL PEPPER",
+      "CHERRY_TOMATOES"
+    ]
   }
 ]

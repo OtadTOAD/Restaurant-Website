@@ -3,7 +3,7 @@
     "img": "",
     "name": "SET_PREMIUM",
     "pieceAmount": 32,
-    "price": 105.90,
+    "price": 105.9,
     "ingredients": [
       "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
       "SET_INGREDIENT_SHRIMP_ROLL_8_PIECES",
@@ -15,7 +15,7 @@
     "img": "",
     "name": "SET_SAKE",
     "pieceAmount": 24,
-    "price": 78.90,
+    "price": 78.9,
     "ingredients": [
       "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
       "SET_INGREDIENT_HOT_SALMON_8_PIECES",
@@ -23,20 +23,20 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/სმაილ სეტი.jpg",
     "name": "SET_SMILE",
     "pieceAmount": 16,
-    "price": 47.90,
+    "price": 47.9,
     "ingredients": [
       "SET_INGREDIENT_CALIFORNIA_WITH_CRAB_8_PIECES",
       "SET_INGREDIENT_SALMON_WITH_SESAME_8_PIECES"
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ორაგულის სეტი.jpg",
     "name": "SET_SALMON",
     "pieceAmount": 32,
-    "price": 85.90,
+    "price": 85.9,
     "ingredients": [
       "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
       "SET_INGREDIENT_SALMON_IN_SESAME_8_PIECES",
@@ -45,10 +45,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/მაკების სეტი.jpg",
     "name": "SET_MAKI",
     "pieceAmount": 40,
-    "price": 44.90,
+    "price": 44.9,
     "ingredients": [
       "SET_INGREDIENT_CUCUMBER_MAKI_8_PIECES",
       "SET_INGREDIENT_SALMON_MAKI_8_PIECES",
@@ -58,10 +58,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ფემილი სეტი.jpg",
     "name": "SET_FAMILY",
     "pieceAmount": 40,
-    "price": 129.90,
+    "price": 129.9,
     "ingredients": [
       "SET_INGREDIENT_UNAGI_ROLL_8_PIECES",
       "SET_INGREDIENT_PHILADELPHIA_8_PIECES",
@@ -71,10 +71,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/სენსეი სეტი.jpg",
     "name": "SET_SENSEI",
     "pieceAmount": 28,
-    "price": 83.90,
+    "price": 83.9,
     "ingredients": [
       "SET_INGREDIENT_PHILADELPHIA_4_PIECES",
       "SET_INGREDIENT_TUNA_ROLL_4_PIECES",
@@ -85,10 +85,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/თქვენი სეტი.jpg",
     "name": "SET_YOUR",
     "pieceAmount": 30,
-    "price": 89.90,
+    "price": 89.9,
     "ingredients": [
       "SET_INGREDIENT_GREEN_DRAGON_UNAGI_8_PIECES",
       "SET_INGREDIENT_SALMON_CHEESE_ROLL_8_PIECES",
@@ -97,10 +97,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ფრენდ სეტი.jpg",
     "name": "SET_FRIEND",
     "pieceAmount": 42,
-    "price": 115.90,
+    "price": 115.9,
     "ingredients": [
       "SET_INGREDIENT_CALIFORNIA_WITH_CRAB_8_PIECES",
       "SET_INGREDIENT_CHICKEN_ROLL_SESAME_8_PIECES",
@@ -114,7 +114,7 @@
     "img": "",
     "name": "SET_VEGGIE",
     "pieceAmount": 32,
-    "price": 49.90,
+    "price": 49.9,
     "ingredients": [
       "SET_INGREDIENT_CHEDDAR_ROLL_8_PIECES",
       "SET_INGREDIENT_GREEN_DRAGON_8_PIECES",
@@ -123,10 +123,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ფილადელფია სეტი.jpg",
     "name": "SET_PHILADELPHIA",
     "pieceAmount": 48,
-    "price": 119.90,
+    "price": 119.9,
     "ingredients": [
       "SET_INGREDIENT_PHILADELPHIA_16_PIECES",
       "SET_INGREDIENT_TATAKI_PHILADELPHIA_8_PIECES",
@@ -136,10 +136,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/საკურა სეტი.jpg",
     "name": "SET_SAKURA",
     "pieceAmount": 24,
-    "price": 50.90,
+    "price": 50.9,
     "ingredients": [
       "SET_INGREDIENT_CALIFORNIA_WITH_CRAB_8_PIECES",
       "SET_INGREDIENT_CHEESE_ROLL_WITH_SALMON_8_PIECES",
@@ -147,10 +147,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/როლი ბოხსი.jpg",
     "name": "SET_ROLL_BOX",
     "pieceAmount": 24,
-    "price": 79.90,
+    "price": 79.9,
     "ingredients": [
       "SET_INGREDIENT_CALIFORNIA_8_PIECES",
       "SET_INGREDIENT_SWEET_SPICY_SALMON_ROLL_8_PIECES",
@@ -159,10 +159,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხელი სეტი.jpg",
     "name": "SET_HOT",
     "pieceAmount": 24,
-    "price": 72.90,
+    "price": 72.9,
     "ingredients": [
       "SET_INGREDIENT_HOT_ROLL_SHRIMP_8_PIECES",
       "SET_INGREDIENT_HOT_ROLL_CRAB_8_PIECES",
@@ -173,7 +173,7 @@
     "img": "",
     "name": "SET_SECRET",
     "pieceAmount": 0,
-    "price": 99.90,
+    "price": 99.9,
     "ingredients": [
       "SET_SECRET_DESCR"
     ]
