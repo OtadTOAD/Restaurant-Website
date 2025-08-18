@@ -2,20 +2,6 @@
   <h1 class="header-text">{{ "ABOUT_US" | transloco }}</h1>
 
   <div class="menu-item">
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quidem suscipit autem dolorum, enim dolore,
-      animi natus quam, veritatis sunt assumenda atque. Consectetur recusandae veritatis exercitationem nobis
-      libero ipsam earum!
-
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero nemo ad animi culpa quis ipsa impedit
-      officiis fugiat minima, nobis explicabo quisquam suscipit error hic molestias eveniet laudantium doloremque
-      nulla.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, totam sed! Neque quisquam consequuntur
-      officia expedita facere itaque, ipsam unde mollitia vitae ullam aliquid officiis architecto aliquam laborum
-      aut soluta.
-    </p>
-
-    <img src="/assets/img/sushi-test.jpg" alt="DISPLAY IMAGE">
+    <p [innerHTML]="'ABOUT_US_TEXT' | transloco"></p>
   </div>
 </div>
