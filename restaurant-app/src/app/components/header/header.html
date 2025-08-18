@@ -1,7 +1,7 @@
 <header>
   <div class="icon-wrapper" routerLink="">
-    <img src="favicon.ico" alt="ICON" height="60px" width="60px">
-    <h1 class="header-text"> {{ "TITLE" | transloco }} </h1>
+    <img src="icon.png" alt="ICON" height="100px" width="114px">
+    <h1 class="header-text" style="padding-top: 12px;"> {{ "TITLE" | transloco }} </h1>
   </div>
 
   @if (hamburgerEnabled) {
@@ -34,7 +34,7 @@
     </nav>
   </div>
   }@else {
-  <div class="menu-item menu-bar" style="padding: 1rem;">
+  <div class="menu-item menu-bar" style="padding: 1rem; height: min-content; margin-top: auto; margin-bottom: auto;">
     <button class="menu-btn" style="margin-right: 0.5rem;" routerLink=""><i class="fa-solid fa-house"></i> {{ "LANDING"
       | transloco
       }}</button>
