@@ -1,9 +1,9 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/ორაგულის მაკი.jpg",
     "name": "MAKI_SALMON",
     "pieceAmount": 8,
-    "price": 12.90,
+    "price": 12.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -11,10 +11,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/კიტრის მაკი.jpg",
     "name": "MAKI_CUCUMBER",
     "pieceAmount": 8,
-    "price": 12.90,
+    "price": 12.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -23,10 +23,10 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/კიტრის და ორაგული მაკი.jpg",
     "name": "MAKI_CUCUMBER_SALMON",
     "pieceAmount": 8,
-    "price": 13.90,
+    "price": 13.9,
     "ingredients": [
       "NORI",
       "RICE",
@@ -38,7 +38,7 @@
     "img": "",
     "name": "MAKI_EEL",
     "pieceAmount": 8,
-    "price": 14.90,
+    "price": 14.9,
     "ingredients": [
       "NORI",
       "RICE",
