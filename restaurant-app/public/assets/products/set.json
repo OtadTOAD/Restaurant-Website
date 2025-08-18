@@ -111,7 +111,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SET_VEGGIE",
     "pieceAmount": 32,
     "price": 49.9,
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SET_SECRET",
     "pieceAmount": 0,
     "price": 99.9,

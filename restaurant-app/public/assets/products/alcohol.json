@@ -1,76 +1,76 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_RKATSITELI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_RKATSITELI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_QISI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_QISI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_KHIKHVI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_KHIKHVI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_SAPERAVI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "WINE_SAPERAVI_GLASS",
     "price": 12.90,
     "pieceMl": 250,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "BEER_CORONA",
     "pieceAmount": 1,
     "price": 7.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "BEER_HEINEKEN",
     "pieceAmount": 1,
     "price": 7.00,
     "ingredients": []
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "BEER_BAVARIA",
     "pieceAmount": 1,
     "price": 7.90,

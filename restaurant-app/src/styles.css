@@ -53,6 +53,14 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+    background:
+      url("/assets/img/background.jpg") center/cover no-repeat,
+      radial-gradient(circle at 20% 80%, var(--accent-secondary-hover-60) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, var(--accent-primary-hover-60) 0%, transparent 50%),
+      linear-gradient(135deg, var(--primary-bg-60) 0%, var(--border-medium-60) 100%);
+}
+
 html,
 body {
   flex-direction: column;

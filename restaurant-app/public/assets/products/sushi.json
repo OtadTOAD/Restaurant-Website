@@ -1,6 +1,6 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SUSHI_SALMON_NIGIRI",
     "pieceAmount": 1,
     "price": 4.90,
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SUSHI_GUNKAN_SALMON",
     "pieceAmount": 1,
     "price": 5.90,
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SUSHI_GUNKAN_EEL",
     "pieceAmount": 1,
     "price": 5.90,
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SUSHI_GUNKAN_TUNA",
     "pieceAmount": 1,
     "price": 5.90,
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SUSHI_GUNKAN_SHRIMP",
     "pieceAmount": 1,
     "price": 5.90,

@@ -1,6 +1,6 @@
 [
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SOUP_TOM_YUM_CHICKEN",
     "pieceAmount": 1,
     "price": 24.00,
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SOUP_TOM_YUM_SHRIMP",
     "pieceAmount": 1,
     "price": 27.00,
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "SOUP_TOM_YUM_SEAFOOD_MIX",
     "pieceAmount": 1,
     "price": 27.00,

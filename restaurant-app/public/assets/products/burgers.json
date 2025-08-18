@@ -99,7 +99,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "BURGER_SALMON_CAVIAR",
     "pieceAmount": 1,
     "price": 32.9,
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "BURGER_EEL_CAVIAR",
     "pieceAmount": 1,
     "price": 33.9,
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/in_progress.png",
     "name": "BURGER_SHRIMP_CAVIAR",
     "pieceAmount": 1,
     "price": 32.9,
