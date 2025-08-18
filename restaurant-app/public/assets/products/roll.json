@@ -175,7 +175,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_SALMON",
     "pieceAmount": 8,
     "price": 27.9,
@@ -191,7 +191,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_EEL",
     "pieceAmount": 8,
     "price": 27.9,
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_TUNA",
     "pieceAmount": 8,
     "price": 27.9,
@@ -223,7 +223,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_CRAB",
     "pieceAmount": 8,
     "price": 27.9,
@@ -239,7 +239,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_SHRIMP",
     "pieceAmount": 8,
     "price": 27.9,

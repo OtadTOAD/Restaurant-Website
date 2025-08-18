@@ -66,7 +66,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/სენსეი ბურგერი.JPG",
     "name": "BURGER_SENSEI",
     "pieceAmount": 1,
     "price": 29.9,
@@ -169,7 +169,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ბურიტოები.JPG",
     "name": "BURRITO_SHRIMP",
     "pieceAmount": 1,
     "price": 26.9,
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ბურიტოები.JPG",
     "name": "BURRITO_CRAB",
     "pieceAmount": 1,
     "price": 26.9,
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ბურიტოები.JPG",
     "name": "BURRITO_EEL",
     "pieceAmount": 1,
     "price": 27.9,
@@ -214,7 +214,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ბურიტოები.JPG",
     "name": "BURRITO_SALMON",
     "pieceAmount": 1,
     "price": 26.9,

@@ -10,7 +10,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ნიგირი გველთევზა.jpg",
     "name": "SUSHI_EEL_NIGIRI",
     "pieceAmount": 1,
     "price": 4.90,
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ნიგირი ტუნა.jpg",
     "name": "SUSHI_TUNA_NIGIRI",
     "pieceAmount": 1,
     "price": 4.90,
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "img": "",
+    "img": "/assets/img/ნიგირი კრევეტი.jpg",
     "name": "SUSHI_SHRIMP_NIGIRI",
     "pieceAmount": 1,
     "price": 4.90,
