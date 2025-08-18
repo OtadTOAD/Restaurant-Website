@@ -3,6 +3,7 @@ export interface Product {
   name: string;
   pieceAmount?: number;
   pieceMl?: number;
+  cupAmount?: number;
   price: number;
   ingredients: string[];
 }

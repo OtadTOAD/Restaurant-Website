@@ -44,7 +44,7 @@
   {
     "img": "/assets/img/natural_juice_generic.jpg",
     "name": "COLD_DRINK_NATURAL_JUICE",
-    "pieceAmount": 1,
+    "cupAmount": 1,
     "price": 5.90,
     "ingredients": []
   },
