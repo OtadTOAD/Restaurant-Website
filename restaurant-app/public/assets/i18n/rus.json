@@ -255,13 +255,13 @@
     "COFFEE_TURKISH": "Кофе по-турецки",
 
     "WINE_RKATSITELI_BOTTLE": "Ркацители (Бутылка)",
-    "WINE_RKATSITELI_GLASS": "Ркацители (Бокал 250мл)",
+    "WINE_RKATSITELI_GLASS": "Ркацители (Бокал 180мл)",
     "WINE_QISI_BOTTLE": "Киси (Бутылка)",
-    "WINE_QISI_GLASS": "Киси (Бокал 250мл)",
+    "WINE_QISI_GLASS": "Киси (Бокал 180мл)",
     "WINE_KHIKHVI_BOTTLE": "Хихви (Бутылка)",
-    "WINE_KHIKHVI_GLASS": "Хихви (Бокал 250мл)",
+    "WINE_KHIKHVI_GLASS": "Хихви (Бокал 180мл)",
     "WINE_SAPERAVI_BOTTLE": "Саперави (Бутылка)",
-    "WINE_SAPERAVI_GLASS": "Саперави (Бокал 250мл)",
+    "WINE_SAPERAVI_GLASS": "Саперави (Бокал 180мл)",
     "BEER_CORONA": "Корона (Бутылка 0.355л)",
     "BEER_HEINEKEN": "Хайнекен (Бутылка 0.330л)",
     "BEER_BAVARIA": "Бавария (Бутылка 0.500л)"
