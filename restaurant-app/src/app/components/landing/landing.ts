@@ -9,8 +9,8 @@ import { AfterViewInit, Component, ElementRef } from '@angular/core';
   templateUrl: './landing.html',
   styleUrl: './landing.css'
 })
-export class Landing implements AfterViewInit { 
-  constructor(private el: ElementRef) {}
+export class Landing implements AfterViewInit {
+  constructor(private el: ElementRef) { }
 
   ngAfterViewInit() {
     setTimeout(() => {

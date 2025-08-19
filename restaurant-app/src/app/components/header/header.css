@@ -63,18 +63,17 @@ header {
 
 
 button .hamburger {
-
   display: none !important;
 }
 
 .hamburger {
   display: none;
+  background-color: black;
   inline-size: 44px;
   block-size: 44px;
   place-items: center;
   border: 0;
-  background: transparent;
-  border-radius: .75rem;
+  border-radius: 100%;
   cursor: pointer;
 }
 
@@ -84,7 +83,7 @@ button .hamburger {
 }
 
 .hamburger .line {
-  stroke: var(--accent-primary);
+  stroke: var(--text-white);
   stroke-width: 2.2;
   stroke-linecap: round;
   transition: transform .25s ease, opacity .2s ease;
