@@ -31,7 +31,7 @@ export class Header implements OnInit {
     if (this.dropdownOpen) {
       this.updateDropdownPosition();
     }
-    this.hamburgerEnabled = window.innerWidth <= 770;
+    this.hamburgerEnabled = window.innerWidth <= 864;
   }
 
   ngOnInit(): void {

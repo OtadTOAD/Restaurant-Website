@@ -121,7 +121,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 385px) {
   .type-nav {
     padding: 0.375rem;
   }

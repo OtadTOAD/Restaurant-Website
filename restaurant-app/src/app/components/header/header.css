@@ -152,7 +152,7 @@ button .hamburger {
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 864px) {
   .hamburger {
     display: flex;
     margin: auto;
