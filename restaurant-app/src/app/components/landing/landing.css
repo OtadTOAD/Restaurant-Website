@@ -28,6 +28,9 @@
 .scroll-indicator span {
   font-size: 1.1rem;
   opacity: 0.8;
+
+  color: var(--text-primary);
+  font-weight: 1000;
 }
 
 .scroll-arrow {
