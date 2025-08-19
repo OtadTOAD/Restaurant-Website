@@ -12,18 +12,18 @@ export const PLACEHOLDER_PRODUCT: Product = {
 
 
 export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
-  { label: 'SUSHI', icon: "🍣", slug: "sushi" },
-  { label: 'ROLL', icon: "🍙", slug: "roll"},
-  { label: 'SET', icon: "🍱", slug: "set" },
-  { label: 'WOK', icon: "🍜", slug: "wok" },
-  { label: 'SOUP', icon: "🍵", slug: "soup" },
-  { label: 'OTHER', icon: "🍟", slug: "side_dishes" },
-  { label: 'BURGERS', icon: "🍔", slug: "burgers" },
-  { label: 'SALADS', icon: "🥗", slug: "salads" },
-  { label: 'MAKI', icon: '🥢', slug: "maki" },
-  { label: 'COFFEE', icon: '☕', slug: "coffee" },
-  { label: 'COLD_DRINKS', icon: '🥤', slug: "cold_drinks" },
-  { label: 'ALCOHOL', icon: '🍺', slug: "alcohol" }
+  { label: 'SUSHI', icon: "/assets/icons/sushi.png", slug: "sushi" },
+  { label: 'ROLL', icon: "/assets/icons/roll.png", slug: "roll"},
+  { label: 'SET', icon: "/assets/icons/set.png", slug: "set" },
+  { label: 'WOK', icon: "/assets/icons/wok.png", slug: "wok" },
+  { label: 'SOUP', icon: "/assets/icons/soup.png", slug: "soup" },
+  { label: 'OTHER', icon: "/assets/icons/fry.png", slug: "side_dishes" },
+  { label: 'BURGERS', icon: "/assets/icons/hamburger.png", slug: "burgers" },
+  { label: 'SALADS', icon: "/assets/icons/salad.png", slug: "salads" },
+  { label: 'MAKI', icon: '/assets/icons/maki.png', slug: "maki" },
+  { label: 'COFFEE', icon: '/assets/icons/cold_drinks.png', slug: "coffee" },
+  { label: 'COLD_DRINKS', icon: '/assets/icons/alcohol.png', slug: "cold_drinks" },
+  { label: 'ALCOHOL', icon: '/assets/icons/coffee.png', slug: "alcohol" }
 ]
 
 

@@ -5,7 +5,9 @@
       <li class="type-item">
         <button class="menu-btn" [routerLink]="['/products', type.slug]" routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }" [title]="type.label | transloco">
-          <span class="btn-icon">{{ type.icon }}</span>
+          <span class="btn-icon">
+            <img class="small_icon" [src]="type.icon" alt="ICON">
+          </span>
           <span class="btn-text">{{ type.label | transloco }}</span>
         </button>
       </li>

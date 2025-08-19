@@ -10,7 +10,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "WINE_RKATSITELI_GLASS",
     "price": 12.90,
-    "pieceMl": 250,
+    "pieceMl": 180,
     "ingredients": []
   },
   {
@@ -24,7 +24,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "WINE_QISI_GLASS",
     "price": 12.90,
-    "pieceMl": 250,
+    "pieceMl": 180,
     "ingredients": []
   },
   {
@@ -38,7 +38,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "WINE_KHIKHVI_GLASS",
     "price": 12.90,
-    "pieceMl": 250,
+    "pieceMl": 180,
     "ingredients": []
   },
   {
@@ -52,7 +52,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "WINE_SAPERAVI_GLASS",
     "price": 12.90,
-    "pieceMl": 250,
+    "pieceMl": 180,
     "ingredients": []
   },
   {

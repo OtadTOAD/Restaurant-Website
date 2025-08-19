@@ -35,6 +35,7 @@ footer {
 .menu-item h3 {
   margin-bottom: 0.5rem;
   font-size: 1rem;
+  color: var(--text-primary);
 }
 
 .list-wrapper {
@@ -50,6 +51,11 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+}
+
+.list-item-wrapper button,
+.list-item-wrapper a {
+  color: var(--text-white);
 }
 
 .link_button {

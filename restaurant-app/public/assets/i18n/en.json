@@ -255,13 +255,13 @@
     "COFFEE_TURKISH": "Turkish Coffee",
 
     "WINE_RKATSITELI_BOTTLE": "Rkatsiteli (Bottle)",
-    "WINE_RKATSITELI_GLASS": "Rkatsiteli (250ml Glass)",
+    "WINE_RKATSITELI_GLASS": "Rkatsiteli (180ml Glass)",
     "WINE_QISI_BOTTLE": "Qisi (Bottle)",
-    "WINE_QISI_GLASS": "Qisi (250ml Glass)",
+    "WINE_QISI_GLASS": "Qisi (180ml Glass)",
     "WINE_KHIKHVI_BOTTLE": "Khikhvi (Bottle)",
-    "WINE_KHIKHVI_GLASS": "Khikhvi (250ml Glass)",
+    "WINE_KHIKHVI_GLASS": "Khikhvi (180ml Glass)",
     "WINE_SAPERAVI_BOTTLE": "Saperavi (Bottle)",
-    "WINE_SAPERAVI_GLASS": "Saperavi (250ml Glass)",
+    "WINE_SAPERAVI_GLASS": "Saperavi (180ml Glass)",
     "BEER_CORONA": "Corona (Bottle 0.355L)",
     "BEER_HEINEKEN": "Heineken (Bottle 0.330L)",
     "BEER_BAVARIA": "Bavaria (Bottle 0.500L)"
