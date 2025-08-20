@@ -66,14 +66,14 @@
     "img": "/assets/img/in_progress.png",
     "name": "BEER_HEINEKEN",
     "pieceAmount": 1,
-    "price": 7.00,
+    "price": 10.00,
     "ingredients": []
   },
   {
     "img": "/assets/img/in_progress.png",
-    "name": "BEER_BAVARIA",
+    "name": "BEER_LOVENBRAUD",
     "pieceAmount": 1,
-    "price": 7.90,
+    "price": 8.00,
     "ingredients": []
   }
 ]
