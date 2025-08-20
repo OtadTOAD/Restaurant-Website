@@ -12,6 +12,7 @@
     "BURGERS": "Burgers",
     "MAKI": "Maki",
     "COFFEE": "Coffee",
+    "HOT_DRINKS": "Hot Drinks",
     "COLD_DRINKS": "Cold Drinks",
     "ALCOHOL": "Alcohol",
     "ABOUT_US": "About Us",
@@ -253,6 +254,8 @@
     "COFFEE_CAPPUCCINO": "Cappuccino",
     "COFFEE_LATTE": "Latte",
     "COFFEE_TURKISH": "Turkish Coffee",
+    "TEA_TEAPOT": "Teapot of Tea",
+    "TEA_CUP": "Cup of Tea",
 
     "WINE_RKATSITELI_BOTTLE": "Rkatsiteli (Bottle)",
     "WINE_RKATSITELI_GLASS": "Rkatsiteli (180ml Glass)",
@@ -264,5 +267,5 @@
     "WINE_SAPERAVI_GLASS": "Saperavi (180ml Glass)",
     "BEER_CORONA": "Corona (Bottle 0.355L)",
     "BEER_HEINEKEN": "Heineken (Bottle 0.330L)",
-    "BEER_LOVENBRAUD": "Lovenbraud"
+    "BEER_LOVENBRAUD": "Lowenbrau"
 }

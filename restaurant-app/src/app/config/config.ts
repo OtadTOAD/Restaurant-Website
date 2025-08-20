@@ -21,9 +21,9 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'BURGERS', icon: "/assets/icons/hamburger.png", slug: "burgers" },
   { label: 'SALADS', icon: "/assets/icons/salad.png", slug: "salads" },
   { label: 'MAKI', icon: '/assets/icons/maki.png', slug: "maki" },
-  { label: 'COFFEE', icon: '/assets/icons/cold_drinks.png', slug: "coffee" },
-  { label: 'COLD_DRINKS', icon: '/assets/icons/alcohol.png', slug: "cold_drinks" },
-  { label: 'ALCOHOL', icon: '/assets/icons/coffee.png', slug: "alcohol" }
+  { label: 'HOT_DRINKS', icon: '/assets/icons/coffee.png', slug: "coffee" },
+  { label: 'COLD_DRINKS', icon: '/assets/icons/cold_drinks.png', slug: "cold_drinks" },
+  { label: 'ALCOHOL', icon: '/assets/icons/alcohol.png', slug: "alcohol" }
 ]
 
 

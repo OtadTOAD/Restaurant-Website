@@ -12,6 +12,7 @@
     "BURGERS": "ბურგერები",
     "MAKI": "მაკი",
     "COFFEE": "ყავა",
+    "HOT_DRINKS": "ცხელი სასმელები",
     "COLD_DRINKS": "ცივი სასმელები",
     "ALCOHOL": "ალკოჰოლი",
     "ABOUT_US": "ჩვენს შესახებ",
@@ -253,6 +254,8 @@
     "COFFEE_CAPPUCCINO": "კაპუჩინო",
     "COFFEE_LATTE": "ლატე",
     "COFFEE_TURKISH": "თურქული",
+    "TEA_TEAPOT": "ჩაიდანი ჩაი",
+    "TEA_CUP": "ჩაის ფინჯანი",
 
     "WINE_RKATSITELI_BOTTLE": "რქაწითელი (1 ბოთლი)",
     "WINE_RKATSITELI_GLASS": "რქაწითელი (180 მლ)",

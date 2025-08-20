@@ -33,5 +33,19 @@
     "pieceAmount": 1,
     "price": 3.90,
     "ingredients": []
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "TEA_TEAPOT",
+    "pieceAmount": 1,
+    "price": 12.00,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "TEA_CUP",
+    "pieceAmount": 1,
+    "price": 4.00,
+    "ingredients": []
   }
 ]
