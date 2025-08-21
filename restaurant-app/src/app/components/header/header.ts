@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { Component, ElementRef, ViewChild, HostListener, AfterViewChecked, OnInit } from '@angular/core';
 import { CommonModule, NgStyle } from '@angular/common';
 import { combineLatest } from 'rxjs';
+import { LANG_STORE_KEY } from '../../config/config';
 
 @Component({
   selector: 'app-header',
@@ -18,7 +19,10 @@ export class Header implements OnInit {
   dropdownPos = { top: 0, left: 0, width: 0 };
   dropdownOpen = false;
 
-  constructor(private translocoService: TranslocoService) {}
+  constructor(private translocoService: TranslocoService) {
+
+    this.translocoService.setActiveLang(localStorage.getItem(LANG_STORE_KEY) ?? 'ka');
+  }
 
   toggleDropdown() {
     this.dropdownOpen = !this.dropdownOpen;
@@ -26,7 +30,7 @@ export class Header implements OnInit {
       this.updateDropdownPosition();
     }
   }
-  
+
   private checkWindowSize() {
     if (this.dropdownOpen) {
       this.updateDropdownPosition();
@@ -66,6 +70,7 @@ export class Header implements OnInit {
   }
 
   setLang(lang: string) {
+    localStorage.setItem(LANG_STORE_KEY, lang);
     this.translocoService.setActiveLang(lang)
   }
 
