@@ -15,6 +15,7 @@
     "HOT_DRINKS": "Горячие напитки",
     "COLD_DRINKS": "Холодные напитки",
     "ALCOHOL": "Алкоголь",
+    "SASHIMI": "Сашими",
     "ABOUT_US": "О нас",
     "TERMS_CONDITIONS": "Условия и положения",
     "CONTACT": "Контакты",
@@ -266,5 +267,9 @@
     "WINE_SAPERAVI_GLASS": "Саперави (Бокал 180мл)",
     "BEER_CORONA": "Корона (Бутылка 0.355л)",
     "BEER_HEINEKEN": "Хайнекен (Бутылка 0.330л)",
-    "BEER_LOVENBRAUD": "Ловенбрау"
+    "BEER_LOVENBRAUD": "Ловенбрау",
+
+    "SASHIMI_EEL": "Сашими из угря",
+    "SASHIMI_SALMON": "Сашими из лосося",
+    "SASHIMI_TUNA": "Сашими из тунца"
 }

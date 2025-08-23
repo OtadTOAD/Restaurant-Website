@@ -15,6 +15,7 @@
     "HOT_DRINKS": "ცხელი სასმელები",
     "COLD_DRINKS": "ცივი სასმელები",
     "ALCOHOL": "ალკოჰოლი",
+    "SASHIMI": "საშიმი",
     "ABOUT_US": "ჩვენს შესახებ",
     "TERMS_CONDITIONS": "წესები და პირობები",
     "CONTACT": "კონტაქტი",
@@ -267,5 +268,9 @@
     "WINE_SAPERAVI_GLASS": "საფერავი (180 მლ)",
     "BEER_CORONA": "კორონა (შუშის 0.355)",
     "BEER_HEINEKEN": "ჰეინეკენი (შუშის 0.330)",
-    "BEER_LOVENBRAUD": "ლოვენბრაუ"
+    "BEER_LOVENBRAUD": "ლოვენბრაუ",
+
+    "SASHIMI_EEL": "გველთევზას საშიმი",
+    "SASHIMI_SALMON": "ორაგულის საშიმი",
+    "SASHIMI_TUNA": "თინუსის საშიმი"
 }

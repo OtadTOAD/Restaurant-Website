@@ -15,6 +15,7 @@
     "HOT_DRINKS": "Hot Drinks",
     "COLD_DRINKS": "Cold Drinks",
     "ALCOHOL": "Alcohol",
+    "SASHIMI": "Sashimi",
     "ABOUT_US": "About Us",
     "TERMS_CONDITIONS": "Terms & Conditions",
     "CONTACT": "Contact",
@@ -267,5 +268,9 @@
     "WINE_SAPERAVI_GLASS": "Saperavi (180ml Glass)",
     "BEER_CORONA": "Corona (Bottle 0.355L)",
     "BEER_HEINEKEN": "Heineken (Bottle 0.330L)",
-    "BEER_LOVENBRAUD": "Lowenbrau"
+    "BEER_LOVENBRAUD": "Lowenbrau",
+
+    "SASHIMI_EEL": "Eel Sashimi",
+    "SASHIMI_SALMON": "Salmon Sashimi",
+    "SASHIMI_TUNA": "Tuna Sashimi"
 }
