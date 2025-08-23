@@ -10,10 +10,9 @@ export const PLACEHOLDER_PRODUCT: Product = {
   ingredients: [],
 }
 
-
 export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'SUSHI', icon: "/assets/icons/sushi.png", slug: "sushi" },
-  { label: 'ROLL', icon: "/assets/icons/roll.png", slug: "roll"},
+  { label: 'ROLL', icon: "/assets/icons/roll.png", slug: "roll" },
   { label: 'SET', icon: "/assets/icons/set.png", slug: "set" },
   { label: 'WOK', icon: "/assets/icons/wok.png", slug: "wok" },
   { label: 'SOUP', icon: "/assets/icons/soup.png", slug: "soup" },
@@ -28,4 +27,5 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
 
 
 
+export const LANG_STORE_KEY = 'lastSetLang'
 

@@ -14,6 +14,7 @@ import { ViewportScroller } from '@angular/common';
 export class App {
   protected readonly title = signal('restaurant-app');
 
-  constructor(private router: Router, private viewScroller: ViewportScroller, private zone: NgZone) {
+  constructor() {
+
   }
 }
