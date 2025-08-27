@@ -1,6 +1,6 @@
 [
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/rkatsiteli.jpg",
     "name": "WINE_RKATSITELI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
@@ -14,7 +14,7 @@
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/kisi.jpg",
     "name": "WINE_QISI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
@@ -28,7 +28,7 @@
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/khikhvi.jpg",
     "name": "WINE_KHIKHVI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
@@ -42,7 +42,7 @@
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/saperavi.jpg",
     "name": "WINE_SAPERAVI_BOTTLE",
     "pieceAmount": 1,
     "price": 35.00,
