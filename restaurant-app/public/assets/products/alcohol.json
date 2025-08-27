@@ -56,6 +56,20 @@
     "ingredients": []
   },
   {
+    "img": "/assets/img/kakhuri_mtsvane.jpg",
+    "name": "WINE_KAKHURI_MTSVANE_BOTTLE",
+    "pieceAmount": 1,
+    "price": 35.00,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "WINE_KAKHURI_MTSVANE_GLASS",
+    "price": 12.90,
+    "pieceMl": 180,
+    "ingredients": []
+  },
+  {
     "img": "/assets/img/in_progress.png",
     "name": "BEER_CORONA",
     "pieceAmount": 1,
