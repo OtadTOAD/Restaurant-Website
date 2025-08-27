@@ -70,21 +70,21 @@
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/corona.jpg",
     "name": "BEER_CORONA",
     "pieceAmount": 1,
     "price": 7.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/heineken.jpg",
     "name": "BEER_HEINEKEN",
     "pieceAmount": 1,
     "price": 10.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/lowenbrau.jpg",
     "name": "BEER_LOVENBRAUD",
     "pieceAmount": 1,
     "price": 8.00,
