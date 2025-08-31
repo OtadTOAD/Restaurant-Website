@@ -8,6 +8,14 @@
   display: flex;
 
   user-select: none;
+
+
+}
+
+.text-style {
+  background: linear-gradient(45deg, var(--text-elephant-bone), var(--text-elephant-bone-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* SCROLL INDICATOR */
@@ -114,7 +122,7 @@
 .text-wrapper h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+  background: linear-gradient(45deg, var(--text-elephant-bone), var(--text-elephant-bone-secondary));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
