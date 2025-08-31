@@ -54,5 +54,12 @@
     "pieceAmount": 1,
     "price": 1.50,
     "ingredients": []
+  },
+  {
+    "img": "/assets/img/coca_cola_glass.png",
+    "name": "COLD_DRINK_COCA_COLA_GLASS",
+    "pieceAmount": 1,
+    "price": 4,
+    "ingredients": []
   }
 ]
