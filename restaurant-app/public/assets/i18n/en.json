@@ -34,7 +34,7 @@
     "NAVIGATION": "Navigation",
     "SCROLL_DOWN": "Scroll Down",
     "PIECE": "Piece",
-    "AND": "And",
+    "AND": "and",
     "UNIT_ML": "ml",
     "CUP": "Cup",
 
@@ -128,6 +128,7 @@
     "MAKI_CUCUMBER": "Cucumber Maki",
     "MAKI_CUCUMBER_SALMON": "Cucumber and Salmon Maki",
     "MAKI_EEL": "Eel Maki",
+    "MAKI_AVOCADO": "Avocado Maki",
 
     "SALAD_HIYASHI": "Hiyashi Salad",
     "SALAD_GRILLED_VEGETABLES": "Grilled Vegetables",

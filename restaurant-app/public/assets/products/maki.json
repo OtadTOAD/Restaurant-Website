@@ -45,5 +45,16 @@
       "EEL",
       "SESAME_UNAGI_SAUCE"
     ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "MAKI_AVOCADO",
+    "pieceAmount": 8,
+    "price": 13.9,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "AVOCADO"
+    ]
   }
 ]
