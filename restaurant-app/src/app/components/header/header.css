@@ -66,6 +66,12 @@ button .hamburger {
   display: none !important;
 }
 
+.hamburger-lang-container {
+  display: flex;
+  column-gap: 5px;
+
+}
+
 .hamburger {
   display: none;
   background-color: black;

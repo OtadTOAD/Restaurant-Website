@@ -12,7 +12,7 @@ import { LANG_STORE_KEY } from '../../config/config';
   styleUrl: './header.css'
 })
 export class Header implements OnInit {
-  hamburgerOpen = false;
+  hamburgerOpen = true;
   hamburgerEnabled = false;
   @ViewChild('langBtn', { read: ElementRef }) langBtn!: ElementRef<HTMLButtonElement>;
 

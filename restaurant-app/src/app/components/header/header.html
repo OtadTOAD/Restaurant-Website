@@ -25,9 +25,21 @@
             transloco }}</button>
         </li>
         <li>
+          <div class="hamburger-lang-container">
+            <button class="menu-btn" (click)="setLang('en')">
+              🇬🇧 English
+            </button>
+            <button class="menu-btn" (click)="setLang('ka')">
+              🇬🇪 ქართული
+            </button>
+            <button class="menu-btn" (click)="setLang('rus')">
+              🇷🇺 Русский
+            </button>
+          </div>
+          <!--
           <button #langBtn class="menu-btn" (click)="toggleDropdown()">
             <i class="fa-solid fa-language"></i> {{ "LANGUAGE" | transloco }} ▾
-          </button>
+</button>-->
         </li>
         <li class="divider" aria-hidden="true"></li>
       </ul>
