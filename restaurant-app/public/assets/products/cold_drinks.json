@@ -61,5 +61,12 @@
     "pieceAmount": 1,
     "price": 1.50,
     "ingredients": []
+  },
+  {
+    "img": "/assets/img/borjomi_glass.png",
+    "name": "COLD_DRINK_BORJOMI_GLASS",
+    "pieceAmount": 1,
+    "price": 4.30,
+    "ingredients": []
   }
 ]
