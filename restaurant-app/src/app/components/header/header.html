@@ -32,9 +32,6 @@
             <button class="menu-btn" (click)="setLang('ka')">
               🇬🇪 ქართული
             </button>
-            <button class="menu-btn" (click)="setLang('rus')">
-              🇷🇺 Русский
-            </button>
           </div>
           <!--
           <button #langBtn class="menu-btn" (click)="toggleDropdown()">
@@ -65,6 +62,5 @@
   [ngStyle]="{ top: dropdownPos.top + 'px', left: dropdownPos.left + 'px', width:dropdownPos.width + 'px' }">
   <a (click)="setLang('en')">🇬🇧 English</a>
   <a (click)="setLang('ka')">🇬🇪 ქართული</a>
-  <a (click)="setLang('rus')">🇷🇺 Русский</a>
 </div>
 }
