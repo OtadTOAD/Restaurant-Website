@@ -3,7 +3,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "SOUP_TOM_YUM_CHICKEN",
     "pieceAmount": 1,
-    "price": 24.00,
+    "price": 26.00,
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
@@ -12,7 +12,6 @@
       "GREEN_ONION",
       "SESAME_SEEDS",
       "LEMON_LIME",
-
       "CHICKEN"
     ]
   },
@@ -20,7 +19,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "SOUP_TOM_YUM_SHRIMP",
     "pieceAmount": 1,
-    "price": 27.00,
+    "price": 29.00,
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
@@ -29,7 +28,6 @@
       "GREEN_ONION",
       "SESAME_SEEDS",
       "LEMON_LIME",
-
       "SHRIMP"
     ]
   },
@@ -37,7 +35,7 @@
     "img": "/assets/img/in_progress.png",
     "name": "SOUP_TOM_YUM_SEAFOOD_MIX",
     "pieceAmount": 1,
-    "price": 27.00,
+    "price": 29.00,
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
@@ -46,7 +44,6 @@
       "GREEN_ONION",
       "SESAME_SEEDS",
       "LEMON_LIME",
-
       "SEAFOOD_MIX"
     ]
   }

@@ -38,7 +38,7 @@
     "img": "/assets/img/iced_tea_generic.jpg",
     "name": "COLD_DRINK_ICED_TEA",
     "pieceAmount": 1,
-    "price": 3.20,
+    "price": 3.5,
     "ingredients": []
   },
   {
@@ -56,10 +56,17 @@
     "ingredients": []
   },
   {
+    "img": "/assets/img/natural_juice_generic.jpg",
+    "name": "COLD_DRINK_NATURAL_JUICE_FULL",
+    "pieceAmount": 1,
+    "price": 5.90,
+    "ingredients": []
+  },
+  {
     "img": "/assets/img/water_bottle.jpg",
     "name": "COLD_DRINK_WATER",
     "pieceAmount": 1,
-    "price": 1.50,
+    "price": 2.00,
     "ingredients": []
   },
   {

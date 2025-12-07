@@ -1,5 +1,5 @@
 {
-    "CLOSE":"დახურვა",
+    "CLOSE": "დახურვა",
     "TEST": "ტესტი",
     "INVALID_PAGE": "ეს გვერდი ვერ მოიძებნა!",
     "SUSHI": "სუში",
@@ -37,11 +37,8 @@
     "AND": "და",
     "UNIT_ML": "მლ",
     "CUP": "ჭიქა",
-
     "TNC_TEXT": "<strong>ზოგადი ქცევის წესები:</strong> გთხოვთ, პატივისცემით მოეპყროთ ჩვენს თანამშრომლებსა და სხვა სტუმრებს. გთხოვთ, დაგვეხმაროთ სუფთა და სასიამოვნო გარემოს შენარჩუნებაში. ჩვენ ვიტოვებთ უფლებას, უარი ვუთხრათ მომსახურებაზე ნებისმიერ პირს, რომელიც არღვევს წესრიგს.</p><p><strong>ალკოჰოლის მოხმარების წესები:</strong> ალკოჰოლური სასმელების შეკვეთა და მოხმარება შეუძლიათ მხოლოდ სრულწლოვან პირებს (18+). ჩვენი თანამშრომლები შეიძლება მოგთხოვონ ასაკის დასადასტურებლად პირადობის დამადასტურებელი დოკუმენტი. ჩვენ ვიტოვებთ უფლებას, უარი ვთქვათ ალკოჰოლის მოყიდვაზე.</p><p><strong>ალერგიები და კვებითი შეზღუდვები:</strong> შეკვეთის გაფორმებამდე, გთხოვთ, აცნობოთ მიმტანს ნებისმიერი კვებითი ალერგიის ან დიეტური შეზღუდვის შესახებ. მიუხედავად იმისა, რომ ვიღებთ ზომებს რისკის შესამცირებლად, ჩვენ ვერ ვიძლევით გარანტიას, რომ ჩვენი კერძები სრულად თავისუფალია ალერგენებისგან.</p><p><strong>ანგარიშსწორება:</strong> ვიღებთ ნაღდ ფულს და ყველა ძირითად საკრედიტო/სადებეტო ბარათს. გთხოვთ, მზად იყოთ გადაიხადოთ თქვენი ანგარიში ვიზიტის დასრულებისას.</p><p><strong>პირადი ნივთები:</strong> რესტორანი არ არის პასუხისმგებელი დაკარგულ, მოპარულ ან დაზიანებულ პირად ნივთებზე.</p><p>გმადლობთ გაგებისთვის და ვიმედოვნებთ, რომ ისიამოვნებთ ჩვენთან სტუმრობით!",
-
     "ABOUT_US_TEXT": "<p>მოგესალმებით <strong>Sensei Sushi-ში</strong> — სადაც ინოვაცია და ტრადიცია ერთიანდება თბილისის გულში. <p><strong>რას გთავაზობთ</strong><br>მხოლოდ სუში კი არა — ჩვენს მენიუში შეხვდებით ისეთ ორიგინალურ კერძებს, როგორიცაა <strong>სუში-პიცა</strong> (კრაბი, ორაგული, სპეციალური სოუსი, ტობიკო და ელის სოუსი) ასევე კლასიკურ როლებსა და სეტებს. ჩვენი <strong>„ყველაზე გემრიელი ბურგერი“</strong> და <strong>როლების ბოქსები</strong> აუცილებლად გაგაკვირვებთ.</p><p><strong>მოგვძებნეთ</strong><br>გვიპოვით <strong>Instagram-ზე (@sensei.sushi1)</strong> და <strong>Facebook-ზე (Sensei Sushi • სენსეი სუში)</strong>. ვმუშაობთ ყოველდღე <strong>11:30 – 23:30</strong>. ტელ: <strong>+995 555 36 88 92</strong>, ელ.ფოსტა: <strong>Infosenseibox@gmail.com</strong>.</p>",
-
     "NORI": "ნორი",
     "RICE": "ბრინჯი",
     "SALMON": "ორაგული",
@@ -108,7 +105,6 @@
     "SALMON_TOP_SWEET_CHILI_SAUCE": "ორაგული ტკბილი ჩილის სოუსით ზემოდან",
     "SHRIMP_PANKO_FRIED": "კრევეტი პანკოში შემწვარი",
     "SET_SECRET_DESCR": "თუ შეუკვეთავთ საიდუმლო სეტს, ჩვენი შეფი თავად შეგირჩევთ თქვენთვის სასურველ სეტს.",
-
     "BURGER_SALMON": "ბურგერი ორაგულით",
     "BURGER_EEL": "ბურგერი გველთევზით",
     "BURGER_SHRIMP": "ბურგერი კრევეტით",
@@ -123,26 +119,21 @@
     "BURRITO_CRAB": "ბურიტო კრაბით",
     "BURRITO_EEL": "ბურიტო გველთევზით",
     "BURRITO_SALMON": "ბურიტო ორაგულით",
-
     "MAKI_SALMON": "ორაგულის მაკი",
     "MAKI_CUCUMBER": "კიტრის მაკი",
     "MAKI_CUCUMBER_SALMON": "კიტრის და ორაგულის მაკი",
     "MAKI_EEL": "გველთევზას მაკი",
     "MAKI_AVOCADO": "ავოკადოს მაკი",
-
     "SALAD_HIYASHI": "ჰიაშის სალათი",
     "SALAD_GRILLED_VEGETABLES": "გრილზე შემწვარი ბოსტნეული",
-
     "SIDE_FRIES": "კარტოფილი ფრი",
     "SIDE_SHRIMP_IN_TEMPURA": "კრევეტი ტემპურაში",
     "SIDE_CHICKEN_NUGGETS": "ქათმის ნაგეთსი",
     "SIDE_RICE_BALLS": "ბრინჯის ბურთულები",
     "SIDE_ONION_RINGS": "ხახვის რგოლები",
-
     "SOUP_TOM_YUM_CHICKEN": "ტომ იამის წვნიანი ქათმით",
     "SOUP_TOM_YUM_SHRIMP": "ტომ იამის წვნიანი კრევეტით",
     "SOUP_TOM_YUM_SEAFOOD_MIX": "ტომ იამის წვნიანი ზღვის პროდუქტების მიქსით",
-
     "SUSHI_SALMON_NIGIRI": "ნიგირი ორაგულით",
     "SUSHI_EEL_NIGIRI": "ნიგირი გველთევზით",
     "SUSHI_TUNA_NIGIRI": "ნიგირი თინუსით",
@@ -151,7 +142,6 @@
     "SUSHI_GUNKAN_EEL": "გუნკანი გველთევზით",
     "SUSHI_GUNKAN_TUNA": "გუნკანი თინუსით",
     "SUSHI_GUNKAN_SHRIMP": "გუნკანი კრევეტით",
-
     "WOK_NOODLES_CHICKEN": "ატრია ქათმით",
     "WOK_NOODLES_BEEF": "ატრია საქონლის ხორცით",
     "WOK_NOODLES_SHRIMPS": "ატრია კრევეტებით",
@@ -162,7 +152,6 @@
     "WOK_BUCKWHEAT_NOODLES_SHRIMP": "წიწიბურის ატრია კრევეტებით",
     "WOK_BUCKWHEAT_NOODLES_SEAFOOD_MIX": "წიწიბურის ატრია ზღვის პროდუქტების მიქსით",
     "WOK_BUCKWHEAT_NOODLES_CRISPY_CHICKEN": "წიწიბურის ატრია კრისპი ქათმით",
-
     "ROLL_PHILADELPHIA": "ფილადელფია",
     "ROLL_EEL_ROLL": "უნაგი როლი",
     "ROLL_GREEN_DRAGON": "მწვანე დრაკონი",
@@ -180,7 +169,6 @@
     "ROLL_HOT_TUNA": "ცხელი თინუსის როლი",
     "ROLL_HOT_CRAB": "ცხელი კრაბის როლი",
     "ROLL_HOT_SHRIMP": "ცხელი კრევეტის როლი",
-
     "SET_PREMIUM": "პრემიუმ სეტი",
     "SET_SAKE": "საკე სეტი",
     "SET_SMILE": "სმაილ სეტი",
@@ -196,7 +184,6 @@
     "SET_ROLL_BOX": "როლი ბოქსი",
     "SET_HOT": "ცხელი სეტი",
     "SET_SECRET": "საიდუმლო სეტი",
-
     "SET_INGREDIENT_PHILADELPHIA_8_PIECES": "ფილადელფია - 8 ცალი",
     "SET_INGREDIENT_SHRIMP_ROLL_8_PIECES": "კრევეტის როლი - 8 ცალი",
     "SET_INGREDIENT_TUNA_ROLL_8_PIECES": "თინუსის როლი - 8 ცალი",
@@ -241,7 +228,6 @@
     "SET_INGREDIENT_HOT_ROLL_SHRIMP_8_PIECES": "ცხელი როლი კრევეტით - 8 ცალი",
     "SET_INGREDIENT_HOT_ROLL_CRAB_8_PIECES": "ცხელი როლი კრაბით - 8 ცალი",
     "SET_INGREDIENT_HOT_ROLL_SALMON_8_PIECES": "ცხელი როლი ორაგულით - 8 ცალი",
-
     "COLD_DRINK_COCA_COLA_ZERO": "კოკა-კოლა ზერო",
     "COLD_DRINK_COCA_COLA_CLASSIC": "კოკა-კოლა კლასიკი",
     "COLD_DRINK_COCA_COLA_GLASS": "კოკა-კოლა (შუშის)",
@@ -249,10 +235,10 @@
     "COLD_DRINK_SPRITE": "სპრაიტი",
     "COLD_DRINK_ICED_TEA": "ცივი ჩაი",
     "COLD_DRINK_SCHWEPPES": "შვეპსი",
-    "COLD_DRINK_NATURAL_JUICE": "ნატურალური წვენი",
+    "COLD_DRINK_NATURAL_JUICE": "ნატურალური წვენი (ჭიქით)",
+    "COLD_DRINK_NATURAL_JUICE_FULL": "ნატურალური წვენი (მთლიანი)",
     "COLD_DRINK_WATER": "წყალი",
     "COLD_DRINK_BORJOMI_GLASS": "ბორჯომი (შუშა)",
-
     "COFFEE_ICED_WITH_ICE_CREAM": "ცივი ყავა ნაყინით",
     "COFFEE_AMERICANO": "ამერიკანო",
     "COFFEE_CAPPUCCINO": "კაპუჩინო",
@@ -260,7 +246,6 @@
     "COFFEE_TURKISH": "თურქული",
     "TEA_TEAPOT": "ჩაიდანი ჩაი",
     "TEA_CUP": "ჩაის ფინჯანი",
-
     "WINE_RKATSITELI_BOTTLE": "რქაწითელი (1 ბოთლი)",
     "WINE_RKATSITELI_GLASS": "რქაწითელი (180 მლ)",
     "WINE_QISI_BOTTLE": "ქისი (1 ბოთლი)",
@@ -274,7 +259,6 @@
     "BEER_CORONA": "კორონა (შუშის 0.355)",
     "BEER_HEINEKEN": "ჰეინეკენი (შუშის 0.330)",
     "BEER_LOVENBRAUD": "ლოვენბრაუ",
-
     "SASHIMI_EEL": "გველთევზას საშიმი",
     "SASHIMI_SALMON": "ორაგულის საშიმი",
     "SASHIMI_TUNA": "თინუსის საშიმი"

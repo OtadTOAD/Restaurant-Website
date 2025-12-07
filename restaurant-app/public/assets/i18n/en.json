@@ -1,5 +1,5 @@
 {
-    "CLOSE":"Close",
+    "CLOSE": "Close",
     "TEST": "Test",
     "INVALID_PAGE": "Could not find that page!",
     "SUSHI": "Sushi",
@@ -37,11 +37,8 @@
     "AND": "and",
     "UNIT_ML": "ml",
     "CUP": "Cup",
-
     "TNC_TEXT": "<strong>General Conduct:</strong> We kindly ask all guests to treat our staff and fellow diners with respect. Please help us maintain a clean and pleasant atmosphere. We reserve the right to refuse service to anyone causing a disturbance.</p><p><strong>Alcohol Policy:</strong> Guests must be of legal drinking age (18+) to order and consume alcoholic beverages. Our staff may request valid photo identification to verify age. We reserve the right to refuse the sale of alcohol.</p><p><strong>Allergies and Dietary Needs:</strong> Please inform your server of any food allergies or dietary restrictions before placing your order. While we take steps to minimize risk, we cannot guarantee that any of our dishes are completely free of allergens.</p><p><strong>Payment:</strong> We accept cash and all major credit/debit cards. Please be ready to settle your bill at the end of your meal.</p><p><strong>Personal Belongings:</strong> The restaurant is not responsible for any lost, stolen, or damaged personal items.</p><p>Thank you for your understanding. We hope you enjoy your experience with us!",
-
     "ABOUT_US_TEXT": "<p>Welcome to <strong>Sensei Sushi</strong> — where innovation meets tradition in the heart of Tbilisi. <p><strong>What We’re About</strong><br>More than just sushi — our menu features imaginative creations like <strong>sushi-pizza</strong> (crab, salmon, signature sauce, tobiko, and eel sauce) alongside favorite rolls and sets. From our <strong>“most delicious burger”</strong> to classic <strong>roll boxes</strong>, every dish is crafted to surprise and delight.</p><p><strong>Find Us & Stay in the Loop</strong><br>Follow us on <strong>Instagram (@sensei.sushi1)</strong> and <strong>Facebook (Sensei Sushi • სენსეი სუში)</strong>. We’re open daily <strong>11:30 – 23:30</strong> for dine-in or delivery via Wolt. Phone: <strong>+995 555 36 88 92</strong>, Email: <strong>Infosenseibox@gmail.com</strong>.</p>",
-
     "NORI": "Nori",
     "RICE": "Rice",
     "SALMON": "Salmon",
@@ -108,7 +105,6 @@
     "SALMON_TOP_SWEET_CHILI_SAUCE": "Salmon in Sweet Chili Sauce on Top",
     "SHRIMP_PANKO_FRIED": "Shrimp Fried in Panko",
     "SET_SECRET_DESCR": "If you order the Secret Set, our chef will choose the right set for you.",
-
     "BURGER_SALMON": "Burger with Salmon",
     "BURGER_EEL": "Burger with Eel",
     "BURGER_SHRIMP": "Burger with Shrimp",
@@ -123,26 +119,21 @@
     "BURRITO_CRAB": "Burrito with Crab",
     "BURRITO_EEL": "Burrito with Eel",
     "BURRITO_SALMON": "Burrito with Salmon",
-
     "MAKI_SALMON": "Salmon Maki",
     "MAKI_CUCUMBER": "Cucumber Maki",
     "MAKI_CUCUMBER_SALMON": "Cucumber and Salmon Maki",
     "MAKI_EEL": "Eel Maki",
     "MAKI_AVOCADO": "Avocado Maki",
-
     "SALAD_HIYASHI": "Hiyashi Salad",
     "SALAD_GRILLED_VEGETABLES": "Grilled Vegetables",
-
     "SIDE_FRIES": "Fries",
     "SIDE_SHRIMP_IN_TEMPURA": "Shrimp in Tempura",
     "SIDE_CHICKEN_NUGGETS": "Chicken Nuggets",
     "SIDE_RICE_BALLS": "Rice Balls",
     "SIDE_ONION_RINGS": "Onion Rings",
-
     "SOUP_TOM_YUM_CHICKEN": "Tom Yum Soup with Chicken",
     "SOUP_TOM_YUM_SHRIMP": "Tom Yum Soup with Shrimp",
     "SOUP_TOM_YUM_SEAFOOD_MIX": "Tom Yum Soup with Seafood Mix",
-
     "SUSHI_SALMON_NIGIRI": "Salmon Nigiri",
     "SUSHI_EEL_NIGIRI": "Eel Nigiri",
     "SUSHI_TUNA_NIGIRI": "Tuna Nigiri",
@@ -151,7 +142,6 @@
     "SUSHI_GUNKAN_EEL": "Gunkan with Eel",
     "SUSHI_GUNKAN_TUNA": "Gunkan with Tuna",
     "SUSHI_GUNKAN_SHRIMP": "Gunkan with Shrimp",
-
     "WOK_NOODLES_CHICKEN": "Noodles with Chicken",
     "WOK_NOODLES_BEEF": "Noodles with Beef",
     "WOK_NOODLES_SHRIMPS": "Noodles with Shrimps",
@@ -162,7 +152,6 @@
     "WOK_BUCKWHEAT_NOODLES_SHRIMP": "Buckwheat Noodles with Shrimps",
     "WOK_BUCKWHEAT_NOODLES_SEAFOOD_MIX": "Buckwheat Noodles with Seafood Mix",
     "WOK_BUCKWHEAT_NOODLES_CRISPY_CHICKEN": "Buckwheat Noodles with Crispy Chicken",
-
     "ROLL_PHILADELPHIA": "Philadelphia",
     "ROLL_EEL_ROLL": "Unagi Roll",
     "ROLL_GREEN_DRAGON": "Green Dragon",
@@ -180,7 +169,6 @@
     "ROLL_HOT_TUNA": "Hot Tuna Roll",
     "ROLL_HOT_CRAB": "Hot Crab Roll",
     "ROLL_HOT_SHRIMP": "Hot Shrimp Roll",
-
     "SET_PREMIUM": "Premium Set",
     "SET_SAKE": "Sake Set",
     "SET_SMILE": "Smile Set",
@@ -196,7 +184,6 @@
     "SET_ROLL_BOX": "Roll Box",
     "SET_HOT": "Hot Set",
     "SET_SECRET": "Secret Set",
-
     "SET_INGREDIENT_PHILADELPHIA_8_PIECES": "Philadelphia - 8 pieces",
     "SET_INGREDIENT_SHRIMP_ROLL_8_PIECES": "Shrimp Roll - 8 pieces",
     "SET_INGREDIENT_TUNA_ROLL_8_PIECES": "Tuna Roll - 8 pieces",
@@ -241,7 +228,6 @@
     "SET_INGREDIENT_HOT_ROLL_SHRIMP_8_PIECES": "Hot Roll with Shrimp - 8 pieces",
     "SET_INGREDIENT_HOT_ROLL_CRAB_8_PIECES": "Hot Roll with Crab - 8 pieces",
     "SET_INGREDIENT_HOT_ROLL_SALMON_8_PIECES": "Hot Roll with Salmon - 8 pieces",
-
     "COLD_DRINK_COCA_COLA_ZERO": "Coca-Cola Zero",
     "COLD_DRINK_COCA_COLA_CLASSIC": "Coca-Cola Classic",
     "COLD_DRINK_COCA_COLA_GLASS": "Coca-Cola (Glass)",
@@ -249,10 +235,10 @@
     "COLD_DRINK_SPRITE": "Sprite",
     "COLD_DRINK_ICED_TEA": "Iced Tea",
     "COLD_DRINK_SCHWEPPES": "Schweppes",
-    "COLD_DRINK_NATURAL_JUICE": "Natural Juice",
+    "COLD_DRINK_NATURAL_JUICE": "Natural Juice (Cup)",
+    "COLD_DRINK_NATURAL_JUICE_FULL": "Natural Juice (Full)",
     "COLD_DRINK_WATER": "Water",
     "COLD_DRINK_BORJOMI_GLASS": "Borjomi (Glass)",
-
     "COFFEE_ICED_WITH_ICE_CREAM": "Iced Coffee with Ice Cream",
     "COFFEE_AMERICANO": "Americano",
     "COFFEE_CAPPUCCINO": "Cappuccino",
@@ -260,7 +246,6 @@
     "COFFEE_TURKISH": "Turkish Coffee",
     "TEA_TEAPOT": "Teapot of Tea",
     "TEA_CUP": "Cup of Tea",
-
     "WINE_RKATSITELI_BOTTLE": "Rkatsiteli (Bottle)",
     "WINE_RKATSITELI_GLASS": "Rkatsiteli (180ml Glass)",
     "WINE_QISI_BOTTLE": "Qisi (Bottle)",
@@ -274,7 +259,6 @@
     "BEER_CORONA": "Corona (Bottle 0.355L)",
     "BEER_HEINEKEN": "Heineken (Bottle 0.330L)",
     "BEER_LOVENBRAUD": "Lowenbrau",
-
     "SASHIMI_EEL": "Eel Sashimi",
     "SASHIMI_SALMON": "Salmon Sashimi",
     "SASHIMI_TUNA": "Tuna Sashimi"
