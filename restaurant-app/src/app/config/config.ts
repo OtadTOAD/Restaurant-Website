@@ -20,10 +20,10 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'BURGERS', icon: "/assets/icons/hamburger.png", slug: "burgers" },
   { label: 'SALADS', icon: "/assets/icons/salad.png", slug: "salads" },
   { label: 'MAKI', icon: '/assets/icons/maki.png', slug: "maki" },
-  { label: 'HOT_DRINKS', icon: '/assets/icons/coffee.png', slug: "coffee" },
+  { label: 'HOT_DRINKS', icon: '/assets/icons/coffee.png', slug: "hot_drinks" },
   { label: 'COLD_DRINKS', icon: '/assets/icons/cold_drinks.png', slug: "cold_drinks" },
   { label: 'ALCOHOL', icon: '/assets/icons/alcohol.png', slug: "alcohol" },
-  { label: 'SASHIMI', icon: '/assets/icons/sashimi.png', slug: "sashimi"}
+  { label: 'SASHIMI', icon: '/assets/icons/sashimi.png', slug: "sashimi" }
 ]
 
 
