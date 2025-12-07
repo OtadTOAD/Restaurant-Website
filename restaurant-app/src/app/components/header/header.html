@@ -25,6 +25,10 @@
             transloco }}</button>
         </li>
         <li>
+          <button class="menu-btn" routerLink="/products/roll"><i class="fa-solid fa-receipt"></i> {{ "PRODUCTS" |
+            transloco }}</button>
+        </li>
+        <li>
           <div class="hamburger-lang-container">
             <button class="menu-btn" (click)="setLang('en')">
               🇬🇧 English
@@ -49,6 +53,10 @@
       }}</button>
     <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us"><i
         class="fa-solid fa-info-circle"></i> {{ "ABOUT_US" | transloco
+      }}</button>
+    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/products/roll"><i
+        class="fa-solid fa-receipt"></i> {{
+      "PRODUCTS" | transloco
       }}</button>
 
     <button #langBtn class="menu-btn" (click)="toggleDropdown()"><i class="fa-solid fa-language"></i> {{ "LANGUAGE" |
