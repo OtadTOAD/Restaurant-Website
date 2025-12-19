@@ -153,6 +153,7 @@
     "WOK_BUCKWHEAT_NOODLES_SEAFOOD_MIX": "წიწიბურის ატრია ზღვის პროდუქტების მიქსით",
     "WOK_BUCKWHEAT_NOODLES_CRISPY_CHICKEN": "წიწიბურის ატრია კრისპი ქათმით",
     "ROLL_PHILADELPHIA": "ფილადელფია",
+    "ROLL_PHILADELPHIA_SENSEI": "ფილადელფია სენსეი",
     "ROLL_EEL_ROLL": "უნაგი როლი",
     "ROLL_GREEN_DRAGON": "მწვანე დრაკონი",
     "ROLL_TUNA_ROLL": "თინუსის როლი",
@@ -261,5 +262,6 @@
     "BEER_LOVENBRAUD": "ლოვენბრაუ",
     "SASHIMI_EEL": "გველთევზას საშიმი",
     "SASHIMI_SALMON": "ორაგულის საშიმი",
-    "SASHIMI_TUNA": "თინუსის საშიმი"
+    "SASHIMI_TUNA": "თინუსის საშიმი",
+    "SASHIMI_SHRIMP": "კრევეტის საშიმი"
 }

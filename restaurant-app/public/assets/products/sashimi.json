@@ -1,15 +1,15 @@
 [
     {
-    "img": "/assets/img/in_progress.png",
-    "name": "SASHIMI_EEL",
-    "pieceAmount": 5,
-    "price": 25.00,
-    "ingredients": [
-      "EEL"
-    ]
+        "img": "/assets/img/საშიმი გველთევზა.jpg",
+        "name": "SASHIMI_EEL",
+        "pieceAmount": 5,
+        "price": 25.00,
+        "ingredients": [
+            "EEL"
+        ]
     },
     {
-        "img": "/assets/img/in_progress.png",
+        "img": "/assets/img/საშიმი ორაგული.jpg",
         "name": "SASHIMI_SALMON",
         "pieceAmount": 5,
         "price": 24.00,
@@ -18,12 +18,21 @@
         ]
     },
     {
-        "img": "/assets/img/in_progress.png",
+        "img": "/assets/img/საშიმი თინუსი.jpg",
         "name": "SASHIMI_TUNA",
         "pieceAmount": 5,
         "price": 24.00,
         "ingredients": [
             "TUNA"
+        ]
+    },
+    {
+        "img": "/assets/img/საშიმი კრევეტი.jpg",
+        "name": "SASHIMI_SHRIMP",
+        "pieceAmount": 5,
+        "price": 24.00,
+        "ingredients": [
+            "SHRIMP"
         ]
     }
 ]

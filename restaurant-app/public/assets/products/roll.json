@@ -14,6 +14,21 @@
     ]
   },
   {
+    "img": "/assets/img/ფილადელფია სენსეი.jpg",
+    "name": "ROLL_PHILADELPHIA_SENSEI",
+    "pieceAmount": 8,
+    "price": 41.00,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "AVOCADO",
+      "CUCUMBER",
+      "CARROT",
+      "SALMON"
+    ]
+  },
+  {
     "img": "/assets/img/გველთევზას როლი.jpg",
     "name": "ROLL_EEL_ROLL",
     "pieceAmount": 8,
@@ -178,7 +193,7 @@
     "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_SALMON",
     "pieceAmount": 8,
-    "price": 33.0,
+    "price": 36.0,
     "ingredients": [
       "NORI",
       "RICE",
@@ -194,7 +209,7 @@
     "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_EEL",
     "pieceAmount": 8,
-    "price": 33.0,
+    "price": 36.0,
     "ingredients": [
       "NORI",
       "RICE",
@@ -210,7 +225,7 @@
     "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_TUNA",
     "pieceAmount": 8,
-    "price": 33.0,
+    "price": 36.0,
     "ingredients": [
       "NORI",
       "RICE",
@@ -226,7 +241,7 @@
     "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_CRAB",
     "pieceAmount": 8,
-    "price": 33.0,
+    "price": 36.0,
     "ingredients": [
       "NORI",
       "RICE",
@@ -242,7 +257,7 @@
     "img": "/assets/img/ცხელი როლები.JPG",
     "name": "ROLL_HOT_SHRIMP",
     "pieceAmount": 8,
-    "price": 33.0,
+    "price": 36.0,
     "ingredients": [
       "NORI",
       "RICE",

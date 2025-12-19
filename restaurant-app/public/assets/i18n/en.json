@@ -153,6 +153,7 @@
     "WOK_BUCKWHEAT_NOODLES_SEAFOOD_MIX": "Buckwheat Noodles with Seafood Mix",
     "WOK_BUCKWHEAT_NOODLES_CRISPY_CHICKEN": "Buckwheat Noodles with Crispy Chicken",
     "ROLL_PHILADELPHIA": "Philadelphia",
+    "ROLL_PHILADELPHIA_SENSEI": "Sensei Philadelphia",
     "ROLL_EEL_ROLL": "Unagi Roll",
     "ROLL_GREEN_DRAGON": "Green Dragon",
     "ROLL_TUNA_ROLL": "Tuna Roll",
@@ -261,5 +262,6 @@
     "BEER_LOVENBRAUD": "Lowenbrau",
     "SASHIMI_EEL": "Eel Sashimi",
     "SASHIMI_SALMON": "Salmon Sashimi",
-    "SASHIMI_TUNA": "Tuna Sashimi"
+    "SASHIMI_TUNA": "Tuna Sashimi",
+    "SASHIMI_SHRIMP": "Shrimp Sashimi"
 }
