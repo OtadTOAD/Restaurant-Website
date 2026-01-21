@@ -60,7 +60,9 @@
     "name": "COLD_DRINK_NATURAL_JUICE_FULL",
     "pieceAmount": 1,
     "price": 15.00,
-    "ingredients": []
+    "ingredients": [
+      "DESC_090L"
+    ]
   },
   {
     "img": "/assets/img/water_bottle.jpg",
