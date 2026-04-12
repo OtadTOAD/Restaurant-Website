@@ -93,7 +93,6 @@
   {
     "img": "/assets/img/monkey_shoulder.png",
     "name": "WHISKY_MONKEY_SHOULDER",
-    "pieceAmount": 1,
     "price": 16.00,
     "pieceMl": 50,
     "ingredients": []
@@ -101,7 +100,6 @@
   {
     "img": "/assets/img/jameson.png",
     "name": "WHISKY_JAMESON",
-    "pieceAmount": 1,
     "price": 16.00,
     "pieceMl": 50,
     "ingredients": []
@@ -109,7 +107,6 @@
   {
     "img": "/assets/img/beluga.png",
     "name": "VODKA_BELUGA",
-    "pieceAmount": 1,
     "price": 18.00,
     "pieceMl": 50,
     "ingredients": []
@@ -117,7 +114,6 @@
   {
     "img": "/assets/img/grey_goose.png",
     "name": "VODKA_GREY_GOOSE",
-    "pieceAmount": 1,
     "price": 18.00,
     "pieceMl": 50,
     "ingredients": []
@@ -125,7 +121,6 @@
   {
     "img": "/assets/img/stolichnaya.png",
     "name": "VODKA_STOLICHNAYA",
-    "pieceAmount": 1,
     "price": 12.00,
     "pieceMl": 50,
     "ingredients": []
@@ -133,7 +128,6 @@
   {
     "img": "/assets/img/finlandia.png",
     "name": "VODKA_FINLANDIA",
-    "pieceAmount": 1,
     "price": 12.00,
     "pieceMl": 50,
     "ingredients": []
@@ -141,7 +135,6 @@
   {
     "img": "/assets/img/absolut.png",
     "name": "VODKA_ABSOLUT",
-    "pieceAmount": 1,
     "price": 12.00,
     "pieceMl": 50,
     "ingredients": []
@@ -149,7 +142,6 @@
   {
     "img": "/assets/img/danzka.png",
     "name": "VODKA_DANZKA",
-    "pieceAmount": 1,
     "price": 10.00,
     "pieceMl": 50,
     "ingredients": []
@@ -157,7 +149,6 @@
   {
     "img": "/assets/img/jagermeister.png",
     "name": "LIQUEUR_JAGERMEISTER",
-    "pieceAmount": 1,
     "price": 10.00,
     "pieceMl": 50,
     "ingredients": []
