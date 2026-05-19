@@ -7,7 +7,7 @@
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
-      "SHIITAKE_MUSHROOMS",
+      "BUTTON_MUSHROOMS",
       "CHERRY_TOMATOES",
       "GREEN_ONION",
       "SESAME_SEEDS",
@@ -23,28 +23,12 @@
     "ingredients": [
       "TOM_YUM_PASTE",
       "COCONUT_MILK",
-      "SHIITAKE_MUSHROOMS",
+      "BUTTON_MUSHROOMS",
       "CHERRY_TOMATOES",
       "GREEN_ONION",
       "SESAME_SEEDS",
       "LEMON_LIME",
       "SHRIMP"
-    ]
-  },
-  {
-    "img": "/assets/img/in_progress.png",
-    "name": "SOUP_TOM_YUM_SEAFOOD_MIX",
-    "pieceAmount": 1,
-    "price": 29.00,
-    "ingredients": [
-      "TOM_YUM_PASTE",
-      "COCONUT_MILK",
-      "SHIITAKE_MUSHROOMS",
-      "CHERRY_TOMATOES",
-      "GREEN_ONION",
-      "SESAME_SEEDS",
-      "LEMON_LIME",
-      "SEAFOOD_MIX"
     ]
   }
 ]
