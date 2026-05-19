@@ -111,18 +111,6 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
-    "name": "SET_VEGGIE",
-    "pieceAmount": 32,
-    "price": 51.9,
-    "ingredients": [
-      "SET_INGREDIENT_CHEDDAR_ROLL_8_PIECES",
-      "SET_INGREDIENT_GREEN_DRAGON_8_PIECES",
-      "SET_INGREDIENT_VEGETABLE_ROLL_8_PIECES",
-      "SET_INGREDIENT_CUCUMBER_MAKI_8_PIECES"
-    ]
-  },
-  {
     "img": "/assets/img/ფილადელფია სეტი.jpg",
     "name": "SET_PHILADELPHIA",
     "pieceAmount": 48,
