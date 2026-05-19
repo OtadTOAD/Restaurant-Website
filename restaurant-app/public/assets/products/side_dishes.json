@@ -31,16 +31,6 @@
     ]
   },
   {
-    "img": "/assets/img/ბრინჯის ბურთულა.jpg",
-    "name": "SIDE_RICE_BALLS",
-    "pieceAmount": 3,
-    "price": 2.9,
-    "ingredients": [
-      "RICE",
-      "SESAME"
-    ]
-  },
-  {
     "img": "/assets/img/onion_rings.jpg",
     "name": "SIDE_ONION_RINGS",
     "pieceAmount": 8,
