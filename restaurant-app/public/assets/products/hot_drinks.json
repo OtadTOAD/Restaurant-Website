@@ -1,30 +1,9 @@
 [
   {
     "img": "/assets/img/in_progress.png",
-    "name": "COFFEE_ICED_WITH_ICE_CREAM",
-    "pieceAmount": 1,
-    "price": 12.90,
-    "ingredients": []
-  },
-  {
-    "img": "/assets/img/in_progress.png",
     "name": "COFFEE_AMERICANO",
     "pieceAmount": 1,
     "price": 4.90,
-    "ingredients": []
-  },
-  {
-    "img": "/assets/img/in_progress.png",
-    "name": "COFFEE_CAPPUCCINO",
-    "pieceAmount": 1,
-    "price": 5.90,
-    "ingredients": []
-  },
-  {
-    "img": "/assets/img/in_progress.png",
-    "name": "COFFEE_LATTE",
-    "pieceAmount": 1,
-    "price": 7.90,
     "ingredients": []
   },
   {

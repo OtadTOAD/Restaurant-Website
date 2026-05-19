@@ -1,5 +1,12 @@
 [
   {
+    "img": "/assets/img/in_progress.png",
+    "name": "COFFEE_ICED_WITH_ICE_CREAM",
+    "pieceAmount": 1,
+    "price": 12.90,
+    "ingredients": []
+  },
+  {
     "img": "/assets/img/coca_cola_zero.jpg",
     "name": "COLD_DRINK_COCA_COLA_ZERO",
     "pieceAmount": 1,
