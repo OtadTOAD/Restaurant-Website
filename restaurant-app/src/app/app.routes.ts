@@ -2,6 +2,7 @@ import { ExtraOptions, Routes } from '@angular/router';
 import { Landing } from './components/landing/landing';
 import { Error } from './components/error/error';
 import { Products } from './components/products/products';
+import { AboutUs } from './components/about-us/about-us';
 import { TermsConditions } from './components/terms-conditions/terms-conditions';
 
 export const routes: Routes = [
@@ -12,6 +13,10 @@ export const routes: Routes = [
     {
         path: 'products/:type',
         component: Products
+    },
+    {
+        path: 'about_us',
+        component: AboutUs
     },
     {
         path: 'terms_conditions',
