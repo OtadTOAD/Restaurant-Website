@@ -45,21 +45,6 @@
     ]
   },
   {
-    "img": "/assets/img/ლაფშა ზღვის მიქსით.jpg",
-    "name": "WOK_NOODLES_SEAFOOD_MIX",
-    "pieceAmount": 1,
-    "price": 25.90,
-    "ingredients": [
-      "SEAFOOD_MIX",
-      "RED_BELL_PEPPER",
-      "CARROT",
-      "ONION",
-      "UDON",
-      "SESAME_PEANUT",
-      "GREEN_ONION"
-    ]
-  },
-  {
     "img": "/assets/img/ლაფშა ქათმით.jpg",
     "name": "WOK_NOODLES_CRISPY_CHICKEN",
     "pieceAmount": 1,
