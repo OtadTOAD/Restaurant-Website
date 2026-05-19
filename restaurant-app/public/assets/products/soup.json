@@ -1,34 +1,16 @@
 [
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/ტომიამი ქათმით.jpeg",
     "name": "SOUP_TOM_YUM_CHICKEN",
     "pieceAmount": 1,
-    "price": 26.00,
-    "ingredients": [
-      "TOM_YUM_PASTE",
-      "COCONUT_MILK",
-      "BUTTON_MUSHROOMS",
-      "CHERRY_TOMATOES",
-      "GREEN_ONION",
-      "SESAME_SEEDS",
-      "LEMON_LIME",
-      "CHICKEN"
-    ]
+    "price": 26.0,
+    "ingredients": ["TOM_YUM_PASTE", "COCONUT_MILK", "BUTTON_MUSHROOMS", "CHERRY_TOMATOES", "GREEN_ONION", "SESAME_SEEDS", "LEMON_LIME", "CHICKEN"]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/ტომიამი კრევეტით.jpeg",
     "name": "SOUP_TOM_YUM_SHRIMP",
     "pieceAmount": 1,
-    "price": 29.00,
-    "ingredients": [
-      "TOM_YUM_PASTE",
-      "COCONUT_MILK",
-      "BUTTON_MUSHROOMS",
-      "CHERRY_TOMATOES",
-      "GREEN_ONION",
-      "SESAME_SEEDS",
-      "LEMON_LIME",
-      "SHRIMP"
-    ]
+    "price": 29.0,
+    "ingredients": ["TOM_YUM_PASTE", "COCONUT_MILK", "BUTTON_MUSHROOMS", "CHERRY_TOMATOES", "GREEN_ONION", "SESAME_SEEDS", "LEMON_LIME", "SHRIMP"]
   }
 ]

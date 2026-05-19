@@ -3,7 +3,7 @@
     "img": "/assets/img/Piladelpia.jpg",
     "name": "ROLL_PHILADELPHIA",
     "pieceAmount": 8,
-    "price": 33.0,
+    "price": 33.00,
     "ingredients": [
       "NORI",
       "RICE",
@@ -14,24 +14,10 @@
     ]
   },
   {
-    "img": "/assets/img/ფილადელფია სენსეი.jpg",
-    "name": "ROLL_PHILADELPHIA_SENSEI",
-    "pieceAmount": 8,
-    "price": 41.00,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "AVOCADO",
-      "CUCUMBER",
-      "SALMON"
-    ]
-  },
-  {
     "img": "/assets/img/გველთევზას როლი.jpg",
     "name": "ROLL_EEL_ROLL",
     "pieceAmount": 8,
-    "price": 34.2,
+    "price": 33.90,
     "ingredients": [
       "NORI",
       "RICE",
@@ -46,14 +32,14 @@
     "img": "/assets/img/მწვანე დრაკონი.jpg",
     "name": "ROLL_GREEN_DRAGON",
     "pieceAmount": 8,
-    "price": 34.2,
+    "price": 33.90,
     "ingredients": [
       "NORI",
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
       "EEL",
-      "AVOCADO_TOP",
+      "AVOCADO",
       "UNAGI_SAUCE",
       "SESAME"
     ]
@@ -62,7 +48,7 @@
     "img": "/assets/img/თინისის როლი.jpg",
     "name": "ROLL_TUNA_ROLL",
     "pieceAmount": 8,
-    "price": 34.2,
+    "price": 33.90,
     "ingredients": [
       "NORI",
       "RICE",
@@ -77,7 +63,7 @@
     "img": "/assets/img/შავი დრაკონი.jpg",
     "name": "ROLL_BLACK_DRAGON",
     "pieceAmount": 8,
-    "price": 37.7,
+    "price": 37.90,
     "ingredients": [
       "NORI",
       "RICE",
@@ -91,7 +77,7 @@
     "img": "/assets/img/ორაგული სეზამში.jpg",
     "name": "ROLL_SALMON_SESAME",
     "pieceAmount": 8,
-    "price": 31.8,
+    "price": 31.90,
     "ingredients": [
       "NORI",
       "RICE",
@@ -105,7 +91,7 @@
     "img": "/assets/img/შერეული როლი.jpg",
     "name": "ROLL_MIXED",
     "pieceAmount": 8,
-    "price": 37.7,
+    "price": 37.90,
     "ingredients": [
       "NORI",
       "RICE",
@@ -122,36 +108,147 @@
     "img": "/assets/img/ფილადელფია კრევეტით.jpg",
     "name": "ROLL_PHILADELPHIA_SHRIMP",
     "pieceAmount": 8,
-    "price": 36.5,
+    "price": 36.90,
     "ingredients": [
       "NORI",
       "RICE",
       "CREAM_CHEESE",
       "AVOCADO",
       "SHRIMP",
-      "SALMON_TOP",
+      "SALMON",
       "SWEET_CHILI_SAUCE_PEANUT"
+    ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "ROLL_EBI_ROLL",
+    "pieceAmount": 8,
+    "price": 35.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "SHRIMP_PANKO_FRIED",
+      "TOBIKO",
+      "AVOCADO",
+      "SPICE_SAUCE",
+      "CREAM_CHEESE"
+    ]
+  },
+  {
+    "img": "/assets/img/ფილადელფია სენსეი.jpg",
+    "name": "ROLL_PHILADELPHIA_SENSEI",
+    "pieceAmount": 8,
+    "price": 40.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "AVOCADO",
+      "SALMON",
+      "SALMON_TOP",
+      "CREAM_CHEESE"
+    ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "ROLL_TERIYAKI_ROLL",
+    "pieceAmount": 8,
+    "price": 29.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "SALMON",
+      "UNAGI_SAUCE",
+      "RED_TOBICO",
+      "TOBIKO",
+      "CREAM_CHEESE"
+    ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "ROLL_SEARED_PHILADELPHIA",
+    "pieceAmount": 8,
+    "price": 34.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "AVOCADO",
+      "SALMON",
+      "SWEET_CHILI_SAUCE",
+      "GREEN_ONION",
+      "TOBIKO",
+      "CREAM_CHEESE"
+    ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "ROLL_CRUNCHY_DRAGON",
+    "pieceAmount": 8,
+    "price": 37.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "AVOCADO",
+      "SHRIMP_PANKO_FRIED",
+      "EEL",
+      "UNAGI_SAUCE",
+      "SESAME",
+      "CREAM_CHEESE"
+    ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "ROLL_BLACK_CALIFORNIA",
+    "pieceAmount": 8,
+    "price": 33.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "AVOCADO",
+      "EEL",
+      "TOBIKO",
+      "CREAM_CHEESE"
+    ]
+  },
+  {
+    "img": "/assets/img/in_progress.png",
+    "name": "ROLL_HIYASHI_ROLL",
+    "pieceAmount": 8,
+    "price": 29.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CUCUMBER",
+      "CRAB",
+      "HIYASHI",
+      "SESAME",
+      "CREAM_CHEESE"
     ]
   },
   {
     "img": "/assets/img/კალიპორნია.jpg",
     "name": "ROLL_CALIFORNIA_SALMON",
     "pieceAmount": 8,
-    "price": 31.8,
+    "price": 31.90,
     "ingredients": [
       "NORI",
       "RICE",
       "CREAM_CHEESE",
       "SALMON",
       "CUCUMBER",
-      "RED_TOBICO_THREE_SIDES"
+      "RED_TOBICO"
     ]
   },
   {
     "img": "/assets/img/კრაბის მაკ როლი.jpg",
     "name": "ROLL_CRAB_MAK",
     "pieceAmount": 8,
-    "price": 30.6,
+    "price": 30.90,
     "ingredients": [
       "NORI",
       "RICE",
@@ -165,107 +262,16 @@
     "img": "/assets/img/ცხარე ორაგული.jpg",
     "name": "ROLL_SPICY_SALMON",
     "pieceAmount": 8,
-    "price": 35.3,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "CUCUMBER",
-      "SALMON_TOP_SPICY_SAUCE",
-      "HIYASHI_BLACK_SESAME"
-    ]
-  },
-  {
-    "img": "/assets/img/ტკბილ ცხარე ორაგული.jpg",
-    "name": "ROLL_SWEET_CHILI_SALMON",
-    "pieceAmount": 8,
-    "price": 35.3,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "CUCUMBER",
-      "SALMON_TOP_SWEET_CHILI_SAUCE"
-    ]
-  },
-  {
-    "img": "/assets/img/ცხელი როლები.JPG",
-    "name": "ROLL_HOT_SALMON",
-    "pieceAmount": 8,
-    "price": 36.0,
+    "price": 34.90,
     "ingredients": [
       "NORI",
       "RICE",
       "CREAM_CHEESE",
       "CUCUMBER",
       "SALMON",
-      "RED_TOBICO",
-      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE",
-      "PANKO_FRIED"
-    ]
-  },
-  {
-    "img": "/assets/img/ცხელი როლები.JPG",
-    "name": "ROLL_HOT_EEL",
-    "pieceAmount": 8,
-    "price": 36.0,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "CUCUMBER",
-      "EEL",
-      "RED_TOBICO",
-      "PANKO_FRIED",
-      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ]
-  },
-  {
-    "img": "/assets/img/ცხელი როლები.JPG",
-    "name": "ROLL_HOT_TUNA",
-    "pieceAmount": 8,
-    "price": 36.0,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "CUCUMBER",
-      "TUNA",
-      "RED_TOBICO",
-      "PANKO_FRIED",
-      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ]
-  },
-  {
-    "img": "/assets/img/ცხელი როლები.JPG",
-    "name": "ROLL_HOT_CRAB",
-    "pieceAmount": 8,
-    "price": 36.0,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "CUCUMBER",
-      "CRAB",
-      "RED_TOBICO",
-      "PANKO_FRIED",
-      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
-    ]
-  },
-  {
-    "img": "/assets/img/ცხელი როლები.JPG",
-    "name": "ROLL_HOT_SHRIMP",
-    "pieceAmount": 8,
-    "price": 36.0,
-    "ingredients": [
-      "NORI",
-      "RICE",
-      "CREAM_CHEESE",
-      "CUCUMBER",
-      "SHRIMP_PANKO_FRIED",
-      "RED_TOBICO",
-      "PANKO_FRIED",
-      "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE"
+      "SPICE_SAUCE",
+      "HIYASHI",
+      "BLACK_SESAME_TOP"
     ]
   }
 ]

@@ -1,62 +1,44 @@
 [
   {
-    "img": "/assets/img/ლაფშა ქათმით.jpg",
+    "img": "/assets/img/ატრია ქათმით.jpeg",
     "name": "WOK_NOODLES_CHICKEN",
     "pieceAmount": 1,
-    "price": 23.90,
-    "ingredients": [
-      "CHICKEN",
-      "RED_BELL_PEPPER",
-      "CARROT",
-      "ONION",
-      "UDON",
-      "SESAME_PEANUT",
-      "GREEN_ONION"
-    ]
+    "price": 23.9,
+    "ingredients": ["CHICKEN", "RED_BELL_PEPPER", "CARROT", "ONION", "UDON", "SESAME_PEANUT", "GREEN_ONION"]
   },
   {
-    "img": "/assets/img/ლაფშა საქონლის ხორცით.jpg",
+    "img": "/assets/img/ლაფშა საქნოლის ხორცით.jpeg",
     "name": "WOK_NOODLES_BEEF",
     "pieceAmount": 1,
-    "price": 27.90,
-    "ingredients": [
-      "BEEF",
-      "RED_BELL_PEPPER",
-      "CARROT",
-      "ONION",
-      "UDON",
-      "SESAME_PEANUT",
-      "GREEN_ONION"
-    ]
+    "price": 27.9,
+    "ingredients": ["BEEF", "RED_BELL_PEPPER", "CARROT", "ONION", "UDON", "SESAME_PEANUT", "GREEN_ONION"]
   },
   {
     "img": "/assets/img/wok_shrimp.jpg",
     "name": "WOK_NOODLES_SHRIMPS",
     "pieceAmount": 1,
-    "price": 25.90,
-    "ingredients": [
-      "SHRIMP",
-      "RED_BELL_PEPPER",
-      "CARROT",
-      "ONION",
-      "UDON",
-      "SESAME_PEANUT",
-      "GREEN_ONION"
-    ]
+    "price": 25.9,
+    "ingredients": ["SHRIMP", "RED_BELL_PEPPER", "CARROT", "ONION", "UDON", "SESAME_PEANUT", "GREEN_ONION"]
   },
   {
-    "img": "/assets/img/ლაფშა ქათმით.jpg",
+    "img": "/assets/img/ატრია ქათმით.jpeg",
     "name": "WOK_NOODLES_CRISPY_CHICKEN",
     "pieceAmount": 1,
-    "price": 25.90,
-    "ingredients": [
-      "CRISPY_CHICKEN",
-      "RED_BELL_PEPPER",
-      "CARROT",
-      "ONION",
-      "UDON",
-      "SESAME_PEANUT",
-      "GREEN_ONION"
-    ]
+    "price": 25.9,
+    "ingredients": ["CRISPY_CHICKEN", "RED_BELL_PEPPER", "CARROT", "ONION", "UDON", "SESAME_PEANUT", "GREEN_ONION"]
+  },
+  {
+    "img": "/assets/img/ბრინჯი კრევეტით.jpeg",
+    "name": "WOK_RICE_SHRIMPS",
+    "pieceAmount": 1,
+    "price": 25.9,
+    "ingredients": ["RICE", "RED_BELL_PEPPER", "CARROT", "SHRIMP", "GREEN_ONION", "SESAME_PEANUT", "SPICE_SAUCE"]
+  },
+  {
+    "img": "/assets/img/ბრინჯი ქათმით.jpeg",
+    "name": "WOK_RICE_CHICKEN",
+    "pieceAmount": 1,
+    "price": 23.9,
+    "ingredients": ["RICE", "RED_BELL_PEPPER", "CARROT", "CHICKEN", "GREEN_ONION", "SESAME_PEANUT", "SPICE_SAUCE"]
   }
 ]

@@ -4,40 +4,34 @@
     "name": "SIDE_FRIES",
     "pieceAmount": 1,
     "price": 6.9,
-    "ingredients": [
-      "POTATOES",
-      "SWEET_CHILI_SAUCE"
-    ]
+    "ingredients": ["POTATOES", "SWEET_CHILI_SAUCE"]
   },
   {
     "img": "/assets/img/კრევეტი ტემპურა.jpg",
     "name": "SIDE_SHRIMP_IN_TEMPURA",
     "pieceAmount": 5,
     "price": 13.9,
-    "ingredients": [
-      "SHRIMP",
-      "TEMPURA_FRIED",
-      "SWEET_CHILI_SAUCE"
-    ]
+    "ingredients": ["SHRIMP", "TEMPURA_FRIED", "SWEET_CHILI_SAUCE"]
+  },
+  {
+    "img": "/assets/img/ქათმის ფრთები.jpeg",
+    "name": "SIDE_CHICKEN_WINGS",
+    "pieceAmount": 6,
+    "price": 15.0,
+    "ingredients": ["CHICKEN", "UNAGI_SAUCE", "GREEN_ONION", "SESAME"]
   },
   {
     "img": "/assets/img/ქათმის ნაგეცი.jpg",
     "name": "SIDE_CHICKEN_NUGGETS",
     "pieceAmount": 5,
     "price": 9.9,
-    "ingredients": [
-      "CHICKEN",
-      "SPICE_SAUCE"
-    ]
+    "ingredients": ["CHICKEN", "SPICE_SAUCE"]
   },
   {
     "img": "/assets/img/onion_rings.jpg",
     "name": "SIDE_ONION_RINGS",
     "pieceAmount": 8,
     "price": 6.9,
-    "ingredients": [
-      "ONION",
-      "SWEET_CHILI_SAUCE"
-    ]
+    "ingredients": ["ONION", "SWEET_CHILI_SAUCE"]
   }
 ]
