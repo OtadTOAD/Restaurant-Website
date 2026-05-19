@@ -43,7 +43,7 @@
   {
     "img": "/assets/img/onion_rings.jpg",
     "name": "SIDE_ONION_RINGS",
-    "pieceAmount": 1,
+    "pieceAmount": 8,
     "price": 6.9,
     "ingredients": [
       "ONION",
