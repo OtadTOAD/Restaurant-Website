@@ -14,21 +14,21 @@
     "ingredients": ["RICE", "SALMON"]
   },
   {
-    "img": "/assets/img/ნიგირი გველთევზა.jpg",
+    "img": "/assets/img/გველთევზას ნიგირი.jpeg",
     "name": "SUSHI_EEL_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
     "ingredients": ["RICE", "EEL", "SESAME", "UNAGI_SAUCE"]
   },
   {
-    "img": "/assets/img/ნიგირი ტუნა.jpg",
+    "img": "/assets/img/თინუსის ნიგირი.jpeg",
     "name": "SUSHI_TUNA_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
     "ingredients": ["RICE", "TUNA"]
   },
   {
-    "img": "/assets/img/ნიგირი კრევეტი.jpg",
+    "img": "/assets/img/ვეხფვისებრი კრევეტის ნიგირი.jpeg",
     "name": "SUSHI_SHRIMP_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
