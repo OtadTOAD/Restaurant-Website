@@ -1,0 +1,51 @@
+[
+  {
+    "img": "/assets/img/კალიფორნია ტუბი.jpeg",
+    "name": "TUBE_CALIFORNIA",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "CRAB", "CUCUMBER", "TOBIKO"]
+  },
+  {
+    "img": "/assets/img/ორაგული სეზამში ტუბი.jpeg",
+    "name": "TUBE_SALMON_SESAME",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "SALMON", "SESAME"]
+  },
+  {
+    "img": "/assets/img/ფილადელფია ტუბი.jpeg",
+    "name": "TUBE_PHILADELPHIA",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "SALMON", "CREAM_CHEESE", "CUCUMBER"]
+  },
+  {
+    "img": "/assets/img/შავი კალიფორნია ტუბი.jpeg",
+    "name": "TUBE_BLACK_CALIFORNIA",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "CRAB", "CUCUMBER", "BLACK_SESAME_TOP"]
+  },
+  {
+    "img": "/assets/img/გველთევზის მაკ-როლი.jpeg",
+    "name": "TUBE_EEL_MAK",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "EEL", "UNAGI_SAUCE"]
+  },
+  {
+    "img": "/assets/img/შემწვარი ორაგული ტუბი.jpeg",
+    "name": "TUBE_FRIED_SALMON",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "SALMON", "TEMPURA_FRIED"]
+  },
+  {
+    "img": "/assets/img/კრევეტის მაკ-როლი.jpeg",
+    "name": "TUBE_SHRIMP_MAK",
+    "pieceAmount": 1,
+    "price": 36.90,
+    "ingredients": ["NORI", "RICE", "SHRIMP"]
+  }
+]

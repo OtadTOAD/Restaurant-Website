@@ -1,0 +1,23 @@
+[
+  {
+    "img": "/assets/img/მარწყვის ტკბილი როლი.jpeg",
+    "name": "DESERT_STRAWBERRY_ROLL",
+    "pieceAmount": 6,
+    "price": 14.0,
+    "ingredients": ["STRAWBERRY", "CREAM_CHEESE", "CHOCOLATE", "PANKO"]
+  },
+  {
+    "img": "/assets/img/ბანანის ტკბილი როლი.jpeg",
+    "name": "DESERT_BANANA_ROLL",
+    "pieceAmount": 6,
+    "price": 14.0,
+    "ingredients": ["BANANA", "CREAM_CHEESE", "CHOCOLATE", "PANKO"]
+  },
+  {
+    "img": "/assets/img/ფრანგული კრეპი.jpeg",
+    "name": "DESERT_FRENCH_CREPE",
+    "pieceAmount": 1,
+    "price": 8.0,
+    "ingredients": ["CHOCOLATE", "STRAWBERRY", "BANANA"]
+  }
+]

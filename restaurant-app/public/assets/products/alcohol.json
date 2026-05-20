@@ -91,6 +91,13 @@
     "ingredients": []
   },
   {
+    "img": "/assets/img/karva.png",
+    "name": "BEER_KARVA",
+    "pieceAmount": 1,
+    "price": 8.00,
+    "ingredients": []
+  },
+  {
     "img": "/assets/img/monkey_shoulder.png",
     "name": "WHISKY_MONKEY_SHOULDER",
     "price": 16.00,
