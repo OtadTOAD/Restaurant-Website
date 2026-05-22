@@ -120,7 +120,7 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/ები როლი.jpeg",
     "name": "ROLL_EBI_ROLL",
     "pieceAmount": 8,
     "price": 35.90,
@@ -151,7 +151,7 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/ტერიაკი როლი.jpeg",
     "name": "ROLL_TERIYAKI_ROLL",
     "pieceAmount": 8,
     "price": 29.90,
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/მობრაწული ფილადელფია.jpeg",
     "name": "ROLL_SEARED_PHILADELPHIA",
     "pieceAmount": 8,
     "price": 34.90,
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/ხრაშუნა დრაკონი.jpeg",
     "name": "ROLL_CRUNCHY_DRAGON",
     "pieceAmount": 8,
     "price": 37.90,
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/შავი კალიფორნია.jpeg",
     "name": "ROLL_BLACK_CALIFORNIA",
     "pieceAmount": 8,
     "price": 33.90,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/ჰიაში როლი.jpeg",
     "name": "ROLL_HIYASHI_ROLL",
     "pieceAmount": 8,
     "price": 29.90,
