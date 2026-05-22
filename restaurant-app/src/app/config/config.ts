@@ -28,7 +28,7 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'TUBE', icon: '/assets/icons/tube.png', slug: "tube" }
 ]
 
-export const VERSION = "1"
+export const VERSION = "2"
 
 export const LANG_STORE_KEY = 'lastSetLang'
 
