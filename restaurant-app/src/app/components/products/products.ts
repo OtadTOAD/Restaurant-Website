@@ -3,7 +3,7 @@ import { Product } from '../../models/products';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { ProductService } from '../../services/product-service';
 import { CommonModule, CurrencyPipe } from '@angular/common';
-import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS } from '../../config/config';
+import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS, VERSION } from '../../config/config';
 import { ProductsNavBar, ProductType } from '../products-nav-bar/products-nav-bar';
 import { CustomDialogComponent } from '../custom-dialog-component/custom-dialog-component';
 import { TranslocoPipe } from '@ngneat/transloco';
@@ -21,6 +21,7 @@ export class Products implements OnInit {
   chosenProduct: Product = PLACEHOLDER_PRODUCT;
   productTypes: ProductType[] = PRODUCT_TYPE_OPTIONS;
   products!: Product[];
+  ver = VERSION;
 
   constructor(private productService: ProductService, private route: ActivatedRoute, private router: Router) {}
 
