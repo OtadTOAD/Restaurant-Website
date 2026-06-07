@@ -273,5 +273,95 @@
       "HIYASHI",
       "BLACK_SESAME_TOP"
     ]
+  },
+  {
+    "img": "/assets/img/ცხელი როლები.JPG",
+    "name": "ROLL_HOT_SALMON",
+    "pieceAmount": 8,
+    "price": 36.00,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "SALMON",
+      "RED_TOBICO",
+      "SPICE_SAUCE",
+      "UNAGI_SAUCE",
+      "SWEET_CHILI_SAUCE",
+      "PANKO_FRIED"
+    ]
+  },
+  {
+    "img": "/assets/img/ცხელი როლები.JPG",
+    "name": "ROLL_HOT_EEL",
+    "pieceAmount": 8,
+    "price": 36.00,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "EEL",
+      "RED_TOBICO",
+      "SPICE_SAUCE",
+      "UNAGI_SAUCE",
+      "SWEET_CHILI_SAUCE",
+      "PANKO_FRIED"
+    ]
+  },
+  {
+    "img": "/assets/img/ცხელი როლები.JPG",
+    "name": "ROLL_HOT_TUNA",
+    "pieceAmount": 8,
+    "price": 36.00,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "TUNA",
+      "RED_TOBICO",
+      "SPICE_SAUCE",
+      "UNAGI_SAUCE",
+      "SWEET_CHILI_SAUCE",
+      "PANKO_FRIED"
+    ]
+  },
+  {
+    "img": "/assets/img/ცხელი როლები.JPG",
+    "name": "ROLL_HOT_CRAB",
+    "pieceAmount": 8,
+    "price": 36.00,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "CRAB",
+      "RED_TOBICO",
+      "SPICE_SAUCE",
+      "UNAGI_SAUCE",
+      "SWEET_CHILI_SAUCE",
+      "PANKO_FRIED"
+    ]
+  },
+  {
+    "img": "/assets/img/ცხელი როლები.JPG",
+    "name": "ROLL_HOT_SHRIMP",
+    "pieceAmount": 8,
+    "price": 36.00,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "SHRIMP",
+      "RED_TOBICO",
+      "SPICE_SAUCE",
+      "UNAGI_SAUCE",
+      "SWEET_CHILI_SAUCE",
+      "PANKO_FRIED"
+    ]
   }
 ]
