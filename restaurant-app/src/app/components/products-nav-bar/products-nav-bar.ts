@@ -7,6 +7,8 @@ import { TranslocoPipe } from '@ngneat/transloco';
 export interface ProductType {
   label: string;
   icon: string,
+  emoji: string;
+
   slug: string; // used in URL
 }
 

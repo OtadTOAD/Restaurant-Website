@@ -1,18 +1,28 @@
 import { TranslocoService, TranslocoPipe } from '@ngneat/transloco';
 import { RouterLink } from '@angular/router';
-import { Component, ElementRef, ViewChild, HostListener, AfterViewChecked, OnInit } from '@angular/core';
-import { CommonModule, NgStyle } from '@angular/common';
-import { combineLatest } from 'rxjs';
+import { Component, ElementRef, ViewChild, HostListener, OnInit } from '@angular/core';
+import { NgStyle } from '@angular/common';
 import { LANG_STORE_KEY } from '../../config/config';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink, NgStyle, TranslocoPipe, CommonModule],
+  imports: [RouterLink, NgStyle, TranslocoPipe],
   templateUrl: './header.html',
   styleUrl: './header.css'
 })
 export class Header implements OnInit {
-  hamburgerOpen = true;
+  readonly navLinks = [
+    { label: 'LANDING', icon: 'fa-solid fa-house', link: '/' },
+    { label: 'ABOUT_US', icon: 'fa-solid fa-info-circle', link: '/about_us' },
+    { label: 'PRODUCTS', icon: 'fa-solid fa-receipt', link: '/products/roll' },
+  ];
+
+  readonly languages = [
+    { code: 'en', label: '🇬🇧 English' },
+    { code: 'ka', label: '🇬🇪 ქართული' },
+  ];
+
+  hamburgerOpen = false;
   hamburgerEnabled = false;
   @ViewChild('langBtn', { read: ElementRef }) langBtn!: ElementRef<HTMLButtonElement>;
 
@@ -20,7 +30,6 @@ export class Header implements OnInit {
   dropdownOpen = false;
 
   constructor(private translocoService: TranslocoService) {
-
     this.translocoService.setActiveLang(localStorage.getItem(LANG_STORE_KEY) ?? 'ka');
   }
 
@@ -51,10 +60,12 @@ export class Header implements OnInit {
       width: rect.width,
     };
   }
-  @HostListener('document:scroll', ['$event'])
-  onScroll(event: Event) {
+
+  @HostListener('document:scroll')
+  onScroll() {
     this.dropdownOpen = false;
   }
+
   @HostListener('document:click', ['$event'])
   onClickOutside(event: MouseEvent) {
     if (
@@ -64,6 +75,7 @@ export class Header implements OnInit {
       this.dropdownOpen = false;
     }
   }
+
   @HostListener('window:resize')
   onResize() {
     this.checkWindowSize()
@@ -74,12 +86,11 @@ export class Header implements OnInit {
     this.translocoService.setActiveLang(lang)
   }
 
-  handleHamburgerClick() {
-    if (this.hamburgerOpen) {
-      this.hamburgerOpen = false;
-    } else {
-      this.hamburgerOpen = true;
-    }
+  toggleHamburger() {
+    this.hamburgerOpen = !this.hamburgerOpen;
   }
 
+  closeHamburger() {
+    this.hamburgerOpen = false;
+  }
 }

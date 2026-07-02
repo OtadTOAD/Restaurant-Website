@@ -1,6 +1,7 @@
 import { TranslocoPipe } from '@ngneat/transloco';
 import { RouterLink } from '@angular/router';
 import { AfterViewInit, Component, ElementRef } from '@angular/core';
+import { PRODUCT_TYPE_OPTIONS } from '../../config/config';
 
 
 @Component({
@@ -10,6 +11,8 @@ import { AfterViewInit, Component, ElementRef } from '@angular/core';
   styleUrl: './landing.css'
 })
 export class Landing implements AfterViewInit {
+  menuTypes = PRODUCT_TYPE_OPTIONS;
+
   constructor(private el: ElementRef) { }
 
   ngAfterViewInit() {

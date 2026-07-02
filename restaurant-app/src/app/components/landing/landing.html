@@ -1,93 +1,11 @@
 <section class="content-section">
   <div class="menu-grid">
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/sushi.png" alt="Sushi Icon">
-      <h3>{{ "SUSHI" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/sushi">{{ "EXPLORE" | transloco }}</button>
+    @for (type of menuTypes; track type.slug) {
+    <div class="menu-item scale-in" [style.transition-delay]="$index * 0.06 + 's'">
+      <img class="icon" [src]="type.icon" [alt]="type.label | transloco">
+      <h3>{{ type.label | transloco }}</h3>
+      <button class="menu-btn" [routerLink]="['/products', type.slug]">{{ "EXPLORE" | transloco }}</button>
     </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/roll.png" alt="Sushi Icon">
-      <h3>{{ "ROLL" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/roll">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/set.png" alt="Sushi Icon">
-      <h3>{{ "SET" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/set">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/wok.png" alt="Sushi Icon">
-      <h3>{{ "WOK" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/wok">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/soup.png" alt="Sushi Icon">
-      <h3>{{ "SOUP" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/soup">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/fry.png" alt="Sushi Icon">
-      <h3>{{ "OTHER" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/side_dishes">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/salad.png" alt="Sushi Icon">
-      <h3>{{ "SALADS" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/salads">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/hamburger.png" alt="Sushi Icon">
-      <h3>{{ "BURGERS" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/burgers">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/maki.png" alt="Sushi Icon">
-      <h3>{{ "MAKI" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/maki">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/cold_drinks.png" alt="Sushi Icon">
-      <h3>{{ "COLD_DRINKS" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/cold_drinks">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/alcohol.png" alt="Sushi Icon">
-      <h3>{{ "ALCOHOL" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/alcohol">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/coffee.png" alt="Sushi Icon">
-      <h3>{{ "HOT_DRINKS" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/hot_drinks">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/sashimi.png" alt="Sushi Icon">
-      <h3>{{ "SASHIMI" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/sashimi">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/desert.png" alt="Sushi Icon">
-      <h3>{{ "DESERT" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/desert">{{ "EXPLORE" | transloco }}</button>
-    </div>
-
-    <div class="menu-item scale-in">
-      <img class="icon" src="/assets/icons/tube.png" alt="Sushi Icon">
-      <h3>{{ "TUBE" | transloco }}</h3>
-      <button class="menu-btn" routerLink="/products/tube">{{ "EXPLORE" | transloco }}</button>
-    </div>
+    }
   </div>
 </section>

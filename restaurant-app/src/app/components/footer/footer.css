@@ -65,6 +65,11 @@ footer {
   padding: 0.2rem 0;
   cursor: pointer;
   font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.card-wrapper-wide {
+  max-width: 35rem;
 }
 
 @media (max-width: 600px) {

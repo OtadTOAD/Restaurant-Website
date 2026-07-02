@@ -1,74 +1,57 @@
 <header>
-  <div class="icon-wrapper" routerLink="">
-    <img src="icon.png" alt="ICON" height="100px" width="114px">
-    <h1 class="header-text" style="padding-top: 12px;"> {{ "TITLE" | transloco }} </h1>
-  </div>
+  <a class="icon-wrapper" routerLink="/">
+    <img src="icon.png" alt="Sensei Sushi" height="100" width="114">
+    <h1 class="header-text">{{ "TITLE" | transloco }}</h1>
+  </a>
 
   @if (hamburgerEnabled) {
-  <div #hamburgerMenu class="hamburger-menu">
-    <button #hamburger class="hamburger" aria-label="Open menu" aria-controls="main-menu" aria-expanded="false"
-      (click)="handleHamburgerClick()" [ngClass]="hamburgerOpen?'open-hamburger':''">
+  <div class="hamburger-menu">
+    <button class="hamburger" aria-label="Open menu" aria-controls="main-menu"
+      [attr.aria-expanded]="hamburgerOpen" (click)="toggleHamburger()" [class.open-hamburger]="hamburgerOpen">
       <svg viewBox="0 0 24 24" width="70" height="70" aria-hidden="true">
         <path class="line line1" d="M3 6h18"></path>
         <path class="line line2" d="M3 12h18"></path>
         <path class="line line3" d="M3 18h18"></path>
       </svg>
-
     </button>
-    <nav #hamburgerNav id="menu" class="hamburger-nav" role="menu" [class.open-hamburger-nav]="hamburgerOpen">
+    <nav id="main-menu" class="hamburger-nav" [class.open-hamburger-nav]="hamburgerOpen">
       <ul class="hamburger-list">
+        @for (item of navLinks; track item.link) {
         <li>
-          <button class="menu-btn" routerLink=""><i class="fa-solid fa-house"></i> {{ "LANDING" | transloco }}</button>
+          <button class="menu-btn" [routerLink]="item.link" (click)="closeHamburger()">
+            <i [class]="item.icon"></i> {{ item.label | transloco }}
+          </button>
         </li>
-        <li>
-          <button class="menu-btn" routerLink="/about_us"><i class="fa-solid fa-info-circle"></i> {{ "ABOUT_US" |
-            transloco }}</button>
-        </li>
-        <li>
-          <button class="menu-btn" routerLink="/products/roll"><i class="fa-solid fa-receipt"></i> {{ "PRODUCTS" |
-            transloco }}</button>
-        </li>
+        }
         <li>
           <div class="hamburger-lang-container">
-            <button class="menu-btn" (click)="setLang('en')">
-              🇬🇧 English
-            </button>
-            <button class="menu-btn" (click)="setLang('ka')">
-              🇬🇪 ქართული
-            </button>
+            @for (lang of languages; track lang.code) {
+            <button class="menu-btn" (click)="setLang(lang.code)">{{ lang.label }}</button>
+            }
           </div>
-          <!--
-          <button #langBtn class="menu-btn" (click)="toggleDropdown()">
-            <i class="fa-solid fa-language"></i> {{ "LANGUAGE" | transloco }} ▾
-</button>-->
         </li>
-        <li class="divider" aria-hidden="true"></li>
       </ul>
     </nav>
   </div>
-  }@else {
-  <div class="menu-item menu-bar" style="padding: 1rem; height: min-content; margin-top: auto; margin-bottom: auto;">
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink=""><i class="fa-solid fa-house"></i> {{ "LANDING"
-      | transloco
-      }}</button>
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/about_us"><i
-        class="fa-solid fa-info-circle"></i> {{ "ABOUT_US" | transloco
-      }}</button>
-    <button class="menu-btn" style="margin-right: 0.5rem;" routerLink="/products/roll"><i
-        class="fa-solid fa-receipt"></i> {{
-      "PRODUCTS" | transloco
-      }}</button>
-
-    <button #langBtn class="menu-btn" (click)="toggleDropdown()"><i class="fa-solid fa-language"></i> {{ "LANGUAGE" |
-      transloco }} ▾</button>
-  </div>
+  } @else {
+  <nav class="menu-item menu-bar">
+    @for (item of navLinks; track item.link) {
+    <button class="menu-btn" [routerLink]="item.link">
+      <i [class]="item.icon"></i> {{ item.label | transloco }}
+    </button>
+    }
+    <button #langBtn class="menu-btn" (click)="toggleDropdown()">
+      <i class="fa-solid fa-language"></i> {{ "LANGUAGE" | transloco }} ▾
+    </button>
+  </nav>
   }
-
 </header>
+
 @if (dropdownOpen) {
 <div class="menu-item dropdown-portal"
-  [ngStyle]="{ top: dropdownPos.top + 'px', left: dropdownPos.left + 'px', width:dropdownPos.width + 'px' }">
-  <a (click)="setLang('en')">🇬🇧 English</a>
-  <a (click)="setLang('ka')">🇬🇪 ქართული</a>
+  [ngStyle]="{ top: dropdownPos.top + 'px', left: dropdownPos.left + 'px', width: dropdownPos.width + 'px' }">
+  @for (lang of languages; track lang.code) {
+  <a (click)="setLang(lang.code)">{{ lang.label }}</a>
+  }
 </div>
 }

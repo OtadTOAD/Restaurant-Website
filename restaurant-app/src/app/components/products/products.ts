@@ -3,7 +3,7 @@ import { Product } from '../../models/products';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../../services/product-service';
 import { CommonModule, CurrencyPipe } from '@angular/common';
-import { filter, map, switchMap } from 'rxjs';
+import { filter, map, switchMap, tap } from 'rxjs';
 import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS } from '../../config/config';
 import { ProductsNavBar, ProductType } from '../products-nav-bar/products-nav-bar';
 import { CustomDialogComponent } from '../custom-dialog-component/custom-dialog-component';
@@ -22,6 +22,8 @@ export class Products implements OnInit {
   chosenProduct: Product = PLACEHOLDER_PRODUCT;
   productTypes: ProductType[] = PRODUCT_TYPE_OPTIONS;
   products!: Product[];
+  loading = true;
+  readonly skeletons = Array(8).fill(0);
 
   constructor(private productService: ProductService, private route: ActivatedRoute) {}
 
@@ -30,9 +32,11 @@ export class Products implements OnInit {
     this.route.paramMap.pipe(
       map(params => params.get('type')),
       filter((type): type is string => !!type),
+      tap(() => this.loading = true),
       switchMap(type => this.productService.getProducts(type))
     ).subscribe(data => {
       this.products = data;
+      this.loading = false;
     })
   }
 

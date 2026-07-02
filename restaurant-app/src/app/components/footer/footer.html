@@ -5,63 +5,31 @@
                 <h3>{{ "NAVIGATION" | transloco }}</h3>
 
                 <div class="list-item-wrapper">
-                    <button class="link_button" routerLink="/about_us"> <i class="fas fa-info-circle"></i> {{ 'ABOUT_US'
-                        | transloco }}
+                    <button class="link_button" routerLink="/about_us">
+                        <i class="fas fa-info-circle"></i> {{ 'ABOUT_US' | transloco }}
                     </button>
-                    <button class="link_button" routerLink="/terms_conditions"> <i class="fas fa-file-contract"></i> {{
-                        'TERMS_CONDITIONS' | transloco
-                        }} </button>
+                    <button class="link_button" routerLink="/terms_conditions">
+                        <i class="fas fa-file-contract"></i> {{ 'TERMS_CONDITIONS' | transloco }}
+                    </button>
                 </div>
             </div>
         </div>
 
 
-        <div class="card-wrapper" style="max-width: 35rem;">
+        <div class="card-wrapper card-wrapper-wide">
             <div class="menu-item">
                 <h3>{{ "PRODUCTS" | transloco }}</h3>
 
                 <div class="list-wrapper">
+                    @for (column of productColumns; track $index) {
                     <div class="list-item-wrapper">
-                        <button class="link_button" routerLink="/products/sushi">🍣 {{ 'SUSHI' | transloco }} </button>
-                        <button class="link_button" routerLink="/products/roll">🍙 {{ 'ROLL' | transloco }} </button>
-                        <button class="link_button" routerLink="/products/set">🍱 {{ 'SET' | transloco }} </button>
-                        <button class="link_button" routerLink="/products/salads">🥗 {{ 'SALADS' | transloco }}
+                        @for (type of column; track type.slug) {
+                        <button class="link_button" [routerLink]="['/products', type.slug]">
+                            {{ type.emoji }} {{ type.label | transloco }}
                         </button>
+                        }
                     </div>
-
-                    <div class="list-item-wrapper">
-                        <button class="link_button" routerLink="/products/maki">🥢 {{ 'MAKI' | transloco }} </button>
-                        <button class="link_button" routerLink="/products/hot_drinks">☕ {{ 'HOT_DRINKS' | transloco }}
-                        </button>
-                        <button class="link_button" routerLink="/products/cold_drinks">🥤 {{ 'COLD_DRINKS' | transloco
-                            }}
-                        </button>
-                        <button class="link_button" routerLink="/products/alcohol">🍺 {{ 'ALCOHOL' | transloco }}
-                        </button>
-                    </div>
-
-                    <div class="list-item-wrapper">
-                        <button class="link_button" routerLink="/products/wok">🍜 {{ 'WOK' | transloco }} </button>
-                        <button class="link_button" routerLink="/products/soup">🍵 {{ 'SOUP' | transloco }} </button>
-                        <button class="link_button" routerLink="/products/side_dishes">🍟 {{ 'OTHER' | transloco }}
-                        </button>
-                        <button class="link_button" routerLink="/products/burgers">🍔 {{ 'BURGERS' | transloco }}
-                        </button>
-                    </div>
-
-                    <div class="list-item-wrapper">
-                        <button class="link_button" routerLink="/products/sashimi">🔪 {{ 'SASHIMI' | transloco }}
-                        </button>
-
-                    </div>
-                    <div class="list-item-wrapper">
-                        <button class="link_button" routerLink="/products/desert">🍰 {{ 'DESERT' | transloco }}
-                        </button>
-                    </div>
-                    <div class="list-item-wrapper">
-                        <button class="link_button" routerLink="/products/tube">🍚 {{ 'TUBE' | transloco }}
-                        </button>
-                    </div>
+                    }
                 </div>
             </div>
         </div>
@@ -71,19 +39,18 @@
                 <h3>{{ "CONTACT_US" | transloco }}</h3>
 
                 <div class="list-item-wrapper">
-                    <button class="link_button">
-                        <a class="link_button" href="tel:+995598944434">
-                            <i class="fas fa-phone"></i>+995 598 94 44 34
-                        </a>
-                    </button>
-                    <button class="link_button"> <i class="fa-solid fa-inbox"></i> <a
-                            href="mailto:Infosenseibox@gmail.com">Infosenseibox@gmail.com</a></button>
-                    <button class="link_button"> <i class="fab fa-facebook"></i> <a
-                            href="https://www.facebook.com/p/Sensei-sushiსენსეი-სუში-61553853574746">{{
-                            'FACEBOOK' | transloco}} </a></button>
-                    <button class="link_button"> <i class="fab fa-instagram"></i> <a
-                            href="https://www.instagram.com/sensei.sushi1">{{
-                            'INSTAGRAM' | transloco}} </a></button>
+                    <a class="link_button" href="tel:+995598944434">
+                        <i class="fas fa-phone"></i> +995 598 94 44 34
+                    </a>
+                    <a class="link_button" href="mailto:Infosenseibox@gmail.com">
+                        <i class="fa-solid fa-inbox"></i> Infosenseibox@gmail.com
+                    </a>
+                    <a class="link_button" href="https://www.facebook.com/p/Sensei-sushiსენსეი-სუში-61553853574746">
+                        <i class="fab fa-facebook"></i> {{ 'FACEBOOK' | transloco }}
+                    </a>
+                    <a class="link_button" href="https://www.instagram.com/sensei.sushi1">
+                        <i class="fab fa-instagram"></i> {{ 'INSTAGRAM' | transloco }}
+                    </a>
                 </div>
             </div>
         </div>

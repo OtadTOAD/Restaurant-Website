@@ -3,9 +3,20 @@
 
 
   <div class="product-grid">
+    @if (loading) {
+    @for (s of skeletons; track $index) {
+    <div class="product-card skeleton-card" aria-hidden="true">
+      <div class="menu-item">
+        <div class="media skeleton-shimmer"></div>
+        <div class="skeleton-line skeleton-shimmer"></div>
+        <div class="skeleton-line skeleton-line-short skeleton-shimmer"></div>
+      </div>
+    </div>
+    }
+    } @else {
     @for (product of products; track product.name) {
     <div class="product-card" (click)="handleShowDialog(product)">
-      <div class="menu-item" style="margin-bottom: 1rem;">
+      <div class="menu-item">
         <div class="media">
           <img [src]="product.img" [alt]="product.name" loading="lazy" decoding="async" />
         </div>
@@ -31,6 +42,7 @@
       </div>
     </div>
     }
+    }
   </div>
 
   <app-custom-dialog [(visible)]="showDialog" title="{{chosenProduct.name | transloco}}">
@@ -51,4 +63,6 @@
 
       }
     </p>
-  </app-custom-d
+  </app-custom-dialog>
+
+</div>
