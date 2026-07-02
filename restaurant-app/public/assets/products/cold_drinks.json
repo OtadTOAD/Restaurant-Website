@@ -1,69 +1,69 @@
 [
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/in_progress.webp",
     "name": "COFFEE_ICED_WITH_ICE_CREAM",
     "pieceAmount": 1,
     "price": 12.90,
     "ingredients": []
   },
   {
-    "img": "/assets/img/coca_cola_zero.jpg",
+    "img": "/assets/img/coca_cola_zero.webp",
     "name": "COLD_DRINK_COCA_COLA_ZERO",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/coca_cola_classic.jpg",
+    "img": "/assets/img/coca_cola_classic.webp",
     "name": "COLD_DRINK_COCA_COLA_CLASSIC",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/coca_cola_glass.png",
+    "img": "/assets/img/coca_cola_glass.webp",
     "name": "COLD_DRINK_COCA_COLA_GLASS",
     "pieceAmount": 1,
     "price": 4,
     "ingredients": []
   },
   {
-    "img": "/assets/img/fanta.jpg",
+    "img": "/assets/img/fanta.webp",
     "name": "COLD_DRINK_FANTA",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/sprite.jpg",
+    "img": "/assets/img/sprite.webp",
     "name": "COLD_DRINK_SPRITE",
     "pieceAmount": 1,
     "price": 3.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/iced_tea_generic.jpg",
+    "img": "/assets/img/iced_tea_generic.webp",
     "name": "COLD_DRINK_ICED_TEA",
     "pieceAmount": 1,
     "price": 3.5,
     "ingredients": []
   },
   {
-    "img": "/assets/img/schweppes.jpg",
+    "img": "/assets/img/schweppes.webp",
     "name": "COLD_DRINK_SCHWEPPES",
     "pieceAmount": 1,
     "price": 3.50,
     "ingredients": []
   },
   {
-    "img": "/assets/img/natural_juice_generic.jpg",
+    "img": "/assets/img/natural_juice_generic.webp",
     "name": "COLD_DRINK_NATURAL_JUICE",
     "cupAmount": 1,
     "price": 5.90,
     "ingredients": []
   },
   {
-    "img": "/assets/img/natural_juice_generic.jpg",
+    "img": "/assets/img/natural_juice_generic.webp",
     "name": "COLD_DRINK_NATURAL_JUICE_FULL",
     "pieceAmount": 1,
     "price": 15.00,
@@ -72,14 +72,14 @@
     ]
   },
   {
-    "img": "/assets/img/water_bottle.jpg",
+    "img": "/assets/img/water_bottle.webp",
     "name": "COLD_DRINK_WATER",
     "pieceAmount": 1,
     "price": 2.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/borjomi_glass.png",
+    "img": "/assets/img/borjomi_glass.webp",
     "name": "COLD_DRINK_BORJOMI_GLASS",
     "pieceAmount": 1,
     "price": 5.00,

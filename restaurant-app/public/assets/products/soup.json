@@ -1,13 +1,13 @@
 [
   {
-    "img": "/assets/img/ტომიამი ქათმით.jpeg",
+    "img": "/assets/img/ტომიამი ქათმით.webp",
     "name": "SOUP_TOM_YUM_CHICKEN",
     "pieceAmount": 1,
     "price": 26.0,
     "ingredients": ["TOM_YUM_PASTE", "COCONUT_MILK", "BUTTON_MUSHROOMS", "CHERRY_TOMATOES", "GREEN_ONION", "SESAME_SEEDS", "LEMON_LIME", "CHICKEN"]
   },
   {
-    "img": "/assets/img/ტომიამი კრევეტით.jpeg",
+    "img": "/assets/img/ტომიამი კრევეტით.webp",
     "name": "SOUP_TOM_YUM_SHRIMP",
     "pieceAmount": 1,
     "price": 29.0,

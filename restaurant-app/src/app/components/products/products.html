@@ -7,7 +7,7 @@
     <div class="product-card" (click)="handleShowDialog(product)">
       <div class="menu-item" style="margin-bottom: 1rem;">
         <div class="media">
-          <img [src]="product.img + '?v=' + ver" [alt]="product.name" />
+          <img [src]="product.img" [alt]="product.name" loading="lazy" decoding="async" />
         </div>
 
         <div class="info">
@@ -51,6 +51,4 @@
 
       }
     </p>
-  </app-custom-dialog>
-
-</div>
+  </app-custom-d

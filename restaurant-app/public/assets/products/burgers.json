@@ -1,111 +1,111 @@
 [
   {
-    "img": "/assets/img/ბურგერი ორაგული.JPG",
+    "img": "/assets/img/ბურგერი ორაგული.webp",
     "name": "BURGER_SALMON",
     "pieceAmount": 1,
     "price": 26.9,
     "ingredients": ["NORI", "RICE", "SALMON", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO"]
   },
   {
-    "img": "/assets/img/ბურგერი გველთევზა.JPG",
+    "img": "/assets/img/ბურგერი გველთევზა.webp",
     "name": "BURGER_EEL",
     "pieceAmount": 1,
     "price": 27.9,
     "ingredients": ["NORI", "RICE", "EEL", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO"]
   },
   {
-    "img": "/assets/img/ბურგერი კრევეტი.JPG",
+    "img": "/assets/img/ბურგერი კრევეტი.webp",
     "name": "BURGER_SHRIMP",
     "pieceAmount": 1,
     "price": 26.9,
     "ingredients": ["NORI", "RICE", "SHRIMP", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO"]
   },
   {
-    "img": "/assets/img/ბურგერი თინუსი.JPG",
+    "img": "/assets/img/ბურგერი თინუსი.webp",
     "name": "BURGER_TUNA",
     "pieceAmount": 1,
     "price": 26.9,
     "ingredients": ["NORI", "RICE", "TUNA", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO"]
   },
   {
-    "img": "/assets/img/სენსეი ბურგერი.JPG",
+    "img": "/assets/img/სენსეი ბურგერი.webp",
     "name": "BURGER_SENSEI",
     "pieceAmount": 1,
     "price": 29.9,
     "ingredients": ["NORI", "RICE", "CREAM_CHEESE", "HIYASHI", "TUNA", "SALMON", "CUCUMBER", "TEMPURA_FRIED", "SPICE_SAUCE_UNAGI_SAUCE_PEANUT"]
   },
   {
-    "img": "/assets/img/ბურგერი ქათმით.jpeg",
+    "img": "/assets/img/ბურგერი ქათმით.webp",
     "name": "BURGER_CHICKEN",
     "pieceAmount": 1,
     "price": 24.9,
     "ingredients": ["NORI", "RICE", "CHICKEN", "CREAM_CHEESE", "TUNA", "TEMPURA_FRIED", "SPICE_SAUCE_UNAGI_SAUCE"]
   },
   {
-    "img": "/assets/img/ბურგერი ორაგულით+ხიზილალა.jpeg",
+    "img": "/assets/img/ბურგერი ორაგულით+ხიზილალა.webp",
     "name": "BURGER_SALMON_CAVIAR",
     "pieceAmount": 1,
     "price": 32.9,
     "ingredients": ["NORI", "RICE", "SALMON", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO", "CAVIAR"]
   },
   {
-    "img": "/assets/img/ბურგერი გველთევზათი+ხიზილალა.jpeg",
+    "img": "/assets/img/ბურგერი გველთევზათი+ხიზილალა.webp",
     "name": "BURGER_EEL_CAVIAR",
     "pieceAmount": 1,
     "price": 33.9,
     "ingredients": ["NORI", "RICE", "EEL", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO", "CAVIAR"]
   },
   {
-    "img": "/assets/img/ბურგერი კრევეტით+ხიზილალა.jpeg",
+    "img": "/assets/img/ბურგერი კრევეტით+ხიზილალა.webp",
     "name": "BURGER_SHRIMP_CAVIAR",
     "pieceAmount": 1,
     "price": 32.9,
     "ingredients": ["NORI", "RICE", "SHRIMP", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO", "CAVIAR"]
   },
   {
-    "img": "/assets/img/გველთევზას ჰოთ-დოგი.jpeg",
+    "img": "/assets/img/გველთევზას ჰოთ-დოგი.webp",
     "name": "SUSHI_HOTDOG_EEL",
     "pieceAmount": 1,
     "price": 33.0,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "CREAM_CHEESE", "EEL", "UNAGI_SAUCE", "GREEN_ONION"]
   },
   {
-    "img": "/assets/img/ჰოთ დოგი ორაგულით.jpg",
+    "img": "/assets/img/ჰოთ დოგი ორაგულით.webp",
     "name": "SUSHI_HOTDOG_SALMON",
     "pieceAmount": 1,
     "price": 33.0,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "CREAM_CHEESE", "SALMON", "UNAGI_SAUCE", "GREEN_ONION"]
   },
   {
-    "img": "/assets/img/ბურგერი თინუსით+ხიზილალა.jpeg",
+    "img": "/assets/img/ბურგერი თინუსით+ხიზილალა.webp",
     "name": "BURGER_TUNA_CAVIAR",
     "pieceAmount": 1,
     "price": 32.9,
     "ingredients": ["NORI", "RICE", "TUNA", "CREAM_CHEESE", "CUCUMBER", "TEMPURA_FRIED", "SPICE_UNAGI_SAUCE_SWEET_CHILI", "TOBIKO", "CAVIAR"]
   },
   {
-    "img": "/assets/img/ბურიტოები.JPG",
+    "img": "/assets/img/ბურიტოები.webp",
     "name": "BURRITO_SHRIMP",
     "pieceAmount": 1,
     "price": 26.9,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "RED_TOBICO", "COOKED SHRIMP", "SPICE_SAUCE_UNAGI_SAUCE_CHILI_SAUCE", "TEMPURA_FRIED"]
   },
   {
-    "img": "/assets/img/ბურიტოები.JPG",
+    "img": "/assets/img/ბურიტოები.webp",
     "name": "BURRITO_CRAB",
     "pieceAmount": 1,
     "price": 26.9,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "RED_TOBICO", "CRAB", "SPICE_SAUCE_UNAGI_SAUCE_CHILI_SAUCE", "TEMPURA_FRIED"]
   },
   {
-    "img": "/assets/img/ბურიტოები.JPG",
+    "img": "/assets/img/ბურიტოები.webp",
     "name": "BURRITO_EEL",
     "pieceAmount": 1,
     "price": 27.9,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "RED_TOBICO", "EEL", "SPICE_SAUCE_UNAGI_SAUCE_SWEET_CHILI_SAUCE", "TEMPURA_FRIED"]
   },
   {
-    "img": "/assets/img/ბურიტოები.JPG",
+    "img": "/assets/img/ბურიტოები.webp",
     "name": "BURRITO_SALMON",
     "pieceAmount": 1,
     "price": 26.9,

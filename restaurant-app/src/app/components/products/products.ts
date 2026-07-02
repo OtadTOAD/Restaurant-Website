@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/products';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../../services/product-service';
 import { CommonModule, CurrencyPipe } from '@angular/common';
-import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS, VERSION } from '../../config/config';
+import { filter, map, switchMap } from 'rxjs';
+import { PLACEHOLDER_PRODUCT, PRODUCT_TYPE_OPTIONS } from '../../config/config';
 import { ProductsNavBar, ProductType } from '../products-nav-bar/products-nav-bar';
 import { CustomDialogComponent } from '../custom-dialog-component/custom-dialog-component';
 import { TranslocoPipe } from '@ngneat/transloco';
@@ -21,20 +22,17 @@ export class Products implements OnInit {
   chosenProduct: Product = PLACEHOLDER_PRODUCT;
   productTypes: ProductType[] = PRODUCT_TYPE_OPTIONS;
   products!: Product[];
-  ver = VERSION;
 
-  constructor(private productService: ProductService, private route: ActivatedRoute, private router: Router) {}
+  constructor(private productService: ProductService, private route: ActivatedRoute) {}
 
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(params => {
-      const productType = params.get('type');
-      if (productType) {
-        this.productService.getProducts(productType).subscribe((data) => {
-          this.products = data;
-        }
-        );
-      }
+    this.route.paramMap.pipe(
+      map(params => params.get('type')),
+      filter((type): type is string => !!type),
+      switchMap(type => this.productService.getProducts(type))
+    ).subscribe(data => {
+      this.products = data;
     })
   }
 

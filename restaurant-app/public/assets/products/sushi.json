@@ -1,97 +1,97 @@
 [
   {
-    "img": "/assets/img/ონიგირი.jpeg",
+    "img": "/assets/img/ონიგირი.webp",
     "name": "SUSHI_ONIGIRI",
     "pieceAmount": 1,
     "price": 14.0,
     "ingredients": ["SALMON", "SPICE", "TOBIKO", "GREEN_ONION", "NORI", "SESAME", "RICE"]
   },
   {
-    "img": "/assets/img/ორაგულის ნიგირი.jpeg",
+    "img": "/assets/img/ორაგულის ნიგირი.webp",
     "name": "SUSHI_SALMON_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
     "ingredients": ["RICE", "SALMON"]
   },
   {
-    "img": "/assets/img/გველთევზას ნიგირი.jpeg",
+    "img": "/assets/img/გველთევზას ნიგირი.webp",
     "name": "SUSHI_EEL_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
     "ingredients": ["RICE", "EEL", "SESAME", "UNAGI_SAUCE"]
   },
   {
-    "img": "/assets/img/თინუსის ნიგირი.jpeg",
+    "img": "/assets/img/თინუსის ნიგირი.webp",
     "name": "SUSHI_TUNA_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
     "ingredients": ["RICE", "TUNA"]
   },
   {
-    "img": "/assets/img/ვეხფვისებრი კრევეტის ნიგირი.jpeg",
+    "img": "/assets/img/ვეხფვისებრი კრევეტის ნიგირი.webp",
     "name": "SUSHI_SHRIMP_NIGIRI",
     "pieceAmount": 1,
     "price": 5.5,
     "ingredients": ["RICE", "SHRIMP"]
   },
   {
-    "img": "/assets/img/ორაგულის გუნკანი.jpeg",
+    "img": "/assets/img/ორაგულის გუნკანი.webp",
     "name": "SUSHI_GUNKAN_SALMON",
     "pieceAmount": 1,
     "price": 7.0,
     "ingredients": ["RICE", "NORI", "SALMON", "SWEET_CHILI_SAUCE"]
   },
   {
-    "img": "/assets/img/გველთევზას გუნკანი.jpeg",
+    "img": "/assets/img/გველთევზას გუნკანი.webp",
     "name": "SUSHI_GUNKAN_EEL",
     "pieceAmount": 1,
     "price": 7.0,
     "ingredients": ["RICE", "NORI", "EEL", "SESAME", "UNAGI_SAUCE"]
   },
   {
-    "img": "/assets/img/კრევეტის გუნკანი.jpeg",
+    "img": "/assets/img/კრევეტის გუნკანი.webp",
     "name": "SUSHI_GUNKAN_SHRIMP",
     "pieceAmount": 1,
     "price": 7.0,
     "ingredients": ["RICE", "NORI", "SHRIMP", "SWEET_CHILI_SAUCE"]
   },
   {
-    "img": "/assets/img/თინუსის გუნკანი.jpeg",
+    "img": "/assets/img/თინუსის გუნკანი.webp",
     "name": "SUSHI_GUNKAN_TUNA",
     "pieceAmount": 1,
     "price": 7.0,
     "ingredients": ["RICE", "NORI", "TUNA", "KIMCHI_SAUCE"]
   },
   {
-    "img": "/assets/img/გუნკან სეტი.jpeg",
+    "img": "/assets/img/გუნკან სეტი.webp",
     "name": "SUSHI_SET_GUNKAN",
     "pieceAmount": 4,
     "price": 24.0,
     "ingredients": ["SUSHI_GUNKAN_TUNA", "SUSHI_GUNKAN_SHRIMP", "SUSHI_GUNKAN_EEL", "SUSHI_GUNKAN_SALMON"]
   },
   {
-    "img": "/assets/img/წითელი ტობიკოს გუნკანი.jpeg",
+    "img": "/assets/img/წითელი ტობიკოს გუნკანი.webp",
     "name": "SUSHI_GUNKAN_RED_TOBIKO",
     "pieceAmount": 1,
     "price": 7.0,
     "ingredients": ["NORI", "RICE", "RED_TOBICO"]
   },
   {
-    "img": "/assets/img/ხიზილალას გუნკანი.jpeg",
+    "img": "/assets/img/ხიზილალას გუნკანი.webp",
     "name": "SUSHI_GUNKAN_CAVIAR",
     "pieceAmount": 1,
     "price": 10.0,
     "ingredients": ["NORI", "RICE", "CAVIAR"]
   },
   {
-    "img": "/assets/img/შავი ტობიკოს გუნკანი.jpeg",
+    "img": "/assets/img/შავი ტობიკოს გუნკანი.webp",
     "name": "SUSHI_GUNKAN_BLACK_TOBIKO",
     "pieceAmount": 1,
     "price": 7.0,
     "ingredients": ["NORI", "RICE", "TOBIKO"]
   },
   {
-    "img": "/assets/img/ხიზილალა სეტი.jpeg",
+    "img": "/assets/img/ხიზილალა სეტი.webp",
     "name": "SUSHI_SET_CAVIAR",
     "pieceAmount": 3,
     "price": 20.0,

@@ -1,41 +1,41 @@
 [
   {
-    "img": "/assets/img/ჰიაშის სალათი.jpeg",
+    "img": "/assets/img/ჰიაშის სალათი.webp",
     "name": "SALAD_HIYASHI",
     "pieceAmount": 1,
     "price": 14.9,
     "ingredients": ["HIYASHI", "SPICE", "SESAME"]
   },
   {
-    "img": "/assets/img/ბოსტნეული გრილზე.jpeg",
+    "img": "/assets/img/ბოსტნეული გრილზე.webp",
     "name": "SALAD_GRILLED_VEGETABLES",
     "pieceAmount": 1,
     "price": 18.0,
     "ingredients": ["CARROT", "ZUCCHINI", "BROCCOLI", "MUSHROOM", "BELL PEPPER", "CHERRY_TOMATOES"]
   },
   {
-    "img": "/assets/img/ჰიაშის და ორაგულის სალათი.jpeg",
+    "img": "/assets/img/ჰიაშის და ორაგულის სალათი.webp",
     "name": "SALAD_WAKAME_SALMON",
     "pieceAmount": 1,
     "price": 22.0,
     "ingredients": ["SALMON", "CUCUMBER", "HIYASHI", "SESAME_PEANUT"]
   },
   {
-    "img": "/assets/img/გველთევზას პოკე.jpeg",
+    "img": "/assets/img/გველთევზას პოკე.webp",
     "name": "SALAD_EEL_POKE",
     "pieceAmount": 1,
     "price": 28.0,
     "ingredients": ["RICE", "CUCUMBER", "CHERRY_TOMATOES", "AVOCADO", "EEL", "RED_TOBICO", "SPICE_SAUCE", "SESAME"]
   },
   {
-    "img": "/assets/img/ორაგულის პოკე.jpeg",
+    "img": "/assets/img/ორაგულის პოკე.webp",
     "name": "SALAD_SALMON_POKE",
     "pieceAmount": 1,
     "price": 28.0,
     "ingredients": ["RICE", "CUCUMBER", "CHERRY_TOMATOES", "AVOCADO", "SALMON", "RED_TOBICO", "SESAME", "SPICE_SAUCE"]
   },
   {
-    "img": "/assets/img/კრევეტის პოკე.jpeg",
+    "img": "/assets/img/კრევეტის პოკე.webp",
     "name": "SALAD_SHRIMP_POKE",
     "pieceAmount": 1,
     "price": 28.0,

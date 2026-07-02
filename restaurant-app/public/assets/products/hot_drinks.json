@@ -1,27 +1,27 @@
 [
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/in_progress.webp",
     "name": "COFFEE_AMERICANO",
     "pieceAmount": 1,
     "price": 4.90,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/in_progress.webp",
     "name": "COFFEE_TURKISH",
     "pieceAmount": 1,
     "price": 3.90,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/in_progress.webp",
     "name": "TEA_TEAPOT",
     "pieceAmount": 1,
     "price": 12.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.png",
+    "img": "/assets/img/in_progress.webp",
     "name": "TEA_CUP",
     "pieceAmount": 1,
     "price": 5.00,

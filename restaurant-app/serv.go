@@ -5,7 +5,12 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 )
+
+// Angular bundles like main-5FOEO5O6.js carry a content hash in the name,
+// so they can be cached forever; everything else must revalidate (cheap 304s).
+var hashedBundle = regexp.MustCompile(`^/[^/]+-[0-9A-Z]{8}\.(js|css)$`)
 
 func main() {
 	// Folder where your SPA build is located
@@ -14,19 +19,10 @@ func main() {
 	fs := http.FileServer(http.Dir(publicDir))
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		path := filepath.Join(publicDir, r.URL.Path)
-
-		// If the file exists, serve it
-		if info, err := os.Stat(path); err == nil && !info.IsDir() {
-			fs.ServeHTTP(w, r)
-			return
+		if hashedBundle.MatchString(r.URL.Path) {
+			w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+		} else {
+			w.Header().Set("Cache-Control", "no-cache")
 		}
 
-		// Otherwise serve index.html for SPA routing
-		http.ServeFile(w, r, filepath.Join(publicDir, "index.html"))
-	})
-
-	port := "65000"
-	log.Printf("Serving SPA on http://localhost:%s\n", port)
-	log.Fatal(http.ListenAndServe("0.0.0.0:"+port, nil))
-}
+		path := filepath.Join(publicDir, r.URL.P

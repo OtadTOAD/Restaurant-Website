@@ -1,6 +1,6 @@
 [
   {
-    "img": "/assets/img/საშიმი გველთევზა.jpg",
+    "img": "/assets/img/საშიმი გველთევზა.webp",
     "name": "SASHIMI_EEL",
     "pieceAmount": 5,
     "price": 25.0,
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "img": "/assets/img/საშიმი ორაგული.jpg",
+    "img": "/assets/img/საშიმი ორაგული.webp",
     "name": "SASHIMI_SALMON",
     "pieceAmount": 5,
     "price": 24.0,
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "img": "/assets/img/საშიმი კრევეტი.jpg",
+    "img": "/assets/img/საშიმი კრევეტი.webp",
     "name": "SASHIMI_SHRIMP",
     "pieceAmount": 5,
     "price": 24.0,
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "img": "/assets/img/საშიმი თინუსი.jpg",
+    "img": "/assets/img/საშიმი თინუსი.webp",
     "name": "SASHIMI_TUNA",
     "pieceAmount": 5,
     "price": 24.0,

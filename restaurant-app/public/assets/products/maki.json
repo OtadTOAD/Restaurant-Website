@@ -1,34 +1,34 @@
 [
   {
-    "img": "/assets/img/ორაგულის მაკი.jpeg",
+    "img": "/assets/img/ორაგულის მაკი.webp",
     "name": "MAKI_SALMON",
     "pieceAmount": 8,
     "price": 14.9,
     "ingredients": ["NORI", "RICE", "SALMON"]
   },
   {
-    "img": "/assets/img/კიტრის მაკი.jpeg",
+    "img": "/assets/img/კიტრის მაკი.webp",
     "name": "MAKI_CUCUMBER",
     "pieceAmount": 8,
     "price": 14.9,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "SESAME"]
   },
   {
-    "img": "/assets/img/კიტრის და ორაგულის მაკი.jpeg",
+    "img": "/assets/img/კიტრის და ორაგულის მაკი.webp",
     "name": "MAKI_CUCUMBER_SALMON",
     "pieceAmount": 8,
     "price": 15.9,
     "ingredients": ["NORI", "RICE", "CUCUMBER", "SALMON"]
   },
   {
-    "img": "/assets/img/გველთევზას მაკი.jpeg",
+    "img": "/assets/img/გველთევზას მაკი.webp",
     "name": "MAKI_EEL",
     "pieceAmount": 8,
     "price": 16.9,
     "ingredients": ["NORI", "RICE", "EEL", "SESAME_UNAGI_SAUCE"]
   },
   {
-    "img": "/assets/img/ავოკადოს მაკი.jpeg",
+    "img": "/assets/img/ავოკადოს მაკი.webp",
     "name": "MAKI_AVOCADO",
     "pieceAmount": 8,
     "price": 15.9,
