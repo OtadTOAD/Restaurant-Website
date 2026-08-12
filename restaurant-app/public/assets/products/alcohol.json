@@ -3,13 +3,13 @@
     "img": "/assets/img/rkatsiteli.webp",
     "name": "WINE_RKATSITELI_BOTTLE",
     "pieceAmount": 1,
-    "price": 35.00,
+    "price": 35.0,
     "ingredients": []
   },
   {
     "img": "/assets/img/in_progress.webp",
     "name": "WINE_RKATSITELI_GLASS",
-    "price": 12.90,
+    "price": 12.9,
     "pieceMl": 180,
     "ingredients": []
   },
@@ -17,13 +17,13 @@
     "img": "/assets/img/kisi.webp",
     "name": "WINE_QISI_BOTTLE",
     "pieceAmount": 1,
-    "price": 35.00,
+    "price": 35.0,
     "ingredients": []
   },
   {
     "img": "/assets/img/in_progress.webp",
     "name": "WINE_QISI_GLASS",
-    "price": 12.90,
+    "price": 12.9,
     "pieceMl": 180,
     "ingredients": []
   },
@@ -31,13 +31,13 @@
     "img": "/assets/img/khikhvi.webp",
     "name": "WINE_KHIKHVI_BOTTLE",
     "pieceAmount": 1,
-    "price": 35.00,
+    "price": 35.0,
     "ingredients": []
   },
   {
     "img": "/assets/img/in_progress.webp",
     "name": "WINE_KHIKHVI_GLASS",
-    "price": 12.90,
+    "price": 12.9,
     "pieceMl": 180,
     "ingredients": []
   },
@@ -45,13 +45,13 @@
     "img": "/assets/img/saperavi.webp",
     "name": "WINE_SAPERAVI_BOTTLE",
     "pieceAmount": 1,
-    "price": 35.00,
+    "price": 35.0,
     "ingredients": []
   },
   {
     "img": "/assets/img/in_progress.webp",
     "name": "WINE_SAPERAVI_GLASS",
-    "price": 12.90,
+    "price": 12.9,
     "pieceMl": 180,
     "ingredients": []
   },
@@ -59,13 +59,13 @@
     "img": "/assets/img/kakhuri_mtsvane.webp",
     "name": "WINE_KAKHURI_MTSVANE_BOTTLE",
     "pieceAmount": 1,
-    "price": 35.00,
+    "price": 35.0,
     "ingredients": []
   },
   {
     "img": "/assets/img/in_progress.webp",
     "name": "WINE_KAKHURI_MTSVANE_GLASS",
-    "price": 12.90,
+    "price": 12.9,
     "pieceMl": 180,
     "ingredients": []
   },
@@ -73,90 +73,90 @@
     "img": "/assets/img/corona.webp",
     "name": "BEER_CORONA",
     "pieceAmount": 1,
-    "price": 8.00,
+    "price": 12,
     "ingredients": []
   },
   {
     "img": "/assets/img/heineken.webp",
     "name": "BEER_HEINEKEN",
     "pieceAmount": 1,
-    "price": 10.00,
+    "price": 10.0,
     "ingredients": []
   },
   {
     "img": "/assets/img/lowenbrau.webp",
     "name": "BEER_LOVENBRAUD",
     "pieceAmount": 1,
-    "price": 8.00,
+    "price": 11,
     "ingredients": []
   },
   {
     "img": "/assets/img/karva.webp",
     "name": "BEER_KARVA",
     "pieceAmount": 1,
-    "price": 8.00,
+    "price": 11,
     "ingredients": []
   },
   {
     "img": "/assets/img/monkey_shoulder.webp",
     "name": "WHISKY_MONKEY_SHOULDER",
-    "price": 16.00,
+    "price": 16.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/jameson.webp",
     "name": "WHISKY_JAMESON",
-    "price": 16.00,
+    "price": 16.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/beluga.webp",
     "name": "VODKA_BELUGA",
-    "price": 18.00,
+    "price": 18.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/grey_goose.webp",
     "name": "VODKA_GREY_GOOSE",
-    "price": 18.00,
+    "price": 18.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/stolichnaya.webp",
     "name": "VODKA_STOLICHNAYA",
-    "price": 12.00,
+    "price": 12.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/finlandia.webp",
     "name": "VODKA_FINLANDIA",
-    "price": 12.00,
+    "price": 12.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/absolut.webp",
     "name": "VODKA_ABSOLUT",
-    "price": 12.00,
+    "price": 12.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/danzka.webp",
     "name": "VODKA_DANZKA",
-    "price": 10.00,
+    "price": 10.0,
     "pieceMl": 50,
     "ingredients": []
   },
   {
     "img": "/assets/img/jagermeister.webp",
     "name": "LIQUEUR_JAGERMEISTER",
-    "price": 10.00,
+    "price": 10.0,
     "pieceMl": 50,
     "ingredients": []
   }
