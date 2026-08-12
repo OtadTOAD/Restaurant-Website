@@ -80,7 +80,7 @@
     "img": "/assets/img/heineken.webp",
     "name": "BEER_HEINEKEN",
     "pieceAmount": 1,
-    "price": 10.0,
+    "price": 12,
     "ingredients": []
   },
   {

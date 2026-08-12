@@ -49,10 +49,10 @@
     "ingredients": []
   },
   {
-    "img": "/assets/img/schweppes.webp",
-    "name": "COLD_DRINK_SCHWEPPES",
+    "img": "/assets/img/xl.webp",
+    "name": "COLD_DRINK_XL",
     "pieceAmount": 1,
-    "price": 3.5,
+    "price": 8,
     "ingredients": []
   },
   {
