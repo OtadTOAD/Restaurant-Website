@@ -2,70 +2,112 @@
   {
     "img": "/assets/img/rkatsiteli.webp",
     "name": "WINE_RKATSITELI_BOTTLE",
-    "pieceAmount": 1,
-    "price": 35.0,
+    "pieceMl": 750,
+    "price": 45.0,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/white_wine_glass.webp",
     "name": "WINE_RKATSITELI_GLASS",
-    "price": 12.9,
+    "price": 15.0,
     "pieceMl": 180,
     "ingredients": []
   },
   {
     "img": "/assets/img/kisi.webp",
     "name": "WINE_QISI_BOTTLE",
-    "pieceAmount": 1,
-    "price": 35.0,
+    "pieceMl": 750,
+    "price": 45.0,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/white_wine_glass.webp",
     "name": "WINE_QISI_GLASS",
-    "price": 12.9,
+    "price": 15.0,
     "pieceMl": 180,
     "ingredients": []
   },
   {
     "img": "/assets/img/khikhvi.webp",
     "name": "WINE_KHIKHVI_BOTTLE",
-    "pieceAmount": 1,
-    "price": 35.0,
+    "pieceMl": 750,
+    "price": 45.0,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/white_wine_glass.webp",
     "name": "WINE_KHIKHVI_GLASS",
-    "price": 12.9,
+    "price": 15.0,
     "pieceMl": 180,
     "ingredients": []
   },
   {
     "img": "/assets/img/saperavi.webp",
     "name": "WINE_SAPERAVI_BOTTLE",
-    "pieceAmount": 1,
-    "price": 35.0,
+    "pieceMl": 750,
+    "price": 45.0,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/red_wine_glass.webp",
     "name": "WINE_SAPERAVI_GLASS",
-    "price": 12.9,
+    "price": 15.0,
     "pieceMl": 180,
     "ingredients": []
   },
   {
     "img": "/assets/img/kakhuri_mtsvane.webp",
     "name": "WINE_KAKHURI_MTSVANE_BOTTLE",
-    "pieceAmount": 1,
-    "price": 35.0,
+    "pieceMl": 750,
+    "price": 45.0,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/white_wine_glass.webp",
     "name": "WINE_KAKHURI_MTSVANE_GLASS",
-    "price": 12.9,
+    "price": 15.0,
+    "pieceMl": 180,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/kistauri_rkatsiteli_qvevri.webp",
+    "name": "WINE_KISTAURI_RKATSITELI_QVEVRI_BOTTLE",
+    "pieceMl": 750,
+    "price": 55.0,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/white_wine_glass.webp",
+    "name": "WINE_KISTAURI_RKATSITELI_QVEVRI_GLASS",
+    "price": 18.0,
+    "pieceMl": 180,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/kistauri_kisi.webp",
+    "name": "WINE_KISTAURI_KISI_BOTTLE",
+    "pieceMl": 750,
+    "price": 55.0,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/white_wine_glass.webp",
+    "name": "WINE_KISTAURI_KISI_GLASS",
+    "price": 18.0,
+    "pieceMl": 180,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/kistauri_saperavi.webp",
+    "name": "WINE_KISTAURI_SAPERAVI_BOTTLE",
+    "pieceMl": 750,
+    "price": 55.0,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/red_wine_glass.webp",
+    "name": "WINE_KISTAURI_SAPERAVI_GLASS",
+    "price": 18.0,
     "pieceMl": 180,
     "ingredients": []
   },
