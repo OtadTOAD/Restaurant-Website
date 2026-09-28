@@ -2,6 +2,7 @@
 
 # Compiled output
 /dist
+/src/app/config/asset-version.ts
 /tmp
 /out-tsc
 /bazel-out

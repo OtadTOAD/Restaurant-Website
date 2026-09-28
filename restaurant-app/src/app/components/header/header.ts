@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { Component, ElementRef, ViewChild, HostListener, OnInit } from '@angular/core';
 import { NgStyle } from '@angular/common';
 import { LANG_STORE_KEY } from '../../config/config';
+import { assetUrl } from '../../config/asset-url';
 
 @Component({
   selector: 'app-header',
@@ -11,6 +12,7 @@ import { LANG_STORE_KEY } from '../../config/config';
   styleUrl: './header.css'
 })
 export class Header implements OnInit {
+  readonly logoUrl = assetUrl('/icon.png');
   readonly navLinks = [
     { label: 'LANDING', icon: 'fa-solid fa-house', link: '/' },
     { label: 'ABOUT_US', icon: 'fa-solid fa-info-circle', link: '/about_us' },

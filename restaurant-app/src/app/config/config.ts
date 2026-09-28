@@ -1,6 +1,7 @@
 
 import { ProductType } from '../components/products-nav-bar/products-nav-bar';
 import { Product } from '../models/products';
+import { assetUrl } from './asset-url';
 
 export const PLACEHOLDER_PRODUCT: Product = {
   img: "Not Found", //placeholder
@@ -26,6 +27,6 @@ export const PRODUCT_TYPE_OPTIONS: ProductType[] = [
   { label: 'SASHIMI', icon: '/assets/icons/sashimi.png', emoji: '🔪', slug: "sashimi" },
   { label: 'DESERT', icon: '/assets/icons/desert.png', emoji: '🍰', slug: "desert" },
   { label: 'TUBE', icon: '/assets/icons/tube.png', emoji: '🍚', slug: "tube" }
-]
+].map(type => ({ ...type, icon: assetUrl(type.icon) }))
 
 export const LANG_STORE_KEY = 'lastSetLang'

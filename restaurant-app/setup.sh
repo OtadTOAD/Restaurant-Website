@@ -1,3 +1,3 @@
 git pull
-ng build
+npm run build
 

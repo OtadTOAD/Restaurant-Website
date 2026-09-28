@@ -7,7 +7,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
@@ -31,17 +31,19 @@ ng generate --help
 To build the project run:
 
 ```bash
-ng build
+npm run build
 ```
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+The npm scripts generate `src/app/config/asset-version.ts` from the contents of `public/` before starting, building, watching, or testing. Use these scripts so copied images and JSON receive versioned URLs. The Go server serves versioned assets and hashed bundles with a long cache lifetime, while HTML and unversioned files revalidate.
 
 ## Running unit tests
 
 To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
 ```bash
-ng test
+npm test
 ```
 
 ## Running end-to-end tests
