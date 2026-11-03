@@ -1,9 +1,30 @@
 [
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/coffee_espresso.webp",
+    "name": "COFFEE_ESPRESSO",
+    "pieceAmount": 1,
+    "price": 7.00,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/coffee_americano.webp",
     "name": "COFFEE_AMERICANO",
     "pieceAmount": 1,
-    "price": 4.90,
+    "price": 6.00,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/coffee_cappuccino.webp",
+    "name": "COFFEE_CAPPUCCINO",
+    "pieceAmount": 1,
+    "price": 8.00,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/coffee_latte.webp",
+    "name": "COFFEE_LATTE",
+    "pieceAmount": 1,
+    "price": 10.00,
     "ingredients": []
   },
   {
