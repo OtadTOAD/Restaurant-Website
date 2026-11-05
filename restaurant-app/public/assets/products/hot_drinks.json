@@ -28,21 +28,21 @@
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/coffee_turkish.webp",
     "name": "COFFEE_TURKISH",
     "pieceAmount": 1,
     "price": 3.90,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/tea_teapot.webp",
     "name": "TEA_TEAPOT",
     "pieceAmount": 1,
     "price": 12.00,
     "ingredients": []
   },
   {
-    "img": "/assets/img/in_progress.webp",
+    "img": "/assets/img/tea_cup.webp",
     "name": "TEA_CUP",
     "pieceAmount": 1,
     "price": 5.00,

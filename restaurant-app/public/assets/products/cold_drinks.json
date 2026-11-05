@@ -7,6 +7,20 @@
     "ingredients": []
   },
   {
+    "img": "/assets/img/lemonade_house_berry.webp",
+    "name": "LEMONADE_HOUSE_BERRY",
+    "pieceAmount": 1,
+    "price": 25,
+    "ingredients": []
+  },
+  {
+    "img": "/assets/img/lemonade_house_citrus.webp",
+    "name": "LEMONADE_HOUSE_CITRUS",
+    "pieceAmount": 1,
+    "price": 25,
+    "ingredients": []
+  },
+  {
     "img": "/assets/img/coca_cola_zero.webp",
     "name": "COLD_DRINK_COCA_COLA_ZERO",
     "pieceAmount": 1,

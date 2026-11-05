@@ -363,5 +363,55 @@
       "SWEET_CHILI_SAUCE",
       "PANKO_FRIED"
     ]
+  },
+  {
+    "img": "/assets/img/roll_baked_california.webp",
+    "name": "ROLL_BAKED_CALIFORNIA",
+    "pieceAmount": 8,
+    "price": 31.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "COOKED SHRIMP",
+      "TOBIKO",
+      "BAKED_PARMESAN",
+      "MAYONNAISE_SALMON",
+      "UNAGI_SAUCE"
+    ]
+  },
+  {
+    "img": "/assets/img/roll_baked_philadelphia.webp",
+    "name": "ROLL_BAKED_PHILADELPHIA",
+    "pieceAmount": 8,
+    "price": 32.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "SALMON",
+      "BAKED_PARMESAN",
+      "MAYONNAISE_SALMON",
+      "UNAGI_SAUCE"
+    ]
+  },
+  {
+    "img": "/assets/img/roll_baked_crab.webp",
+    "name": "ROLL_BAKED_CRAB",
+    "pieceAmount": 8,
+    "price": 29.90,
+    "ingredients": [
+      "NORI",
+      "RICE",
+      "CREAM_CHEESE",
+      "CUCUMBER",
+      "CRAB_STICKS",
+      "CHEF_SAUCE",
+      "SESAME",
+      "BAKED_MAYONNAISE_PARMESAN_SALMON",
+      "UNAGI_SAUCE"
+    ]
   }
 ]
